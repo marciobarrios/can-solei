@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
+import sharp from "sharp";
 const content = JSON.parse(readFileSync("content/corpus.json", "utf8"));
 const agenda = JSON.parse(readFileSync("content/agenda.json", "utf8"));
 const licenses = JSON.parse(
@@ -70,17 +71,35 @@ test("no unverified GPS for buildings and no research paths in public content", 
   assert.ok(!JSON.stringify(content).includes("/workspace/"));
   assert.ok(!JSON.stringify(content).includes("research/"));
 });
-test("published media have audited license, matching bytes, dimensions and credits", () => {
+test("published media have audited license, matching bytes, dimensions and credits", async () => {
   const used = content.media.filter((m) => m.image);
-  assert.equal(used.length, 10);
+  assert.ok(used.length >= 12);
   for (const m of used) {
     const l = licenses.find((l) => l.path === m.image);
     assert.ok(l?.author);
-    assert.equal(l.license, "CC BY 4.0");
+    assert.ok(
+      ["CC BY 4.0", "CC BY-SA 4.0", "CC BY-NC-SA 2.0"].includes(l.license),
+    );
+    if (m.period === "historical") {
+      assert.equal(l.license, "CC BY-NC-SA 2.0");
+      assert.ok(l.usageRestriction.includes("Noncommercial"));
+      assert.ok(m.license.es.includes("uso no comercial"));
+      assert.equal(m.licenseUrl, l.licenseUrl);
+    }
     assert.ok(l.licenseUrl.startsWith("https:"));
     const b = readFileSync("public" + m.image);
     assert.equal(createHash("sha256").update(b).digest("hex"), l.sha256);
-    assert.ok(l.width > 0 && l.height > 0);
+    const actual = await sharp(b).metadata();
+    assert.equal(actual.width, m.width);
+    assert.equal(actual.height, m.height);
+    assert.equal(actual.width, l.width);
+    assert.equal(actual.height, l.height);
+    assert.ok(Math.max(actual.width, actual.height) >= 1200, m.id);
+    assert.ok(Math.min(actual.width, actual.height) >= 800, m.id);
+    assert.ok(
+      Math.max(l.originalWidth, l.originalHeight) >=
+        Math.max(l.width, l.height),
+    );
   }
   assert.equal(readdirSync("public/media").length, used.length);
   assert.ok(!existsSync("public/research"));

@@ -40,6 +40,7 @@ export function Gallery({
         {[
           ["all", es ? "Todo" : "Tot"],
           ["photo", es ? "Fotografías" : "Fotografies"],
+          ["historical", es ? "Históricas" : "Històriques"],
           ["video", es ? "Vídeos" : "Vídeos"],
           ["document", es ? "Documentos" : "Documents"],
         ].map(([key, label]) => (
@@ -53,9 +54,11 @@ export function Gallery({
           </Button>
         ))}
       </div>
-      <div className="gallery-grid">
+      <div className="gallery-grid grid-cols-1! md:grid-cols-2!">
         {corpus.media
-          .filter((m) => filter === "all" || m.kind === filter)
+          .filter(
+            (m) => filter === "all" || m.kind === filter || m.period === filter,
+          )
           .map((item, index) => (
             <article className={`media media-${item.kind}`} key={item.id}>
               <button
