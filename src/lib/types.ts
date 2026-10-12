@@ -33,6 +33,7 @@ export type Media = {
   description: Copy;
   url: string;
   kind: "photo" | "video" | "document";
+  period?: "historical";
   image?: string;
   credit: string;
   license: Copy;

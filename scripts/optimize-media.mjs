@@ -3,7 +3,7 @@ import path from "node:path";
 import { createHash } from "node:crypto";
 import sharp from "sharp";
 const gallery = JSON.parse(
-  await readFile("research/media/curated-web-gallery.json", "utf8"),
+  await readFile("content/media-sources.json", "utf8"),
 );
 const corpus = JSON.parse(await readFile("content/corpus.json", "utf8"));
 await mkdir("public/media", { recursive: true });
@@ -12,16 +12,27 @@ for (const item of gallery) {
   if (!corpus.media.some((m) => m.id === item.id)) continue;
   if (item.rights_status !== "reuse-with-credit")
     throw new Error(`Rights not cleared: ${item.id}`);
-  // Cloud locations are provenance only. Resolve through known archive-relative suffix.
-  const suffix = item.local_path.split("/media/")[1];
-  if (!suffix || suffix.includes("..")) throw new Error("Invalid media path");
-  const input = path.resolve("research/media", suffix);
+  const input = path.resolve(item.local_path);
+  if (!input.startsWith(path.resolve("research/media") + path.sep))
+    throw new Error("Invalid media path");
   const bytes = await readFile(input);
   if (createHash("sha256").update(bytes).digest("hex") !== item.sha256)
     throw new Error(`Hash mismatch: ${item.id}`);
+  const original = await sharp(bytes).metadata();
+  if (
+    Math.max(original.width, original.height) < 1200 ||
+    Math.min(original.width, original.height) < 800
+  )
+    throw new Error(`Source below minimum resolution: ${item.id}`);
   const output = `public/media/${item.id}.webp`;
   await sharp(bytes)
-    .resize({ width: 1600, withoutEnlargement: true })
+    .rotate()
+    .resize({
+      width: 1800,
+      height: 1800,
+      fit: "inside",
+      withoutEnlargement: true,
+    })
     .webp({ quality: 86 })
     .toFile(output);
   const meta = await sharp(output).metadata();
@@ -32,17 +43,26 @@ for (const item of gallery) {
     author: item.author,
     source: item.source_url,
     sourceDate: item.date,
-    license: "CC BY 4.0",
+    license: item.license,
+    ...(item.usageRestriction
+      ? { usageRestriction: item.usageRestriction }
+      : {}),
     licenseUrl: item.license_url,
     width: meta.width,
     height: meta.height,
     originalSha256: item.sha256,
+    originalWidth: original.width,
+    originalHeight: original.height,
     sha256: createHash("sha256").update(derivative).digest("hex"),
     bytes: derivative.length,
     changes:
-      "WebP conversion; metadata removed; no enlargement or generative modification",
+      "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
   });
+  const media = corpus.media.find((m) => m.id === item.id);
+  media.width = meta.width;
+  media.height = meta.height;
 }
+await writeFile("content/corpus.json", JSON.stringify(corpus, null, 2) + "\n");
 await writeFile(
   "content/media-licenses.json",
   JSON.stringify(manifest, null, 2) + "\n",

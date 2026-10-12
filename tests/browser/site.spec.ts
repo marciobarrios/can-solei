@@ -18,6 +18,21 @@ test("equivalent languages, headings, images and no console errors", async ({
   await expect(page.locator("main h2")).toHaveCount(headings);
   await page.locator("#arxiu").scrollIntoViewIfNeeded();
   await page.locator(".media-preview img").first().waitFor();
+  for (const img of await page.locator(".media-preview img").all()) {
+    await img.scrollIntoViewIfNeeded();
+    await expect
+      .poll(() =>
+        img.evaluate((node) => {
+          const image = node as HTMLImageElement;
+          return (
+            image.complete &&
+            Math.max(image.naturalWidth, image.naturalHeight) >= 1200 &&
+            Math.min(image.naturalWidth, image.naturalHeight) >= 800
+          );
+        }),
+      )
+      .toBe(true);
+  }
   await expect
     .poll(() =>
       page
@@ -80,7 +95,7 @@ test("lightbox supports focus trap, Escape and restores focus; video link is ext
   await page.goto("/es/");
   const gallery = page.locator("#arxiu");
   const trigger = gallery.getByRole("button", {
-    name: "Abrir Castillo del lago y puente",
+    name: "Abrir Paseo de plátanos",
     exact: true,
   });
   await trigger.focus();
@@ -89,7 +104,7 @@ test("lightbox supports focus trap, Escape and restores focus; video link is ext
   await expect(dialog).toBeVisible();
   await expect(dialog.locator("img")).toHaveAttribute(
     "src",
-    "/media/amb-photo-00.webp",
+    "/media/commons-jordiferrer-02.webp",
   );
   for (let i = 0; i < 6; i++) {
     await page.keyboard.press("Tab");
@@ -104,6 +119,22 @@ test("lightbox supports focus trap, Escape and restores focus; video link is ext
   await page.keyboard.press("Escape");
   await expect(dialog).not.toBeVisible();
   await expect(trigger).toBeFocused();
+  await gallery
+    .getByRole("button", { name: "Históricas", exact: true })
+    .click();
+  await expect(gallery.locator(".media")).toHaveCount(8);
+  await gallery
+    .getByRole("button", {
+      name: "Abrir El lago, septiembre de 1936",
+      exact: true,
+    })
+    .click();
+  await expect(dialog.locator("img")).toHaveAttribute(
+    "src",
+    "/media/museu-50536680768.webp",
+  );
+  await expect(dialog).toContainText("uso no comercial");
+  await page.keyboard.press("Escape");
   await gallery.getByRole("button", { name: "Vídeos", exact: true }).click();
   await expect(gallery.locator(".media")).toHaveCount(1);
   await gallery
@@ -134,6 +165,12 @@ test("responsive page has no document overflow and navigation works", async ({
     await expect(menu).toHaveAttribute("aria-expanded", "false");
   }
   await page.locator("#arxiu").scrollIntoViewIfNeeded();
+  const columns = await page
+    .locator(".gallery-grid")
+    .evaluate(
+      (node) => getComputedStyle(node).gridTemplateColumns.split(" ").length,
+    );
+  expect(columns).toBe(info.project.name === "mobile" ? 1 : 2);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= window.innerWidth,
