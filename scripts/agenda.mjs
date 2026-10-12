@@ -199,7 +199,7 @@ export async function boundedFetch(url, fetcher = fetch) {
     signal: AbortSignal.timeout(10000),
     headers: {
       Accept: "text/calendar,text/html,application/ld+json",
-      "User-Agent": "CanSoleiResearch/0.1 (bounded official agenda check)",
+      "User-Agent": "can-solei-research/0.1 (bounded official agenda check)",
     },
   });
   if (!response.ok) throw new Error(`Official source HTTP ${response.status}`);
