@@ -1,0 +1,5 @@
+packages:
+  - "."
+  - "tooling/lint"
+allowBuilds:
+  unrs-resolver: true

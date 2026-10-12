@@ -1,0 +1,151 @@
+{
+  "checkedAt": "2026-10-12T09:01:00Z",
+  "mode": "official-editorial-snapshot",
+  "automaticIngestionEnabled": false,
+  "events": [
+    {
+      "id": "amb:seed:e9fea197425de07a",
+      "title": {
+        "ca": "Coneguem les plantes dels parcs: itinerari botànic",
+        "es": "Conozcamos las plantas de los parques: itinerario botánico"
+      },
+      "start": "2026-10-11T12:00:00+02:00",
+      "end": "2026-10-11T13:00:00+02:00",
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "source": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0
+    },
+    {
+      "id": "amb:seed:04584c3c20f9a3ea",
+      "title": {
+        "ca": "Hort al balcó",
+        "es": "Huerto en el balcón"
+      },
+      "start": "2026-10-18T12:00:00+02:00",
+      "end": "2026-10-18T13:00:00+02:00",
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental/-/embedsecurerest/oJTfRUvfHuO6/detall/18_10_2026_12_00_13_00h_2470367_Hort_al_balco",
+      "source": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental/-/embedsecurerest/oJTfRUvfHuO6/detall/18_10_2026_12_00_13_00h_2470367_Hort_al_balco",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0
+    },
+    {
+      "id": "amb:seed:0fe0aa0c1fd51240",
+      "title": {
+        "ca": "Canvi climàtic i meteorologia",
+        "es": "Cambio climático y meteorología"
+      },
+      "start": "2026-10-25T12:00:00+01:00",
+      "end": "2026-10-25T13:00:00+01:00",
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "source": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0
+    },
+    {
+      "id": "amb:seed:cb19208a2cee3c7e",
+      "title": {
+        "ca": "Personalitzem la bici!",
+        "es": "¡Personalizamos la bici!"
+      },
+      "start": "2026-11-01T12:00:00+01:00",
+      "end": "2026-11-01T13:00:00+01:00",
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "source": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0
+    },
+    {
+      "id": "amb:seed:2fcb9c45f104a59c",
+      "title": {
+        "ca": "El sucre ocult dels aliments",
+        "es": "El azúcar oculto de los alimentos"
+      },
+      "start": "2026-11-08T12:00:00+01:00",
+      "end": "2026-11-08T13:00:00+01:00",
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "source": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0
+    },
+    {
+      "id": "amb:seed:ea506385aa258764",
+      "title": {
+        "ca": "Inventem insectes amb elements naturals",
+        "es": "Inventamos insectos con elementos naturales"
+      },
+      "start": "2026-11-15T12:00:00+01:00",
+      "end": "2026-11-15T13:00:00+01:00",
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "source": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0
+    },
+    {
+      "id": "amb:seed:bd692097f79fa6bf",
+      "title": {
+        "ca": "Qui viu als parcs?",
+        "es": "¿Quién vive en los parques?"
+      },
+      "start": "2026-11-22T12:00:00+01:00",
+      "end": "2026-11-22T13:00:00+01:00",
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "source": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0
+    },
+    {
+      "id": "amb:seed:35d728ac0cb8d4e3",
+      "title": {
+        "ca": "Civisme al parc",
+        "es": "Civismo en el parque"
+      },
+      "start": "2026-11-29T12:00:00+01:00",
+      "end": "2026-11-29T13:00:00+01:00",
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "source": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0
+    }
+  ]
+}

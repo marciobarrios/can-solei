@@ -1,0 +1,10 @@
+{
+  "name": "@cansolei/lint",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.0",
+    "typescript": "npm:@typescript/typescript6@6.0.2"
+  }
+}

@@ -1,0 +1,2251 @@
+{
+  "reviewedAt": "2026-10-12",
+  "sources": [
+    {
+      "id": "H01",
+      "title": "AMB: ficha e historia del parque",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/consulta-de-parcs/detall/-/equipament/parc-de-can-solei-i-de-ca-l-arnus/345235/11656",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H02",
+      "title": "El parc de Can Solei-Ca l’Arnús",
+      "publisher": "Carme Hilario Chancho / Museu de Badalona",
+      "url": "https://www.museudebadalona.cat/wp-content/uploads/Carrer-dels-arbres-3-12.pdf",
+      "date": "número 12; fecha pendiente"
+    },
+    {
+      "id": "H03",
+      "title": "La torre del rellotge de Ca l’Arnús: una estació meteorològica singular",
+      "publisher": "Montserrat Guardiet y Gregori Muñoz Ramos / Museu de Badalona",
+      "url": "https://www.museudebadalona.cat/wp-content/uploads/Carrer-dels-arbres-3-19-compressed.pdf",
+      "date": "número 19; fecha pendiente"
+    },
+    {
+      "id": "H04",
+      "title": "El llegat artístic d’Evarist Arnús a Badalona: la torre Arnús obra de Josep Oriol Mestres i Esplugas",
+      "publisher": "Anna Hernández Tudela / Museu de Badalona",
+      "url": "https://www.museudebadalona.cat/wp-content/uploads/Revista-Carrer-dels-Arbres-num-6-any-2021.pdf",
+      "date": "2021"
+    },
+    {
+      "id": "H05",
+      "title": "Evarist Arnús and Badalona (1820-1890)",
+      "publisher": "Museu de Badalona",
+      "url": "https://www.museudebadalona.cat/en/act/evarist-arnus-i-badalona-1820-1890/",
+      "date": "2020"
+    },
+    {
+      "id": "H06",
+      "title": "Torre Arnús",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/en/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/torre-arnus/5865650/11656",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H07",
+      "title": "El castell del llac",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/el-castell-del-llac/1571371/11656",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H08",
+      "title": "Parc de Ca l’Arnús",
+      "publisher": "Isabel Bennasar",
+      "url": "https://www.isabelbennasar.com/es/proyectos/espacio-publico-y-paisaje/parc-de-ca-larnus/",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H09",
+      "title": "Parc de Can Solei i Ca l’Arnús, lámina 1 Premio AADIPA",
+      "publisher": "Isabel Bennasar / European Architectural Heritage Award",
+      "url": "https://eu-architecturalheritage.org/uploads/award/sheets/b/1480066378qlVk_019B%20-%20parc%20can%20solei%20i%20ca%20l%27arnus%20-%20badalona%20-%20lamina%201.pdf",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H10",
+      "title": "Jardins i Jardiners: Can Solei i Ca l’Arnús",
+      "publisher": "ICEA / Institut d’Estudis Catalans",
+      "url": "https://taller.iec.cat/jardins/veure_jardins_un.asp?id_jardins=2",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H11",
+      "title": "Cases Coma Cros",
+      "publisher": "Pobles de Catalunya",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=10575",
+      "date": "sin fecha; fotografías 2017"
+    },
+    {
+      "id": "H12",
+      "title": "Parcs. Memòria 2019-2023",
+      "publisher": "AMB",
+      "url": "https://memoria2023.amb.cat/territori/parcs",
+      "date": "2019-2023"
+    },
+    {
+      "id": "H13",
+      "title": "Restauració i millora dels valors patrimonials",
+      "publisher": "Ajuntament de Badalona",
+      "url": "https://seu-e.cat/documents/1416150/15531160/00_Arnus/b225d0d3-7abd-4481-985e-4a6aa12233f3",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H14",
+      "title": "Xarxa metropolitana de patrimoni",
+      "publisher": "AMB",
+      "url": "https://blogs.amb.cat/metropolisbarcelona/ca/2024/02/02/xarxa-metropolitana-de-patrimoni/",
+      "date": "2024-02-02"
+    },
+    {
+      "id": "H15",
+      "title": "Resolución CLT/4294/2025",
+      "publisher": "Generalitat / BOE",
+      "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2025-26125",
+      "date": "2025-11-19; BOE 2025-12-19"
+    },
+    {
+      "id": "H16",
+      "title": "Certificado de acuerdo PA-3 Sant Bru 205, expediente 2021/46227D",
+      "publisher": "Ajuntament de Badalona",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/projectes-i-obres/projecte-durbanitzacio-pa-3-al-parc-de-can-solei-i-ca-larnus-c-sant-bru-205/certificat_d_acord-12.pdf",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "H17",
+      "title": "Anuncio aprobación definitiva PA-3",
+      "publisher": "Ajuntament de Badalona / BOP",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/projectes-i-obres/projecte-durbanitzacio-pa-3-al-parc-de-can-solei-i-ca-larnus-c-sant-bru-205/anunci-aprovacio-definitiva-publicat-bop.pdf",
+      "date": "2026; fecha publicación exacta pendiente"
+    },
+    {
+      "id": "H18",
+      "title": "Comienzan las obras de unos pisos del entorno del parque",
+      "publisher": "Metrópoli / El Español",
+      "url": "https://metropoliabierta.elespanol.com/gran-barcelona/20260523/comienzan-obras-urbanizacion-entorno-parque-ca-larnus-badalona/1003742764094_0.html",
+      "date": "2026-05-23; actualizado 2026-05-27"
+    },
+    {
+      "id": "H19",
+      "title": "La Coordinadora en Defensa del Patrimoni Verd es reuneix a Badalona",
+      "publisher": "Badalona Comunicació",
+      "url": "https://www.bdncom.cat/societat/la-coordinadora-en-defensa-del-patrimoni-verd-es-reuneix-a-badalona-per-protegir-els-espais-verds-urbans",
+      "date": "2026-07-25"
+    },
+    {
+      "id": "H20",
+      "title": "Diagnosis y valoración del contexto inmediato y la torre del rellotge",
+      "publisher": "Álvaro Andrés Uribe Sasiain / UPC",
+      "url": "https://upcommons.upc.edu/entities/publication/fcd91daf-6a36-474b-b361-4c7df3345896",
+      "date": "2024-07-16"
+    },
+    {
+      "id": "H21",
+      "title": "Moció Ple 20 desembre 2022",
+      "publisher": "Ajuntament de Badalona",
+      "url": "https://seu-e.cat/documents/1416150/13783782/Mocio_CalArnus/67542380-21c4-4e49-b61d-5bdf90ba8ab6",
+      "date": "2022-12-20"
+    },
+    {
+      "id": "H22",
+      "title": "El Parc de Can Solei i de Ca l’Arnús",
+      "publisher": "Ajuntament de Badalona",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/turisme/que-fer-i-que-veure/els-imprescindibles/el-parc-de-can-solei-de-ca-larnus",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H23",
+      "title": "Inventari edificacions i lavabos públics XPM",
+      "publisher": "AMB / contratación pública",
+      "url": "https://contractaciopublica.cat/portal-api/descarrega-document-antic/92655780/447249e379edd5fe694477aab02b7bb7",
+      "date": "2021-07"
+    },
+    {
+      "id": "H24",
+      "title": "Propuesta sobre escuela Lola Anglada e instituto La Riera, BOPC 115",
+      "publisher": "Parlament de Catalunya",
+      "url": "https://www.parlament.cat/document/bopc/425984214.pdf",
+      "date": "2024-12-18"
+    },
+    {
+      "id": "H25",
+      "title": "Inventario Obres i Urbanisme",
+      "publisher": "AHBDN / Museu de Badalona",
+      "url": "https://www.museudebadalona.cat/wp-content/uploads/6.-Obres-i-urbanisme.pdf",
+      "date": "2024-02-08"
+    },
+    {
+      "id": "H26",
+      "title": "Restauración FEDER: ficha finalizada diciembre 2023",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/web/territori/projectes-oberts/detall/-/projecteobert/parc-de-can-solei-i-de-ca-l-arnus/16141244/11656",
+      "date": "2023-12"
+    },
+    {
+      "id": "H27",
+      "title": "Anuncio inversión de restauración",
+      "publisher": "Ajuntament de Badalona",
+      "url": "https://ajuntament-badalona.cat/noticies/el-parc-de-can-solei-i-de-ca-larnus-rebra-una-inversio-de-mes-de-mig-milio-deuros-per-a-la-seva-restauracio-i-millora/",
+      "date": "2022-11-14"
+    },
+    {
+      "id": "H28",
+      "title": "Dansa, teatre i presentacions, candidats a omplir els edificis",
+      "publisher": "Badalona Comunicació",
+      "url": "https://www.bdncom.cat/ca/dansa-teatre-i-exposicions-candidats-a-omplir-els-edificis-buits-de-ca-larnus",
+      "date": "2023"
+    },
+    {
+      "id": "H29",
+      "title": "Ficha actual proyecto PA-3",
+      "publisher": "Ajuntament de Badalona",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/projectes-i-obres/projecte-durbanitzacio-pa-3-al-parc-de-can-solei-i-ca-larnus-c-sant-bru-205",
+      "date": "2026"
+    },
+    {
+      "id": "H30",
+      "title": "Carrer dels Arbres 7, historia Can Solei",
+      "publisher": "Museu de Badalona",
+      "url": "https://www.museudebadalona.cat/wp-content/uploads/Carrer-dels-Arbres-7_2022-4a-epoca-b.pdf",
+      "date": "2022"
+    },
+    {
+      "id": "H31",
+      "title": "El monòlit de Can Solei: símbol d’una conquesta veïnal",
+      "publisher": "Joan Mayné Amat / Museu",
+      "url": "https://www.museudebadalona.cat/wp-content/uploads/Carrer-dels-arbres-3-22-compressed.pdf",
+      "date": "2012"
+    },
+    {
+      "id": "H32",
+      "title": "Tots els carrers de Badalona / Una ciutat en vint-i-quatre barris",
+      "publisher": "Ajuntament de Badalona",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/urbanisme/ordenacio-del-territori/planol-ciutat/nomenclator/tots_els_carrers_de_badalona-compressed.pdf",
+      "date": "sin fecha verificada"
+    },
+    {
+      "id": "H33",
+      "title": "Vegetació i fauna de la gran bassa del parc urbà de Can Solei i Ca l’Arnús",
+      "publisher": "Guillem Dávila Monsech y Juli Pujade-Villar / ICHN",
+      "url": "https://ichn2.iec.cat/pdf/Butllet%C3%AD_86_2022/34_2022_Davila_%26_Pujade.pdf",
+      "date": "2022-12-30"
+    },
+    {
+      "id": "H34",
+      "title": "Jardins de papallones",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/es/web/territori/projectes-oberts/detall/-/projecteobert/jardins-de-papallones/6614875/11656",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H35",
+      "title": "Guia dels valors socials i ambientals dels parcs metropolitans",
+      "publisher": "AMB",
+      "url": "https://www3.amb.cat/repositori/PUBLICACIONS/SOSTENIBILITAT/Guia%20Valors%20Parcs.pdf",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H36",
+      "title": "Visor fauna parques y playas",
+      "publisher": "AMB / ICO",
+      "url": "https://visorfauna.amb.cat/",
+      "date": "dinámico"
+    },
+    {
+      "id": "H37",
+      "title": "El Mas de Can Solei–Ca l’Arnús",
+      "publisher": "Pedro Jesús Fernández / La Plana de Canyadó",
+      "url": "https://planadecanyado.wordpress.com/2017/11/17/el-mas-de-can-solei-ca-larnus/",
+      "date": "2017-11-17"
+    },
+    {
+      "id": "H38",
+      "title": "Agenda octubre-gener: incorporaciones Arxiu d’Imatges",
+      "publisher": "Museu de Badalona",
+      "url": "https://www.museudebadalona.cat/wp-content/uploads/agenda-octubre-gener.pdf",
+      "date": "fecha de edición pendiente"
+    },
+    {
+      "id": "H39",
+      "title": "Resolució CLT/4294/2025 DOGC",
+      "publisher": "Generalitat",
+      "url": "https://portaldogc.gencat.cat/utilsEADOP/AppJava/PdfProviderServlet?documentId=1029970&language=ca_ES&type=01",
+      "date": "2025-11-24"
+    },
+    {
+      "id": "H40",
+      "title": "Can Solei i Ca l’Arnús: verde urbano",
+      "publisher": "Ajuntament de Badalona",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/mediambient-i-sostenibilitat/verd-urba/els-parcs-i-les-places/els-parcs-i-les-places/can-solei-i-ca-larnus",
+      "date": "sin fecha"
+    },
+    {
+      "id": "H41",
+      "title": "Resolució106/XV sobre institut La Riera",
+      "publisher": "Parlament de Catalunya",
+      "url": "https://www.parlament.cat/document/bopc/427423549.pdf",
+      "date": "2025-03-04; adoptada2025-02-25"
+    },
+    {
+      "id": "H42",
+      "title": "Aula ambiental, Jardí de les Ciències e itinerario botánico",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/can-solei-i-ca-l-arnus/5865627/11656",
+      "date": "sin fecha"
+    },
+    {
+      "id": "S01",
+      "title": "Una mica història",
+      "publisher": "Escola Artur Martorell",
+      "url": "https://agora.xtec.cat/ceiparturmartorell/lescola/historia/una-mica-historia/",
+      "date": "s.f."
+    },
+    {
+      "id": "S02",
+      "title": "Projecte de direcció 2020-2024",
+      "publisher": "Escola Artur Martorell",
+      "url": "https://agora.xtec.cat/ceiparturmartorell/wp-content/uploads/usu99/2022/03/PROJECTE_DIRECCIO_AM-2020-2024-.pdf",
+      "date": "2020-2024"
+    },
+    {
+      "id": "S03",
+      "title": "Alumnes de 6è fan de guies... Open House",
+      "publisher": "Escola Artur Martorell",
+      "url": "https://agora.xtec.cat/ceiparturmartorell/general/alumnes-de-6e-fan-de-guies-de-lescola-dins-del-festival-darquitectura-open-house/",
+      "date": "2018 aprox."
+    },
+    {
+      "id": "S04",
+      "title": "50 anys aprenent i construint futur!",
+      "publisher": "Escola Artur Martorell",
+      "url": "https://agora.xtec.cat/ceiparturmartorell/lescola/historia/50-anys/",
+      "date": "2019-2021"
+    },
+    {
+      "id": "S05",
+      "title": "Escuela de primaria, Badalona",
+      "publisher": "Arquitectura Viva",
+      "url": "https://arquitecturaviva.com/obras/escuela-de-primaria",
+      "date": "2007"
+    },
+    {
+      "id": "S06",
+      "title": "Història: Els noms al pas del temps",
+      "publisher": "Escola Lola Anglada / Mateu Rotger i Rosquellas",
+      "url": "https://agora.xtec.cat/ceip-lola-anglada-badalona/lescola/historia/",
+      "date": "s.f."
+    },
+    {
+      "id": "S07",
+      "title": "Feliç 80 aniversari, escola Lola Anglada!!",
+      "publisher": "AMPA Lola Anglada",
+      "url": "https://ampalolaanglada.wordpress.com/2010/11/",
+      "date": "2010-11-11"
+    },
+    {
+      "id": "S08",
+      "title": "Cessió de domini de parcel·les municipals... IES La Riera",
+      "publisher": "Ajuntament Badalona",
+      "url": "https://www.badalona.cat/ca/actualitat/noticies/16125",
+      "date": "2020-10-28"
+    },
+    {
+      "id": "S09",
+      "title": "Grup Escolar Lola Anglada",
+      "publisher": "COAC / Arquitectura Catalana / IPAC",
+      "url": "https://www.arquitecturacatalana.cat/ca/obres/grup-escolar-lola-anglada",
+      "date": "s.f."
+    },
+    {
+      "id": "S10",
+      "title": "Inventari 8. Ensenyament",
+      "publisher": "Arxiu Històric / Museu Badalona",
+      "url": "https://www.museudebadalona.cat/wp-content/uploads/8.-Ensenyament.pdf",
+      "date": "2024-02-08"
+    },
+    {
+      "id": "S11",
+      "title": "Escola Lola Anglada",
+      "publisher": "Pobles de Catalunya",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=10642",
+      "date": "s.f."
+    },
+    {
+      "id": "S12",
+      "title": "Badalona Recuerdos",
+      "publisher": "Local Magazine",
+      "url": "https://localmagazine.cat/badalona-recuerdos/",
+      "date": "s.f."
+    },
+    {
+      "id": "S13",
+      "title": "Inici de les obres...",
+      "publisher": "AMPA Lola Anglada",
+      "url": "https://ampalolaanglada.wordpress.com/page/42/",
+      "date": "2012-07-04"
+    },
+    {
+      "id": "S14",
+      "title": "Educació en construcció",
+      "publisher": "Diari de Badalona 386",
+      "url": "https://www.diaridebadalona.com/wp-content/uploads/2013/03/BDN386.pdf",
+      "date": "2013-03-22"
+    },
+    {
+      "id": "S15",
+      "title": "Resolució 438/X",
+      "publisher": "Parlament Catalunya BOPC204",
+      "url": "https://www.parlament.cat/document/nom/10b204.pdf",
+      "date": "2013-11-14"
+    },
+    {
+      "id": "S16",
+      "title": "Llum verda al Lola Anglada",
+      "publisher": "Diari de Badalona 420",
+      "url": "https://www.diaridebadalona.com/wp-content/uploads/2014/01/BDN420.pdf",
+      "date": "2014-01-03"
+    },
+    {
+      "id": "S17",
+      "title": "Casagemes, Canyadó i Manresà, barris sense institut públic",
+      "publisher": "Diari de Badalona 500",
+      "url": "https://www.diaridebadalona.com/wp-content/uploads/2015/10/BDN500.pdf",
+      "date": "2015-10-16"
+    },
+    {
+      "id": "S18",
+      "title": "Desocupa edifici antiga escola Lola Anglada",
+      "publisher": "Ajuntament Badalona",
+      "url": "https://www.badalona.cat/ca/actualitat/noticies/la-guardia-urbana-de-badalona-desocupa-ledifici-de-lantiga-escola-lola-anglada",
+      "date": "2025 aprox."
+    },
+    {
+      "id": "S19",
+      "title": "Nou edifici Ventura Gassol... Institut Ca l’Arnús",
+      "publisher": "Ajuntament Badalona",
+      "url": "https://www.badalona.cat/ca/actualitat/noticies/5094",
+      "date": "2018-02-21"
+    },
+    {
+      "id": "S20",
+      "title": "Butlletí e-Escoles Verdes 96",
+      "publisher": "Generalitat Catalunya",
+      "url": "https://mediambient.repositori.gencat.cat/bitstream/handle/20.500.14343/346/2017_ButlletiEV_96_CA.pdf?isAllowed=y&sequence=1",
+      "date": "2017"
+    },
+    {
+      "id": "S21",
+      "title": "Camins escolars",
+      "publisher": "Ajuntament Badalona",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/educacio-i-formacio/dinamitzacio-educativa/arts-esports-ciencia-ciutat-i-escola/ciutat-i-escola/xarxa-de-camins-amics-de-badalona/camins-escolars.pdf",
+      "date": "2017-2018"
+    },
+    {
+      "id": "S22",
+      "title": "Guia educativa 2025/26",
+      "publisher": "Ajuntament Badalona",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/educacio-i-formacio/escolaritzacio/oficina-municipal-descolaritzacio-ome/guia-educativa-25_26.pdf",
+      "date": "2025-2026"
+    },
+    {
+      "id": "S23",
+      "title": "Guia educativa archivo 2026-2027",
+      "publisher": "Ajuntament Badalona",
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/educacio-i-formacio/escolaritzacio/preinscripcio-escolar-curs-2025-26/preinscripcio-escolar_guiaeducativa_2026-2027.pdf",
+      "date": "2026-2027 archivo; interior 2025/26"
+    },
+    {
+      "id": "S24",
+      "title": "Memòria curs 24_25",
+      "publisher": "Escola Artur Martorell",
+      "url": "https://agora.xtec.cat/ceiparturmartorell/wp-content/uploads/usu99/2025/10/MEMORIA-WEB-ESCOLA.pdf",
+      "date": "2025"
+    },
+    {
+      "id": "S25",
+      "title": "Resolució 106/XV Institut La Riera",
+      "publisher": "Parlament Catalunya BOPC168",
+      "url": "https://www.parlament.cat/document/bopc/427423549.pdf",
+      "date": "2025-02-25"
+    },
+    {
+      "id": "S26",
+      "title": "Proposta de resolució La Riera",
+      "publisher": "Parlament Catalunya BOPC115",
+      "url": "https://www.parlament.cat/document/bopc/425984214.pdf",
+      "date": "2024-12-18"
+    },
+    {
+      "id": "S27",
+      "title": "Resum acords Ple 6 octubre 2025",
+      "publisher": "Ajuntament Badalona",
+      "url": "https://www.badalona.cat/ca/actualitat/noticies/resum-dels-acords-del-ple-de-lajuntament-de-badalona-del-6-doctubre-de-2025",
+      "date": "2025-10-06"
+    },
+    {
+      "id": "S28",
+      "title": "Finalitza obres aules provisionals La Riera",
+      "publisher": "Ajuntament Badalona",
+      "url": "https://www.badalona.cat/ca/actualitat/noticies/badalona-finalitza-les-obres-de-les-aules-provisionals-per-a-linstitut-la-riera-i-del-nou-casal-de-gent-gran-de-canyado",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "S29",
+      "title": "Baixos Jumberca a punt...",
+      "publisher": "Badalona Comunicació",
+      "url": "https://www.bdncom.cat/ca/els-baixos-de-jumberca-a-punt-per-obrir-al-juny-el-casal-de-gent-gran-i-al-setembre-les-aules-de-linstitut-la-riera",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "S30",
+      "title": "Institut La Riera",
+      "publisher": "Institut La Riera",
+      "url": "https://agora.xtec.cat/inslariera/",
+      "date": "consulta 2026-10-12"
+    },
+    {
+      "id": "S31",
+      "title": "Parc de les Arts: conveni intencions",
+      "publisher": "Badalona Comunicació",
+      "url": "https://www.bdncom.cat/ca/dansa-teatre-i-exposicions-candidats-a-omplir-els-edificis-buits-de-ca-larnus",
+      "date": "2023-04-20"
+    },
+    {
+      "id": "S32",
+      "title": "Proposició no de llei centres escolars",
+      "publisher": "Parlament BOPC157",
+      "url": "https://www.parlament.cat/document/bopc/49644.pdf",
+      "date": "1997-03-18"
+    },
+    {
+      "id": "S33",
+      "title": "Escola Lola Anglada portada p2",
+      "publisher": "Escola Lola Anglada",
+      "url": "https://agora.xtec.cat/ceip-lola-anglada-badalona/page/2/",
+      "date": "2025"
+    },
+    {
+      "id": "M01",
+      "title": "Itinerari botànic de 25 exemplars",
+      "publisher": "AMB · Centre Mediambiental l’Arrel",
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/itinerari-botanic-al-parc-de-can-solei-i-de-ca-l-arnus/701052/11656",
+      "date": "2014"
+    },
+    {
+      "id": "M02",
+      "title": "Guia del parc",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/parc-de-can-solei-i-ca-l-arnus/531469/11656",
+      "date": "2012"
+    },
+    {
+      "id": "M03",
+      "title": "Avís legal: reutilització CC BY 4.0 amb excepcions",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "date": ""
+    },
+    {
+      "id": "M04",
+      "title": "Reutilització de la informació",
+      "publisher": "ICGC",
+      "url": "https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio",
+      "date": ""
+    },
+    {
+      "id": "M05",
+      "title": "Smart AMB: Can Solei i Ca l’Arnús",
+      "publisher": "AMB",
+      "url": "https://smartcities.amb.cat/ca/",
+      "date": ""
+    },
+    {
+      "id": "M06",
+      "title": "Arxiu fotogràfic del parc",
+      "publisher": "Museu de Badalona",
+      "url": "https://www.flickr.com/photos/museudebadalona/albums/72157716642084172",
+      "date": ""
+    },
+    {
+      "id": "A01",
+      "title": "Jugatecambiental: programació",
+      "publisher": "AMB",
+      "url": "https://www.amb.cat/ca/web/territori/espai-public/parcs/aprenem-a-la-xarxa/jugatecambiental",
+      "date": "2026"
+    }
+  ],
+  "places": [
+    {
+      "id": "torre-arnus",
+      "name": {
+        "ca": "Torre Arnús",
+        "es": "Torre Arnús"
+      },
+      "estate": "arnus",
+      "category": "heritage",
+      "summary": {
+        "ca": "La casa principal té porxo, terrassa orientada al mar i galeries laterals. L’AMB n’atribueix l’arquitectura a Josep Oriol Mestres i la reforma a Salvador Vinyals. És una peça diferent del castell del llac.",
+        "es": "La casa principal tiene porche, terraza orientada al mar y galerías laterales. La AMB atribuye su arquitectura a Josep Oriol Mestres y la reforma a Salvador Vinyals. Es una pieza distinta del castillo del lago."
+      },
+      "detail": {
+        "ca": "La casa principal té porxo, terrassa orientada al mar i galeries laterals. L’AMB n’atribueix l’arquitectura a Josep Oriol Mestres i la reforma a Salvador Vinyals. És una peça diferent del castell del llac.",
+        "es": "La casa principal tiene porche, terraza orientada al mar y galerías laterales. La AMB atribuye su arquitectura a Josep Oriol Mestres y la reforma a Salvador Vinyals. Es una pieza distinta del castillo del lago."
+      },
+      "sources": ["H06"],
+      "x": 57.5,
+      "y": 47.54
+    },
+    {
+      "id": "castell-llac",
+      "name": {
+        "ca": "Castell del Llac",
+        "es": "Castillo del Lago"
+      },
+      "estate": "arnus",
+      "category": "heritage",
+      "summary": {
+        "ca": "Emili Arnús va encarregar aquest castell neogòtic a Salvador Vinyals a principis del segle XX. El pont i l’embarcador formen part de l’escenografia del llac. La història del refugi per tocar el piano és un relat transmès, segons l’AMB.",
+        "es": "Emili Arnús encargó este castillo neogótico a Salvador Vinyals a principios del siglo XX. El puente y el embarcadero forman parte de la escenografía del lago. La historia del refugio para tocar el piano es un relato transmitido, según la AMB."
+      },
+      "detail": {
+        "ca": "Emili Arnús va encarregar aquest castell neogòtic a Salvador Vinyals a principis del segle XX. El pont i l’embarcador formen part de l’escenografia del llac. La història del refugi per tocar el piano és un relat transmès, segons l’AMB.",
+        "es": "Emili Arnús encargó este castillo neogótico a Salvador Vinyals a principios del siglo XX. El puente y el embarcadero forman parte de la escenografía del lago. La historia del refugio para tocar el piano es un relato transmitido, según la AMB."
+      },
+      "sources": ["H07"],
+      "x": 41.88,
+      "y": 12.32
+    },
+    {
+      "id": "torre-rellotge",
+      "name": {
+        "ca": "Torre del Rellotge",
+        "es": "Torre del Reloj"
+      },
+      "estate": "arnus",
+      "category": "heritage",
+      "summary": {
+        "ca": "Estació meteorològica instal·lada al costat del Teatre Líric de Barcelona el 1883 i traslladada aquí el 1900. No s’ha de confondre amb la torre del dipòsit d’aigua.",
+        "es": "Estación meteorológica instalada junto al Teatre Líric de Barcelona en 1883 y trasladada aquí en 1900. No debe confundirse con la torre del depósito de agua."
+      },
+      "detail": {
+        "ca": "Estació meteorològica instal·lada al costat del Teatre Líric de Barcelona el 1883 i traslladada aquí el 1900. No s’ha de confondre amb la torre del dipòsit d’aigua.",
+        "es": "Estación meteorológica instalada junto al Teatre Líric de Barcelona en 1883 y trasladada aquí en 1900. No debe confundirse con la torre del depósito de agua."
+      },
+      "sources": ["H05"],
+      "x": 52.5,
+      "y": 48.42
+    },
+    {
+      "id": "torre-aigua",
+      "name": {
+        "ca": "Torre de l’Aigua",
+        "es": "Torre del Agua"
+      },
+      "estate": "arnus",
+      "category": "heritage",
+      "summary": {
+        "ca": "Torre vinculada al sistema hidràulic del jardí. Els documents tècnics la distingeixen de la torre del rellotge; la data i l’autoria no estan corroborades en una fitxa original específica.",
+        "es": "Torre vinculada al sistema hidráulico del jardín. Los documentos técnicos la distinguen de la torre del reloj; la fecha y la autoría no están corroboradas en una ficha original específica."
+      },
+      "detail": {
+        "ca": "Torre vinculada al sistema hidràulic del jardí. Els documents tècnics la distingeixen de la torre del rellotge; la data i l’autoria no estan corroborades en una fitxa original específica.",
+        "es": "Torre vinculada al sistema hidráulico del jardín. Los documentos técnicos la distinguen de la torre del reloj; la fecha y la autoría no están corroboradas en una ficha original específica."
+      },
+      "sources": ["H09", "H23"],
+      "x": 44.75,
+      "y": 38.03
+    },
+    {
+      "id": "cases-coma-cros",
+      "name": {
+        "ca": "Cases Bessones",
+        "es": "Casas Gemelas"
+      },
+      "estate": "solei",
+      "category": "heritage",
+      "summary": {
+        "ca": "Les cases Coma-Cros conserven galeries porticades superposades. Van acollir Artur Martorell entre 1969 i 2007. El trasllat de l’escola no és la seva fundació.",
+        "es": "Las casas Coma-Cros conservan galerías porticadas superpuestas. Acogieron Artur Martorell entre 1969 y 2007. El traslado de la escuela no es su fundación."
+      },
+      "detail": {
+        "ca": "Les cases Coma-Cros conserven galeries porticades superposades. Van acollir Artur Martorell entre 1969 i 2007. El trasllat de l’escola no és la seva fundació.",
+        "es": "Las casas Coma-Cros conservan galerías porticadas superpuestas. Acogieron Artur Martorell entre 1969 y 2007. El traslado de la escuela no es su fundación."
+      },
+      "sources": ["H11", "S03"],
+      "x": 31.25,
+      "y": 58.98
+    },
+    {
+      "id": "glorieta",
+      "name": {
+        "ca": "Glorieta",
+        "es": "Glorieta"
+      },
+      "estate": "arnus",
+      "category": "heritage",
+      "summary": {
+        "ca": "Una peça del jardí d’esbarjo, entre la plataneda i els camins. Les escultures i les galeries completen aquest paisatge construït.",
+        "es": "Una pieza del jardín de recreo, entre la arboleda de plátanos y los caminos. Las esculturas y las galerías completan este paisaje construido."
+      },
+      "detail": {
+        "ca": "Una peça del jardí d’esbarjo, entre la plataneda i els camins. Les escultures i les galeries completen aquest paisatge construït.",
+        "es": "Una pieza del jardín de recreo, entre la arboleda de plátanos y los caminos. Las esculturas y las galerías completan este paisaje construido."
+      },
+      "sources": ["H10", "M01"],
+      "x": 47.62,
+      "y": 49.3
+    },
+    {
+      "id": "gruta",
+      "name": {
+        "ca": "Gruta",
+        "es": "Gruta"
+      },
+      "estate": "arnus",
+      "category": "heritage",
+      "summary": {
+        "ca": "Les grutes formen part del jardí romàntic. La restauració patrimonial registrada per l’AMB el 2023 inclou intervencions en aquests elements.",
+        "es": "Las grutas forman parte del jardín romántico. La restauración patrimonial registrada por la AMB en 2023 incluye intervenciones en estos elementos."
+      },
+      "detail": {
+        "ca": "Les grutes formen part del jardí romàntic. La restauració patrimonial registrada per l’AMB el 2023 inclou intervencions en aquests elements.",
+        "es": "Las grutas forman parte del jardín romántico. La restauración patrimonial registrada por la AMB en 2023 incluye intervenciones en estos elementos."
+      },
+      "sources": ["H26", "M01"],
+      "x": 58.25,
+      "y": 55.99
+    },
+    {
+      "id": "llac",
+      "name": {
+        "ca": "Llac romàntic",
+        "es": "Lago romántico"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "El llac és l’escenari del castell i dels ponts. Cal distingir-lo de la gran bassa, objecte de l’estudi de biodiversitat de 2021–2022.",
+        "es": "El lago es el escenario del castillo y de los puentes. Debe distinguirse de la gran balsa, objeto del estudio de biodiversidad de 2021–2022."
+      },
+      "detail": {
+        "ca": "El llac és l’escenari del castell i dels ponts. Cal distingir-lo de la gran bassa, objecte de l’estudi de biodiversitat de 2021–2022.",
+        "es": "El lago es el escenario del castillo y de los puentes. Debe distinguirse de la gran balsa, objeto del estudio de biodiversidad de 2021–2022."
+      },
+      "sources": ["H07", "H33"],
+      "x": 42.5,
+      "y": 19.37
+    },
+    {
+      "id": "bassa",
+      "name": {
+        "ca": "La gran bassa",
+        "es": "La gran balsa"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "La bassa i els seus voltants van ser estudiats entre novembre de 2021 i juliol de 2022. L’inventari de flora i fauna és una observació datada, no una garantia de presència actual.",
+        "es": "La balsa y su entorno se estudiaron entre noviembre de 2021 y julio de 2022. El inventario de flora y fauna es una observación fechada, no una garantía de presencia actual."
+      },
+      "detail": {
+        "ca": "La bassa i els seus voltants van ser estudiats entre novembre de 2021 i juliol de 2022. L’inventari de flora i fauna és una observació datada, no una garantia de presència actual.",
+        "es": "La balsa y su entorno se estudiaron entre noviembre de 2021 y julio de 2022. El inventario de flora y fauna es una observación fechada, no una garantía de presencia actual."
+      },
+      "sources": ["H33"],
+      "x": 48.12,
+      "y": 42.43
+    },
+    {
+      "id": "artur-current",
+      "name": {
+        "ca": "Artur Martorell · seu de 2007",
+        "es": "Artur Martorell · sede de 2007"
+      },
+      "estate": "solei",
+      "category": "school",
+      "summary": {
+        "ca": "L’escola es va traslladar al nou edifici el 28 de març de 2007. La seva història comença el 1969 a les Cases Bessones. El plànol de 2014 identifica la nova seu a la part alta de Can Solei.",
+        "es": "La escuela se trasladó al nuevo edificio el 28 de marzo de 2007. Su historia empieza en 1969 en las Casas Gemelas. El plano de 2014 identifica la nueva sede en la parte alta de Can Solei."
+      },
+      "detail": {
+        "ca": "L’escola es va traslladar al nou edifici el 28 de març de 2007. La seva història comença el 1969 a les Cases Bessones. El plànol de 2014 identifica la nova seu a la part alta de Can Solei.",
+        "es": "La escuela se trasladó al nuevo edificio el 28 de marzo de 2007. Su historia empieza en 1969 en las Casas Gemelas. El plano de 2014 identifica la nueva sede en la parte alta de Can Solei."
+      },
+      "sources": ["S01", "S03", "M01"],
+      "x": 25.0,
+      "y": 40.05
+    },
+    {
+      "id": "lola-current",
+      "name": {
+        "ca": "Lola Anglada · nova seu",
+        "es": "Lola Anglada · nueva sede"
+      },
+      "estate": "arnus",
+      "category": "school",
+      "summary": {
+        "ca": "El trasllat es va fer per fases: infantil el 2010 i primària a començament de 2014. Aquest punt del plànol identifica la seu nova, no el grup escolar històric de Jacinto Benavente, 13.",
+        "es": "El traslado se hizo por fases: infantil en 2010 y primaria a comienzos de 2014. Este punto del plano identifica la sede nueva, no el grupo escolar histórico de Jacinto Benavente, 13."
+      },
+      "detail": {
+        "ca": "El trasllat es va fer per fases: infantil el 2010 i primària a començament de 2014. Aquest punt del plànol identifica la seu nova, no el grup escolar històric de Jacinto Benavente, 13.",
+        "es": "El traslado se hizo por fases: infantil en 2010 y primaria a comienzos de 2014. Este punto del plano identifica la sede nueva, no el grupo escolar histórico de Jacinto Benavente, 13."
+      },
+      "sources": ["S14", "S16", "S18", "M01"],
+      "x": 67.81,
+      "y": 49.74
+    },
+    {
+      "id": "tree-1",
+      "name": {
+        "ca": "Palmera de dàtils",
+        "es": "Palmera datilera"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 1 de l’itinerari botànic de 2014 (pàgina PDF 8). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 1 del itinerario botánico de 2014 (página PDF 8). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 1 de l’itinerari botànic de 2014 (pàgina PDF 8). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 1 del itinerario botánico de 2014 (página PDF 8). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 18.69,
+      "y": 72.18,
+      "coordinates": [41.4549, 2.25193]
+    },
+    {
+      "id": "tree-2",
+      "name": {
+        "ca": "Tell argentat",
+        "es": "Tilo plateado"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 2 de l’itinerari botànic de 2014 (pàgina PDF 8). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 2 del itinerario botánico de 2014 (página PDF 8). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 2 de l’itinerari botànic de 2014 (pàgina PDF 8). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 2 del itinerario botánico de 2014 (página PDF 8). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 20.5,
+      "y": 71.92,
+      "coordinates": [41.45498, 2.25196]
+    },
+    {
+      "id": "tree-3",
+      "name": {
+        "ca": "Cedre del Líban",
+        "es": "Cedro del Líbano"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 3 de l’itinerari botànic de 2014 (pàgina PDF 9). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 3 del itinerario botánico de 2014 (página PDF 9). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 3 de l’itinerari botànic de 2014 (pàgina PDF 9). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 3 del itinerario botánico de 2014 (página PDF 9). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 28.19,
+      "y": 70.86,
+      "coordinates": [41.4553, 2.25254]
+    },
+    {
+      "id": "tree-4",
+      "name": {
+        "ca": "Fotínia",
+        "es": "Fotinia"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 4 de l’itinerari botànic de 2014 (pàgina PDF 9). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 4 del itinerario botánico de 2014 (página PDF 9). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 4 de l’itinerari botànic de 2014 (pàgina PDF 9). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 4 del itinerario botánico de 2014 (página PDF 9). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 29.88,
+      "y": 71.04,
+      "coordinates": [41.4553, 2.25261]
+    },
+    {
+      "id": "tree-5",
+      "name": {
+        "ca": "Pi pinyer",
+        "es": "Pino piñonero"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 5 de l’itinerari botànic de 2014 (pàgina PDF 10). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 5 del itinerario botánico de 2014 (página PDF 10). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 5 de l’itinerari botànic de 2014 (pàgina PDF 10). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 5 del itinerario botánico de 2014 (página PDF 10). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 33.31,
+      "y": 72.27,
+      "coordinates": [41.4554, 2.25295]
+    },
+    {
+      "id": "tree-6",
+      "name": {
+        "ca": "Ginkgo",
+        "es": "Ginkgo"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 6 de l’itinerari botànic de 2014 (pàgina PDF 10). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 6 del itinerario botánico de 2014 (página PDF 10). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 6 de l’itinerari botànic de 2014 (pàgina PDF 10). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 6 del itinerario botánico de 2014 (página PDF 10). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 39.88,
+      "y": 71.39,
+      "coordinates": [41.45558, 2.25324]
+    },
+    {
+      "id": "tree-7",
+      "name": {
+        "ca": "Figuera",
+        "es": "Higuera"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 7 de l’itinerari botànic de 2014 (pàgina PDF 11). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 7 del itinerario botánico de 2014 (página PDF 11). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 7 de l’itinerari botànic de 2014 (pàgina PDF 11). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 7 del itinerario botánico de 2014 (página PDF 11). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 47.5,
+      "y": 66.73,
+      "coordinates": [41.45601, 2.25369]
+    },
+    {
+      "id": "tree-8",
+      "name": {
+        "ca": "Plàtan",
+        "es": "Plátano"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 8 de l’itinerari botànic de 2014 (pàgina PDF 11). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 8 del itinerario botánico de 2014 (página PDF 11). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 8 de l’itinerari botànic de 2014 (pàgina PDF 11). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 8 del itinerario botánico de 2014 (página PDF 11). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 61.88,
+      "y": 57.22,
+      "coordinates": [41.4567, 2.25432]
+    },
+    {
+      "id": "tree-9",
+      "name": {
+        "ca": "Bellaombra",
+        "es": "Ombú"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 9 de l’itinerari botànic de 2014 (pàgina PDF 12). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 9 del itinerario botánico de 2014 (página PDF 12). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 9 de l’itinerari botànic de 2014 (pàgina PDF 12). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 9 del itinerario botánico de 2014 (página PDF 12). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 61.12,
+      "y": 48.59,
+      "coordinates": [41.4569, 2.25421]
+    },
+    {
+      "id": "tree-10",
+      "name": {
+        "ca": "Latània",
+        "es": "Palmera china de abanico"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 10 de l’itinerari botànic de 2014 (pàgina PDF 12). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 10 del itinerario botánico de 2014 (página PDF 12). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 10 de l’itinerari botànic de 2014 (pàgina PDF 12). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 10 del itinerario botánico de 2014 (página PDF 12). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 59.56,
+      "y": 51.85,
+      "coordinates": [41.45676, 2.25399]
+    },
+    {
+      "id": "tree-11",
+      "name": {
+        "ca": "Llentiscle",
+        "es": "Lentisco"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 11 de l’itinerari botànic de 2014 (pàgina PDF 13). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 11 del itinerario botánico de 2014 (página PDF 13). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 11 de l’itinerari botànic de 2014 (pàgina PDF 13). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 11 del itinerario botánico de 2014 (página PDF 13). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 56.5,
+      "y": 53.7,
+      "coordinates": [41.4567, 2.25386]
+    },
+    {
+      "id": "tree-12",
+      "name": {
+        "ca": "Magnòlia",
+        "es": "Magnolia"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 12 de l’itinerari botànic de 2014 (pàgina PDF 13). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 12 del itinerario botánico de 2014 (página PDF 13). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 12 de l’itinerari botànic de 2014 (pàgina PDF 13). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 12 del itinerario botánico de 2014 (página PDF 13). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 54.5,
+      "y": 50.09,
+      "coordinates": [41.45674, 2.2537]
+    },
+    {
+      "id": "tree-13",
+      "name": {
+        "ca": "Còcul",
+        "es": "Cóculo"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 13 de l’itinerari botànic de 2014 (pàgina PDF 14). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 13 del itinerario botánico de 2014 (página PDF 14). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 13 de l’itinerari botànic de 2014 (pàgina PDF 14). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 13 del itinerario botánico de 2014 (página PDF 14). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 52.38,
+      "y": 47.62,
+      "coordinates": [41.45673, 2.25344]
+    },
+    {
+      "id": "tree-14",
+      "name": {
+        "ca": "Xiprer",
+        "es": "Ciprés"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 14 de l’itinerari botànic de 2014 (pàgina PDF 14). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 14 del itinerario botánico de 2014 (página PDF 14). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 14 de l’itinerari botànic de 2014 (pàgina PDF 14). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 14 del itinerario botánico de 2014 (página PDF 14). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 50.0,
+      "y": 41.81,
+      "coordinates": [41.45694, 2.25314]
+    },
+    {
+      "id": "tree-15",
+      "name": {
+        "ca": "Eucaliptus",
+        "es": "Eucalipto"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 15 de l’itinerari botànic de 2014 (pàgina PDF 15). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 15 del itinerario botánico de 2014 (página PDF 15). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 15 de l’itinerari botànic de 2014 (pàgina PDF 15). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 15 del itinerario botánico de 2014 (página PDF 15). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 47.62,
+      "y": 19.54,
+      "coordinates": [41.45759, 2.25248]
+    },
+    {
+      "id": "tree-16",
+      "name": {
+        "ca": "Pitòspor",
+        "es": "Pitosporo"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 16 de l’itinerari botànic de 2014 (pàgina PDF 15). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 16 del itinerario botánico de 2014 (página PDF 15). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 16 de l’itinerari botànic de 2014 (pàgina PDF 15). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 16 del itinerario botánico de 2014 (página PDF 15). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 47.44,
+      "y": 16.64,
+      "coordinates": [41.45768, 2.25238]
+    },
+    {
+      "id": "tree-17",
+      "name": {
+        "ca": "Casuarina",
+        "es": "Casuarina"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 17 de l’itinerari botànic de 2014 (pàgina PDF 16). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 17 del itinerario botánico de 2014 (página PDF 16). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 17 de l’itinerari botànic de 2014 (pàgina PDF 16). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 17 del itinerario botánico de 2014 (página PDF 16). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 42.88,
+      "y": 46.83,
+      "coordinates": [41.45655, 2.2528]
+    },
+    {
+      "id": "tree-18",
+      "name": {
+        "ca": "Lledoner",
+        "es": "Almez"
+      },
+      "estate": "arnus",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 18 de l’itinerari botànic de 2014 (pàgina PDF 16). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 18 del itinerario botánico de 2014 (página PDF 16). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 18 de l’itinerari botànic de 2014 (pàgina PDF 16). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 18 del itinerario botánico de 2014 (página PDF 16). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 42.56,
+      "y": 51.41,
+      "coordinates": [41.45642, 2.25299]
+    },
+    {
+      "id": "tree-19",
+      "name": {
+        "ca": "Roure martinenc",
+        "es": "Roble pubescente"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 19 de l’itinerari botànic de 2014 (pàgina PDF 17). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 19 del itinerario botánico de 2014 (página PDF 17). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 19 de l’itinerari botànic de 2014 (pàgina PDF 17). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 19 del itinerario botánico de 2014 (página PDF 17). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 35.56,
+      "y": 45.77,
+      "coordinates": [41.45638, 2.25226]
+    },
+    {
+      "id": "tree-20",
+      "name": {
+        "ca": "Alzina",
+        "es": "Encina"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 20 de l’itinerari botànic de 2014 (pàgina PDF 17). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 20 del itinerario botánico de 2014 (página PDF 17). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 20 de l’itinerari botànic de 2014 (pàgina PDF 17). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 20 del itinerario botánico de 2014 (página PDF 17). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 36.62,
+      "y": 36.62,
+      "coordinates": [41.45671, 2.25212]
+    },
+    {
+      "id": "tree-21",
+      "name": {
+        "ca": "Nolina (El Canelobre)",
+        "es": "Nolina (El Canelobre)"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 21 de l’itinerari botànic de 2014 (pàgina PDF 18). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 21 del itinerario botánico de 2014 (página PDF 18). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 21 de l’itinerari botànic de 2014 (pàgina PDF 18). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 21 del itinerario botánico de 2014 (página PDF 18). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 29.88,
+      "y": 53.43,
+      "coordinates": [41.45591, 2.25217]
+    },
+    {
+      "id": "tree-22",
+      "name": {
+        "ca": "Margalló (El Drac)",
+        "es": "Palmito (El Drac)"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 22 de l’itinerari botànic de 2014 (pàgina PDF 18). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 22 del itinerario botánico de 2014 (página PDF 18). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 22 de l’itinerari botànic de 2014 (pàgina PDF 18). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 22 del itinerario botánico de 2014 (página PDF 18). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 36.56,
+      "y": 59.95,
+      "coordinates": [41.45588, 2.25276]
+    },
+    {
+      "id": "tree-23",
+      "name": {
+        "ca": "Palmera de Canàries",
+        "es": "Palmera canaria"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 23 de l’itinerari botànic de 2014 (pàgina PDF 19). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 23 del itinerario botánico de 2014 (página PDF 19). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 23 de l’itinerari botànic de 2014 (pàgina PDF 19). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 23 del itinerario botánico de 2014 (página PDF 19). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 32.75,
+      "y": 58.1,
+      "coordinates": [41.45584, 2.25247]
+    },
+    {
+      "id": "tree-24",
+      "name": {
+        "ca": "Bútia",
+        "es": "Butiá"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 24 de l’itinerari botànic de 2014 (pàgina PDF 19). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 24 del itinerario botánico de 2014 (página PDF 19). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 24 de l’itinerari botànic de 2014 (pàgina PDF 19). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 24 del itinerario botánico de 2014 (página PDF 19). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 29.62,
+      "y": 59.77,
+      "coordinates": [41.45574, 2.25235]
+    },
+    {
+      "id": "tree-25",
+      "name": {
+        "ca": "Teix",
+        "es": "Tejo"
+      },
+      "estate": "solei",
+      "category": "nature",
+      "summary": {
+        "ca": "Exemplar 25 de l’itinerari botànic de 2014 (pàgina PDF 20). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 25 del itinerario botánico de 2014 (página PDF 20). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "detail": {
+        "ca": "Exemplar 25 de l’itinerari botànic de 2014 (pàgina PDF 20). Coordenades transcrites del dossier; presència, estat i accés actuals no verificats.",
+        "es": "Ejemplar 25 del itinerario botánico de 2014 (página PDF 20). Coordenadas transcritas del dossier; presencia, estado y acceso actuales no verificados."
+      },
+      "sources": ["M01"],
+      "x": 29.5,
+      "y": 67.61,
+      "coordinates": [41.45547, 2.25256]
+    }
+  ],
+  "history": [
+    {
+      "year": "1565",
+      "title": {
+        "ca": "Un mas documentat",
+        "es": "Un mas documentado"
+      },
+      "text": {
+        "ca": "El mas Solei apareix documentat.",
+        "es": "Mas Solei aparece documentado."
+      },
+      "sources": ["H01"],
+      "status": "verified"
+    },
+    {
+      "year": "1793–1795",
+      "title": {
+        "ca": "Un hospital en temps de guerra",
+        "es": "Un hospital en tiempos de guerra"
+      },
+      "text": {
+        "ca": "Ús com a hospital durant la Guerra Gran.",
+        "es": "Uso como hospital durante la Guerra Gran."
+      },
+      "sources": ["H02"],
+      "status": "verified"
+    },
+    {
+      "year": "1854-02-06",
+      "title": {
+        "ca": "Terres, fàbrica i parcel·lació",
+        "es": "Tierras, fábrica y parcelación"
+      },
+      "text": {
+        "ca": "Venda als germans Mollard de fàbrica i terres procedents del mas Solei.",
+        "es": "Venta a los hermanos Mollard de fábrica y tierras procedentes de Mas Solei."
+      },
+      "sources": ["H30"],
+      "status": "verified"
+    },
+    {
+      "year": "1859-04-09",
+      "title": {
+        "ca": "La compra d’Evarist Arnús",
+        "es": "La compra de Evarist Arnús"
+      },
+      "text": {
+        "ca": "Escriptura de compra d’Arnús citada per l’estudi del Museu.",
+        "es": "Escritura de compra de Arnús citada por el estudio del Museu."
+      },
+      "sources": ["H04"],
+      "status": "verified"
+    },
+    {
+      "year": "1883",
+      "title": {
+        "ca": "Un observatori a Barcelona",
+        "es": "Un observatorio en Barcelona"
+      },
+      "text": {
+        "ca": "Estació meteorològica instal·lada al costat del Teatre Líric, a Barcelona.",
+        "es": "Estación meteorológica instalada junto al Teatre Líric, en Barcelona."
+      },
+      "sources": ["H05"],
+      "status": "verified"
+    },
+    {
+      "year": "1888-06-02",
+      "title": {
+        "ca": "Una visita reial",
+        "es": "Una visita real"
+      },
+      "text": {
+        "ca": "Visita de la reina regent Maria Cristina.",
+        "es": "Visita de la reina regente María Cristina."
+      },
+      "sources": ["H05"],
+      "status": "verified"
+    },
+    {
+      "year": "1900",
+      "title": {
+        "ca": "El rellotge arriba al parc",
+        "es": "El reloj llega al parque"
+      },
+      "text": {
+        "ca": "Trasllat de la torre meteorològica a Ca l’Arnús.",
+        "es": "Traslado de la torre meteorológica a Ca l’Arnús."
+      },
+      "sources": ["H05"],
+      "status": "verified"
+    },
+    {
+      "year": "Inicis del s. XX",
+      "title": {
+        "ca": "El castell del llac",
+        "es": "El castillo del lago"
+      },
+      "text": {
+        "ca": "Emili Arnús encarrega el castell del llac a Salvador Vinyals.",
+        "es": "Emili Arnús encarga el castillo del lago a Salvador Vinyals."
+      },
+      "sources": ["H07"],
+      "status": "verified"
+    },
+    {
+      "year": "1936–1939",
+      "title": {
+        "ca": "Una obertura en temps de guerra",
+        "es": "Una apertura en tiempos de guerra"
+      },
+      "text": {
+        "ca": "Obertura pública durant la Guerra Civil; restitució posterior.",
+        "es": "Apertura pública durante la Guerra Civil; restitución posterior."
+      },
+      "sources": ["H02"],
+      "status": "verified"
+    },
+    {
+      "year": "1977-05-15",
+      "title": {
+        "ca": "Una conquesta veïnal",
+        "es": "Una conquista vecinal"
+      },
+      "text": {
+        "ca": "Inauguració del monòlit reivindicatiu a la Festa del Badiu.",
+        "es": "Inauguración del monolito reivindicativo en la Festa del Badiu."
+      },
+      "sources": ["H31"],
+      "status": "verified"
+    },
+    {
+      "year": "1977-08",
+      "title": {
+        "ca": "Recuperar el nom",
+        "es": "Recuperar el nombre"
+      },
+      "text": {
+        "ca": "El ple recupera Can Solei en la denominació del parc.",
+        "es": "El pleno recupera Can Solei en la denominación del parque."
+      },
+      "sources": ["H32"],
+      "status": "verified"
+    },
+    {
+      "year": "1984",
+      "title": {
+        "ca": "La remodelació de Can Solei",
+        "es": "La remodelación de Can Solei"
+      },
+      "text": {
+        "ca": "Remodelació metropolitana de Can Solei.",
+        "es": "Remodelación metropolitana de Can Solei."
+      },
+      "sources": ["H01"],
+      "status": "verified"
+    },
+    {
+      "year": "2003–2004",
+      "title": {
+        "ca": "Primera fase de Ca l’Arnús",
+        "es": "Primera fase de Ca l’Arnús"
+      },
+      "text": {
+        "ca": "Primera fase de Ca l’Arnús i tanca.",
+        "es": "Primera fase de Ca l’Arnús y vallado."
+      },
+      "sources": ["H08"],
+      "status": "verified"
+    },
+    {
+      "year": "2005–2007",
+      "title": {
+        "ca": "Les finques es retroben",
+        "es": "Las fincas se reencuentran"
+      },
+      "text": {
+        "ca": "Segona fase de les obres entre 2005 i 2007; l’ICEA situa la integració pública el 2007. El dossier botànic de 2014 parla de reunificació el 2008: les fonts no donen una única data per a totes les fases.",
+        "es": "Segunda fase de las obras entre 2005 y 2007; ICEA sitúa la integración pública en 2007. El dossier botánico de 2014 habla de reunificación en 2008: las fuentes no dan una única fecha para todas las fases."
+      },
+      "sources": ["H08", "H10", "M01"],
+      "status": "verified"
+    },
+    {
+      "year": "2009–2010",
+      "title": {
+        "ca": "Continua la restauració",
+        "es": "Continúa la restauración"
+      },
+      "text": {
+        "ca": "Tercera fase de restauració de Ca l’Arnús.",
+        "es": "Tercera fase de restauración de Ca l’Arnús."
+      },
+      "sources": ["H08"],
+      "status": "verified"
+    },
+    {
+      "year": "2022-11-14",
+      "title": {
+        "ca": "Una restauració anunciada",
+        "es": "Una restauración anunciada"
+      },
+      "text": {
+        "ca": "Anunci de restauració finançada amb FEDER.",
+        "es": "Anuncio de restauración financiada con FEDER."
+      },
+      "sources": ["H27"],
+      "status": "proposal"
+    },
+    {
+      "year": "2023-12",
+      "title": {
+        "ca": "Restauració finalitzada segons l’AMB",
+        "es": "Restauración finalizada según la AMB"
+      },
+      "text": {
+        "ca": "L’AMB registra finalitzada la restauració patrimonial.",
+        "es": "AMB registra finalizada la restauración patrimonial."
+      },
+      "sources": ["H26"],
+      "status": "verified"
+    },
+    {
+      "year": "2025-02-25",
+      "title": {
+        "ca": "Objectius per a La Riera",
+        "es": "Objetivos para La Riera"
+      },
+      "text": {
+        "ca": "Resolució parlamentària sobre La Riera i retirada de mòduls abans de final de 2027.",
+        "es": "Resolución parlamentaria sobre La Riera y retirada de módulos antes de fin de 2027."
+      },
+      "sources": ["H41"],
+      "status": "proposal"
+    },
+    {
+      "year": "2025-11-19",
+      "title": {
+        "ca": "Inici de l’expedient BCIN",
+        "es": "Inicio del expediente BCIN"
+      },
+      "text": {
+        "ca": "Incoació BCIN com a jardí històric; no declaració definitiva.",
+        "es": "Incoación BCIN como jardín histórico; no declaración definitiva."
+      },
+      "sources": ["H15", "H39"],
+      "status": "proposal"
+    },
+    {
+      "year": "2026-04-10",
+      "title": {
+        "ca": "Aprovació del PA-3",
+        "es": "Aprobación del PA-3"
+      },
+      "text": {
+        "ca": "Aprovació definitiva PA-3; hi ha una rectificació posterior pendent de llegir.",
+        "es": "Aprobación definitiva PA-3; hay rectificación posterior pendiente de leer."
+      },
+      "sources": ["H16", "H17", "H29"],
+      "status": "proposal"
+    },
+    {
+      "year": "2026-05",
+      "title": {
+        "ca": "Notícies d’enderrocs",
+        "es": "Noticias de demoliciones"
+      },
+      "text": {
+        "ca": "La premsa informa d’enderrocs a l’entorn Covesa.",
+        "es": "Prensa informa demoliciones del entorno Covesa."
+      },
+      "sources": ["H18"],
+      "status": "verified"
+    }
+  ],
+  "schools": [
+    {
+      "id": "artur",
+      "name": "Escola Artur Martorell",
+      "intro": {
+        "ca": "De les cases de la família Coma-Cros a l’edifici de 2007. La institució va néixer el 1969 i es va incorporar a la xarxa pública el gener de 1986. Seu actual: carrer de la Seu d’Urgell, 34.",
+        "es": "De las casas de la familia Coma-Cros al edificio de 2007. La institución nació en 1969 y se incorporó a la red pública en enero de 1986. Sede actual: calle de la Seu d’Urgell, 34."
+      },
+      "milestones": [
+        {
+          "year": "1969",
+          "title": {
+            "ca": "Neix l’escola",
+            "es": "Nace la escuela"
+          },
+          "text": {
+            "ca": "Creació al setembre; inici d’activitat a l’octubre segons documents del centre.",
+            "es": "Creación en septiembre; inicio de actividad en octubre según documentos del centro."
+          },
+          "sources": ["S01", "S02"],
+          "status": "verified"
+        },
+        {
+          "year": "1981",
+          "title": {
+            "ca": "Una cooperativa de mestres",
+            "es": "Una cooperativa de maestros"
+          },
+          "text": {
+            "ca": "Constitució com a cooperativa de mestres.",
+            "es": "Constitución como cooperativa de maestros."
+          },
+          "sources": ["S02"],
+          "status": "verified"
+        },
+        {
+          "year": "1986-01",
+          "title": {
+            "ca": "L’escola esdevé pública",
+            "es": "La escuela pasa a ser pública"
+          },
+          "text": {
+            "ca": "Incorporació a la xarxa pública catalana.",
+            "es": "Incorporación a la red pública catalana."
+          },
+          "sources": ["S01"],
+          "status": "verified"
+        },
+        {
+          "year": "1997-03-18",
+          "title": {
+            "ca": "Reivindicar espais dignes",
+            "es": "Reivindicar espacios dignos"
+          },
+          "text": {
+            "ca": "Proposta parlamentària de restauració, seguretat i adaptació de les antigues seus.",
+            "es": "Propuesta parlamentaria de restauración, seguridad y adaptación de las antiguas sedes."
+          },
+          "sources": ["S32"],
+          "status": "proposal"
+        },
+        {
+          "year": "2007-03-28",
+          "title": {
+            "ca": "Una nova seu al parc",
+            "es": "Una nueva sede en el parque"
+          },
+          "text": {
+            "ca": "Trasllat al nou edifici a la part alta del parc.",
+            "es": "Traslado al nuevo edificio en la parte alta del parque."
+          },
+          "sources": ["S03"],
+          "status": "verified"
+        },
+        {
+          "year": "2017",
+          "title": {
+            "ca": "Escoles del Parc",
+            "es": "Escoles del Parc"
+          },
+          "text": {
+            "ca": "Escoles del Parc integra el parc en els projectes educatius de totes dues escoles.",
+            "es": "Escoles del Parc integra el parque en los proyectos educativos de ambas escuelas."
+          },
+          "sources": ["S20"],
+          "status": "verified"
+        },
+        {
+          "year": "2017-09-22",
+          "title": {
+            "ca": "Un camí compartit",
+            "es": "Un camino compartido"
+          },
+          "text": {
+            "ca": "Inauguració del Camí Amic del Parc.",
+            "es": "Inauguración del Camí Amic del Parc."
+          },
+          "sources": ["S21"],
+          "status": "verified"
+        },
+        {
+          "year": "2019-2020",
+          "title": {
+            "ca": "Cinquanta anys d’escola",
+            "es": "Cincuenta años de escuela"
+          },
+          "text": {
+            "ca": "Cinquantè aniversari; diversos actes es van ajornar per la COVID-19.",
+            "es": "Cincuentenario; varios actos se aplazaron por COVID-19."
+          },
+          "sources": ["S04"],
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "lola",
+      "name": "Escola Lola Anglada",
+      "intro": {
+        "ca": "L’obertura de 1930 i el trasllat de 2010–2014 són fites diferents. L’antic grup escolar de Jacinto Benavente, 13, és BCIL; no s’ha de confondre amb l’escola actual al costat del parc.",
+        "es": "La apertura de 1930 y el traslado de 2010–2014 son hitos diferentes. El antiguo grupo escolar de Jacinto Benavente, 13, es BCIL; no debe confundirse con la escuela actual junto al parque."
+      },
+      "milestones": [
+        {
+          "year": "1928",
+          "title": {
+            "ca": "Es construeix el grup escolar",
+            "es": "Se construye el grupo escolar"
+          },
+          "text": {
+            "ca": "Construcció de l’edifici històric segons l’Ajuntament; diferent de l’obertura escolar.",
+            "es": "Construcción del edificio histórico, según el Ayuntamiento; distinta de la apertura escolar."
+          },
+          "sources": ["S08"],
+          "status": "verified"
+        },
+        {
+          "year": "1930-11",
+          "title": {
+            "ca": "Comencen les classes",
+            "es": "Empiezan las clases"
+          },
+          "text": {
+            "ca": "Inauguració a primers de novembre com a Grupo Escolar Martínez Anido.",
+            "es": "Inauguración a primeros de noviembre como Grupo Escolar Martínez Anido."
+          },
+          "sources": ["S06"],
+          "status": "verified"
+        },
+        {
+          "year": "República · ?",
+          "title": {
+            "ca": "El nom de Ramon Muntaner",
+            "es": "El nombre de Ramon Muntaner"
+          },
+          "text": {
+            "ca": "Canvi de nom a Ramon Muntaner; cal verificar l’any de l’acord.",
+            "es": "Cambio de nombre a Ramon Muntaner; falta verificar año del acuerdo."
+          },
+          "sources": ["S06", "S10"],
+          "status": "verified"
+        },
+        {
+          "year": "1939",
+          "title": {
+            "ca": "El retorn del nom anterior",
+            "es": "El regreso del nombre anterior"
+          },
+          "text": {
+            "ca": "Restitució del nom Martínez Anido.",
+            "es": "Restitución del nombre Martínez Anido."
+          },
+          "sources": ["S06"],
+          "status": "verified"
+        },
+        {
+          "year": "1979-1980",
+          "title": {
+            "ca": "Lola Anglada dona nom a l’escola",
+            "es": "Lola Anglada da nombre a la escuela"
+          },
+          "text": {
+            "ca": "Adopció del nom Lola Anglada.",
+            "es": "Adopción del nombre Lola Anglada."
+          },
+          "sources": ["S06"],
+          "status": "verified"
+        },
+        {
+          "year": "2010",
+          "title": {
+            "ca": "Infantil arriba al parc",
+            "es": "Infantil llega al parque"
+          },
+          "text": {
+            "ca": "Infantil es trasllada a les noves instal·lacions de Ca l’Arnús.",
+            "es": "Infantil se traslada a las nuevas instalaciones de Ca l’Arnús."
+          },
+          "sources": ["S14"],
+          "status": "verified"
+        },
+        {
+          "year": "2010-11-12",
+          "title": {
+            "ca": "Vuitanta anys",
+            "es": "Ochenta años"
+          },
+          "text": {
+            "ca": "Celebració anunciada del 80è aniversari.",
+            "es": "Celebración anunciada del 80 aniversario."
+          },
+          "sources": ["S07"],
+          "status": "verified"
+        },
+        {
+          "year": "2012-07",
+          "title": {
+            "ca": "Comença l’ampliació",
+            "es": "Empieza la ampliación"
+          },
+          "text": {
+            "ca": "L’AMPA documenta l’inici de les obres d’ampliació.",
+            "es": "La AMPA documenta el comienzo de las obras de ampliación."
+          },
+          "sources": ["S13"],
+          "status": "verified"
+        },
+        {
+          "year": "2013-11-14",
+          "title": {
+            "ca": "Una resolució parlamentària",
+            "es": "Una resolución parlamentaria"
+          },
+          "text": {
+            "ca": "Resolució parlamentària sobre finalització de l’ampliació i futur de l’edifici antic.",
+            "es": "Resolución parlamentaria sobre finalización de la ampliación y futuro del edificio antiguo."
+          },
+          "sources": ["S15"],
+          "status": "verified"
+        },
+        {
+          "year": "2014",
+          "title": {
+            "ca": "Primària completa el trasllat",
+            "es": "Primaria completa el traslado"
+          },
+          "text": {
+            "ca": "Trasllat de primària; es va anunciar el 8 de gener per a primer i segon.",
+            "es": "Traslado de primaria; se anunció el 8 de enero para primero y segundo."
+          },
+          "sources": ["S16", "S17", "S18"],
+          "status": "verified"
+        },
+        {
+          "year": "2017",
+          "title": {
+            "ca": "Escoles del Parc",
+            "es": "Escoles del Parc"
+          },
+          "text": {
+            "ca": "Escoles del Parc integra el parc en els projectes educatius de totes dues escoles.",
+            "es": "Escoles del Parc integra el parque en los proyectos educativos de ambas escuelas."
+          },
+          "sources": ["S20"],
+          "status": "verified"
+        },
+        {
+          "year": "2017-09-22",
+          "title": {
+            "ca": "Un camí compartit",
+            "es": "Un camino compartido"
+          },
+          "text": {
+            "ca": "Inauguració del Camí Amic del Parc.",
+            "es": "Inauguración del Camí Amic del Parc."
+          },
+          "sources": ["S21"],
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "future": [
+    {
+      "year": "2023-12",
+      "title": {
+        "ca": "Restaurar l’aigua i el jardí",
+        "es": "Restaurar el agua y el jardín"
+      },
+      "text": {
+        "ca": "L’AMB registra la restauració FEDER com a finalitzada el desembre de 2023. Inclou grutes, jardí romàntic i un circuit tancat per als canals de reg; això no acredita que la mina antiga torni a funcionar.",
+        "es": "La AMB registra la restauración FEDER como finalizada en diciembre de 2023. Incluye grutas, jardín romántico y un circuito cerrado para los canales de riego; esto no acredita que la mina antigua vuelva a funcionar."
+      },
+      "sources": ["H26"],
+      "status": "verified"
+    },
+    {
+      "year": "2025-11-19",
+      "title": {
+        "ca": "Un expedient de protecció",
+        "es": "Un expediente de protección"
+      },
+      "text": {
+        "ca": "La Resolució CLT/4294/2025 inicia l’expedient BCIN en la categoria de jardí històric. La font consultada és la incoació; no s’ha confirmat aquí una declaració definitiva ni el seu perímetre exacte.",
+        "es": "La Resolución CLT/4294/2025 inicia el expediente BCIN en la categoría de jardín histórico. La fuente consultada es la incoación; no se ha confirmado aquí una declaración definitiva ni su perímetro exacto."
+      },
+      "sources": ["H15", "H39"],
+      "status": "proposal"
+    },
+    {
+      "year": "2026-04-10",
+      "title": {
+        "ca": "PA-3, carrer de Sant Bru 205",
+        "es": "PA-3, calle de Sant Bru 205"
+      },
+      "text": {
+        "ca": "L’acord aprova definitivament el projecte d’urbanització. La fitxa municipal incorpora una rectificació posterior que cal revisar. Aprovació, autoritzacions i recepció d’obres són passos diferents; no s’acredita la finalització.",
+        "es": "El acuerdo aprueba definitivamente el proyecto de urbanización. La ficha municipal incorpora una rectificación posterior pendiente de revisión. Aprobación, autorizaciones y recepción de obras son pasos distintos; no se acredita la finalización."
+      },
+      "sources": ["H16", "H29"],
+      "status": "proposal"
+    },
+    {
+      "year": "2023",
+      "title": {
+        "ca": "Parc de les Arts",
+        "es": "Parc de les Arts"
+      },
+      "text": {
+        "ca": "La proposta de 2023 plantejava usos de dansa, teatre i còmic en edificis buits, inclosa una antiga seu d’Artur Martorell. No s’ha acreditat que la Casa del Còmic hi funcioni.",
+        "es": "La propuesta de 2023 planteaba usos de danza, teatro y cómic en edificios vacíos, incluida una antigua sede de Artur Martorell. No se ha acreditado que la Casa del Còmic funcione allí."
+      },
+      "sources": ["H28", "S31"],
+      "status": "proposal"
+    },
+    {
+      "year": "2025–2027",
+      "title": {
+        "ca": "La Riera: una institució diferent",
+        "es": "La Riera: una institución distinta"
+      },
+      "text": {
+        "ca": "La Riera es va crear el 2017. La Resolució 106/XV de febrer de 2025 insta a obrir la seu definitiva el curs 2026/27 i retirar mòduls abans de final de 2027. Són objectius, no resultats executats. L’antic Lola i Jumberca són emplaçaments diferents.",
+        "es": "La Riera se creó en 2017. La Resolución 106/XV de febrero de 2025 insta a abrir la sede definitiva en 2026/27 y retirar módulos antes de finales de 2027. Son objetivos, no resultados ejecutados. El antiguo Lola y Jumberca son emplazamientos distintos."
+      },
+      "sources": ["S25", "S27"],
+      "status": "proposal"
+    },
+    {
+      "year": "2026-05",
+      "title": {
+        "ca": "L’aulari provisional de Jumberca",
+        "es": "El aulario provisional de Jumberca"
+      },
+      "text": {
+        "ca": "L’Ajuntament va anunciar acabades les aules provisionals el maig de 2026. Aquesta notícia no acredita la rehabilitació del vell Lola ni l’inici efectiu de les classes a Jumberca al setembre.",
+        "es": "El Ayuntamiento anunció terminadas las aulas provisionales en mayo de 2026. Esta noticia no acredita la rehabilitación del antiguo Lola ni el inicio efectivo de las clases en Jumberca en septiembre."
+      },
+      "sources": ["S28", "S29"],
+      "status": "verified"
+    }
+  ],
+  "media": [
+    {
+      "id": "amb-photo-00",
+      "title": {
+        "ca": "Castell del llac i pont",
+        "es": "Castillo del lago y puente"
+      },
+      "description": {
+        "ca": "Publicada a la guia de 2012. Data de captura no documentada.",
+        "es": "Publicada en la guía de 2012. Fecha de captura no documentada."
+      },
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/parc-de-can-solei-i-ca-l-arnus/531469/11656",
+      "kind": "photo",
+      "image": "/media/amb-photo-00.webp",
+      "credit": "Ernest Costa i Savoia / AMB",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "source": "M02",
+      "width": 455,
+      "height": 647
+    },
+    {
+      "id": "amb-photo-05",
+      "title": {
+        "ca": "Passeig arbrat",
+        "es": "Paseo arbolado"
+      },
+      "description": {
+        "ca": "Publicada a la guia de 2012. Data de captura no documentada.",
+        "es": "Publicada en la guía de 2012. Fecha de captura no documentada."
+      },
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/parc-de-can-solei-i-ca-l-arnus/531469/11656",
+      "kind": "photo",
+      "image": "/media/amb-photo-05.webp",
+      "credit": "Ernest Costa i Savoia / AMB",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "source": "M02",
+      "width": 359,
+      "height": 213
+    },
+    {
+      "id": "amb-photo-06",
+      "title": {
+        "ca": "Glorieta entre plàtans",
+        "es": "Glorieta entre plátanos"
+      },
+      "description": {
+        "ca": "Publicada a la guia de 2012. Data de captura no documentada.",
+        "es": "Publicada en la guía de 2012. Fecha de captura no documentada."
+      },
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/parc-de-can-solei-i-ca-l-arnus/531469/11656",
+      "kind": "photo",
+      "image": "/media/amb-photo-06.webp",
+      "credit": "Ernest Costa i Savoia / AMB",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "source": "M02",
+      "width": 358,
+      "height": 204
+    },
+    {
+      "id": "amb-photo-07",
+      "title": {
+        "ca": "Torre Arnús",
+        "es": "Torre Arnús"
+      },
+      "description": {
+        "ca": "Publicada a la guia de 2012. Data de captura no documentada.",
+        "es": "Publicada en la guía de 2012. Fecha de captura no documentada."
+      },
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/parc-de-can-solei-i-ca-l-arnus/531469/11656",
+      "kind": "photo",
+      "image": "/media/amb-photo-07.webp",
+      "credit": "Ernest Costa i Savoia / AMB",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "source": "M02",
+      "width": 357,
+      "height": 221
+    },
+    {
+      "id": "amb-photo-10",
+      "title": {
+        "ca": "Torre del Rellotge",
+        "es": "Torre del Reloj"
+      },
+      "description": {
+        "ca": "Publicada a la guia de 2012. Data de captura no documentada.",
+        "es": "Publicada en la guía de 2012. Fecha de captura no documentada."
+      },
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/parc-de-can-solei-i-ca-l-arnus/531469/11656",
+      "kind": "photo",
+      "image": "/media/amb-photo-10.webp",
+      "credit": "Ernest Costa i Savoia / AMB",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "source": "M02",
+      "width": 359,
+      "height": 342
+    },
+    {
+      "id": "amb-photo-12",
+      "title": {
+        "ca": "Torre de l’Aigua",
+        "es": "Torre del Agua"
+      },
+      "description": {
+        "ca": "Publicada a la guia de 2012. Data de captura no documentada.",
+        "es": "Publicada en la guía de 2012. Fecha de captura no documentada."
+      },
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/parc-de-can-solei-i-ca-l-arnus/531469/11656",
+      "kind": "photo",
+      "image": "/media/amb-photo-12.webp",
+      "credit": "Ernest Costa i Savoia / AMB",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "source": "M02",
+      "width": 359,
+      "height": 438
+    },
+    {
+      "id": "icgc-ortofoto_color_vigent",
+      "title": {
+        "ca": "Ortofoto vigent del parc i entorn",
+        "es": "Ortofoto vigente del parque y su entorno"
+      },
+      "description": {
+        "ca": "Ortofoto vigent, consultada el 12/10/2026. Data de vol no verificada.",
+        "es": "Ortofoto vigente, consultada el 12/10/2026. Fecha de vuelo no verificada."
+      },
+      "url": "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+      "kind": "document",
+      "image": "/media/icgc-ortofoto_color_vigent.webp",
+      "credit": "Institut Cartogràfic i Geològic de Catalunya (ICGC); historic US-flight source may have separate owners",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio",
+      "source": "M04",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "id": "icgc-ortofoto_color_1993",
+      "title": {
+        "ca": "Ortofoto de 1993 del parc i entorn",
+        "es": "Ortofoto de 1993 del parque y su entorno"
+      },
+      "description": {
+        "ca": "Ortofoto de 1993 del parc i entorn.",
+        "es": "Ortofoto de 1993 del parque y su entorno."
+      },
+      "url": "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+      "kind": "document",
+      "image": "/media/icgc-ortofoto_color_1993.webp",
+      "credit": "Institut Cartogràfic i Geològic de Catalunya (ICGC); historic US-flight source may have separate owners",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio",
+      "source": "M04",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "id": "amb-botanical-map",
+      "title": {
+        "ca": "Plànol de l’itinerari botànic publicat el 2014",
+        "es": "Plano del itinerario botánico publicado en 2014"
+      },
+      "description": {
+        "ca": "Plànol de l’itinerari botànic publicat el 2014.",
+        "es": "Plano del itinerario botánico publicado en 2014."
+      },
+      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/itinerari-botanic-al-parc-de-can-solei-i-de-ca-l-arnus/701052/11656#page=6",
+      "kind": "document",
+      "image": "/media/amb-botanical-map.webp",
+      "credit": "Trimatge / AMB",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "source": "M01",
+      "width": 1600,
+      "height": 1136
+    },
+    {
+      "id": "amb-accessibility-2023",
+      "title": {
+        "ca": "Camí pavimentat del parc, documentat a la memòria AMB 2019–2023",
+        "es": "Camino pavimentado del parque, documentado en la memoria AMB 2019–2023"
+      },
+      "description": {
+        "ca": "Fotografia de la memòria AMB 2019–2023. No certifica l’accessibilitat de tot el parc.",
+        "es": "Fotografía de la memoria AMB 2019–2023. No certifica la accesibilidad de todo el parque."
+      },
+      "url": "https://memoria2023.amb.cat/territori/parcs",
+      "kind": "photo",
+      "image": "/media/amb-accessibility-2023.webp",
+      "credit": "AMB",
+      "license": {
+        "ca": "CC BY 4.0 · vegeu condicions",
+        "es": "CC BY 4.0 · consulta condiciones"
+      },
+      "licenseUrl": "https://www.amb.cat/s/web/amb/avis-legal.html",
+      "source": "H12",
+      "width": 795,
+      "height": 398
+    },
+    {
+      "id": "amb-video",
+      "title": {
+        "ca": "El parc, en moviment",
+        "es": "El parque, en movimiento"
+      },
+      "description": {
+        "ca": "Vídeo enllaçat pel portal oficial Smart AMB. Reproducció a YouTube; sense descàrrega ni còpia local.",
+        "es": "Vídeo enlazado por el portal oficial Smart AMB. Reproducción en YouTube; sin descarga ni copia local."
+      },
+      "url": "https://www.youtube.com/watch?v=acyXWw4_ZZQ",
+      "kind": "video",
+      "credit": "AMB · Smart AMB",
+      "license": {
+        "ca": "Enllaç a l’original; no redistribuït",
+        "es": "Enlace al original; no redistribuido"
+      },
+      "source": "M05"
+    },
+    {
+      "id": "museu-archive",
+      "title": {
+        "ca": "La memòria fotogràfica",
+        "es": "La memoria fotográfica"
+      },
+      "description": {
+        "ca": "Àlbum històric del Museu de Badalona. Consulta les fotografies i les seves condicions al catàleg original.",
+        "es": "Álbum histórico del Museu de Badalona. Consulta las fotografías y sus condiciones en el catálogo original."
+      },
+      "url": "https://www.flickr.com/photos/museudebadalona/albums/72157716642084172",
+      "kind": "photo",
+      "credit": "Museu de Badalona · Arxiu d’Imatges",
+      "license": {
+        "ca": "Referència externa · CC BY-NC-SA 2.0; no republicat",
+        "es": "Referencia externa · CC BY-NC-SA 2.0; no republicado"
+      },
+      "source": "M06"
+    }
+  ],
+  "intro": {
+    "ca": "Can Solei i Ca l’Arnús aplega el passat agrícola de Badalona, residències d’esbarjo i jardins històrics. Les cases, els camins i les obres hidràuliques permeten llegir transformacions de diversos segles.",
+    "es": "Can Solei i Ca l’Arnús reúne el pasado agrícola de Badalona, residencias de recreo y jardines históricos. Sus casas, caminos y obras hidráulicas permiten leer transformaciones de varios siglos."
+  },
+  "nature": {
+    "ca": "L’aigua, els arbres i l’arquitectura formen un mateix paisatge. L’itinerari botànic publicat el 2014 documenta 25 exemplars; avui és una referència per aprendre a observar, no un cens de presència actual. El Jardí de les Ciències, el jardí de papallones i l’hotel d’insectes relacionen natura i educació. Un estudi de 2021–2022 va inventariar la biodiversitat de la gran bassa, un espai diferent del llac romàntic.",
+    "es": "El agua, los árboles y la arquitectura forman un mismo paisaje. El itinerario botánico publicado en 2014 documenta 25 ejemplares; hoy es una referencia para aprender a observar, no un censo de presencia actual. El Jardí de les Ciències, el jardín de mariposas y el hotel de insectos relacionan naturaleza y educación. Un estudio de 2021–2022 inventarió la biodiversidad de la gran balsa, un espacio distinto del lago romántico."
+  },
+  "estates": {
+    "solei": {
+      "ca": "El mas documentat el 1565 va donar pas a jardins, usos agrícoles i cases d’esbarjo. Les Cases Bessones, l’antiga escola i la memòria de la Festa del Badiu expliquen la seva història ciutadana.",
+      "es": "El mas documentado en 1565 dio paso a jardines, usos agrícolas y casas de recreo. Las Casas Gemelas, la antigua escuela y la memoria de la Festa del Badiu explican su historia ciudadana."
+    },
+    "arnus": {
+      "ca": "Evarist Arnús va comprar part de la finca el 1859. La casa principal, el llac amb el seu castell i la torre meteorològica donen caràcter al jardí. La seva incorporació pública va arribar per fases.",
+      "es": "Evarist Arnús compró parte de la finca en 1859. La casa principal, el lago con su castillo y la torre meteorológica dan carácter al jardín. Su incorporación pública llegó por fases."
+    }
+  }
+}

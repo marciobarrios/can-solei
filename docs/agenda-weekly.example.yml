@@ -1,0 +1,27 @@
+# INACTIVE EXAMPLE: outside .github/workflows. Review sources before enabling.
+name: Review weekly agenda
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 7 * * 1"
+permissions:
+  contents: read
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm agenda:update
+      - run: pnpm test && pnpm build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: agenda-for-editorial-review
+          path: content/agenda.json
+# This conservative template produces a review artifact only.
+# PR creation or deployment must be configured separately after authorization.
