@@ -1422,37 +1422,6 @@ footer > a {
     transition: none !important;
   }
 }
-.entry-page {
-  max-width: 1150px;
-  margin: 8vh auto;
-  padding: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 50px;
-}
-.entry-page h1 {
-  font-size: 70px;
-  margin: 25px 0;
-}
-.entry-page > .garden-art {
-  border-radius: 50% 50% 4px 4px;
-}
-.entry-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 30px;
-}
-@media (max-width: 720px) {
-  .entry-page {
-    grid-template-columns: 1fr;
-    margin: 20px auto;
-  }
-  .entry-page h1 {
-    font-size: 56px;
-  }
-}
 .map-toolbar {
   display: flex;
   justify-content: space-between;
