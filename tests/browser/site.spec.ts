@@ -89,13 +89,13 @@ test("agenda dynamically separates past, upcoming and cancellations", async ({
   await expect(agenda.locator(".event")).toHaveCount(0);
   await expect(agenda).toContainText("más de dos semanas");
 });
-test("lightbox supports focus trap, Escape and restores focus; video link is external", async ({
+test("historical gallery and maps support filtering and accessible lightbox", async ({
   page,
 }) => {
   await page.goto("/es/");
   const gallery = page.locator("#arxiu");
   const trigger = gallery.getByRole("button", {
-    name: "Abrir Paseo de plátanos",
+    name: "Abrir Preparativos en el camino de entrada",
     exact: true,
   });
   await trigger.focus();
@@ -104,7 +104,7 @@ test("lightbox supports focus trap, Escape and restores focus; video link is ext
   await expect(dialog).toBeVisible();
   await expect(dialog.locator("img")).toHaveAttribute(
     "src",
-    "/media/commons-jordiferrer-02.webp",
+    "/media/museu-50537405721.webp",
   );
   for (let i = 0; i < 6; i++) {
     await page.keyboard.press("Tab");
@@ -135,15 +135,14 @@ test("lightbox supports focus trap, Escape and restores focus; video link is ext
   );
   await expect(dialog).toContainText("uso no comercial");
   await page.keyboard.press("Escape");
-  await gallery.getByRole("button", { name: "Vídeos", exact: true }).click();
-  await expect(gallery.locator(".media")).toHaveCount(1);
-  await gallery
-    .getByRole("button", { name: "Abrir El parque, en movimiento" })
-    .click();
+  await gallery.getByRole("button", { name: "Mapas", exact: true }).click();
+  await expect(gallery.locator(".media")).toHaveCount(3);
+  await gallery.getByRole("button", { name: "Todo", exact: true }).click();
+  await expect(gallery.locator(".media")).toHaveCount(11);
   await expect(
-    page.getByRole("dialog").getByRole("link", { name: "Consultar original" }),
-  ).toHaveAttribute("href", "https://www.youtube.com/watch?v=acyXWw4_ZZQ");
-  await expect(page.locator("iframe")).toHaveCount(0);
+    gallery.getByRole("button", { name: "Vídeos", exact: true }),
+  ).toHaveCount(0);
+  await expect(page.locator('a[href*="acyXWw4_ZZQ"]')).toHaveCount(0);
 });
 test("responsive page has no document overflow and navigation works", async ({
   page,

@@ -39,10 +39,8 @@ export function Gallery({
       >
         {[
           ["all", es ? "Todo" : "Tot"],
-          ["photo", es ? "Fotografías" : "Fotografies"],
           ["historical", es ? "Históricas" : "Històriques"],
-          ["video", es ? "Vídeos" : "Vídeos"],
-          ["document", es ? "Documentos" : "Documents"],
+          ["document", es ? "Mapas" : "Mapes"],
         ].map(([key, label]) => (
           <Button
             variant="ghost"
