@@ -25,7 +25,7 @@ export function HeroBadge({
 
   if (!event) {
     return (
-      <a href="#recorregut" className="art-badge translate-y-6 min-[721px]:-translate-x-6">
+      <a href="#recorregut" className="art-badge">
         <ArrowDown size={22} aria-hidden="true" />
         <span>{es ? "Pasea por sus historias" : "Passeja per les seves històries"}</span>
       </a>
@@ -48,7 +48,7 @@ export function HeroBadge({
   return (
     <a
       href="#agenda"
-      className="art-badge translate-y-6 min-[721px]:-translate-x-6 max-w-[calc(100%-24px)]"
+      className="art-badge max-w-[calc(100%-24px)]"
       aria-label={`${es ? "Ver agenda: próxima actividad" : "Veure agenda: propera activitat"}, ${event.title[lang]}, ${date}, ${time}`}
     >
       <CalendarDays size={22} className="shrink-0" aria-hidden="true" />
