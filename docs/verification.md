@@ -36,3 +36,19 @@ Lint, 22 pruebas Node, compilación Webpack y 12 pruebas Playwright correctos. L
 ## Selección editorial del 14/10/2026
 
 Retirados el vídeo y las nueve fotografías actuales. La galería conserva las ocho fotografías históricas y los tres mapas y ortofotos, con filtros Todo / Históricas / Mapas y sus equivalentes en catalán. Los derivados retirados se guardan en research, fuera de la exportación pública.
+
+## Corrección de enlaces salientes del 14 de octubre de 2026
+
+Se recuperaron ocho destinos del Museu de Badalona: cinco números de Carrer dels Arbres en `/pdf/carrerdelsarbres/`, los inventarios de obras y enseñanza en `/pdf/ahbdn/` y la ficha catalana de la exposición Evarist Arnús. Las rutas se obtuvieron de los índices oficiales [tercera época](https://museudebadalona.cat/publicacions/tercera-epoca/), [cuarta época](https://museudebadalona.cat/publicacions/quarta-epoca/) y [AHBDN](https://museudebadalona.cat/arxiu/ahbdn/); los PDF descargados contienen los artículos anunciados. Las referencias de la torre del reloj y de los hitos de 1883, 1888 y 1900 apuntan ahora a los estudios H03/H04, más precisos que el anuncio de exposición H05.
+
+La guía educativa S23 apunta al PDF municipal vigente de 2026–2027; se verificaron las fichas de Artur Martorell y Lola Anglada. S07 y S13 usan los enlaces permanentes de sus artículos. Se retiraron tres referencias sin citas en los hitos, lugares o medios: H38 (agenda antigua del museo desaparecida), S22 (guía educativa anterior no accesible; se conserva S23) y S33 (portada escolar paginada y mutable). Ningún relato pierde sus fuentes. El catálogo pasa de 89 a 86 referencias.
+
+El botón de original del plano botánico abre el PDF de AMB con `#page=6`: se comprobó visualmente que esa página es el plano mostrado. Los registros de procedencia conservan la ficha editorial, sin el fragmento inválido. Las dos ortofotos abren directamente el GetMap oficial del encuadre del parque y de su capa correspondiente (vigente o 1993), conservando sus créditos y licencias. La capa vigente puede cambiar con las actualizaciones del ICGC; la imagen local mantiene su fecha de consulta original.
+
+Validación sobre la rama corregida:
+
+- 120 destinos salientes únicos comprobados mediante GET y seguimiento de redirecciones: 119 respondieron 200 al primer intento; UPCommons respondió 418 con filtro de seguridad y 200 al repetir, con el título esperado. Este filtro externo puede reaparecer; no se considera una URL rota.
+- Los ocho eventos conservan sus fichas oficiales. No se han cambiado los datos de la agenda.
+- Lint, TypeScript, 22 pruebas de contenido/agenda y exportación estática con Webpack correctos; 12 pruebas Playwright correctas en escritorio y móvil.
+- Chromium: los 86 enlaces del catálogo y los tres destinos de los diálogos cartográficos coinciden con los datos corregidos tanto en CA como en ES. Capturas de galería revisadas en escritorio y móvil; no hay cambios de diseño.
+- Las comprobaciones de red son una observación puntual, no una garantía de disponibilidad futura de terceros. No se añaden peticiones de terceros a la CI.
