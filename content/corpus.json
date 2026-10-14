@@ -1610,19 +1610,6 @@
       },
       "sources": ["H16", "H17", "H29"],
       "status": "proposal"
-    },
-    {
-      "year": "2026-05",
-      "title": {
-        "ca": "Notícies d’enderrocs",
-        "es": "Noticias de demoliciones"
-      },
-      "text": {
-        "ca": "La premsa informa d’enderrocs a l’entorn Covesa.",
-        "es": "Prensa informa demoliciones del entorno Covesa."
-      },
-      "sources": ["H18"],
-      "status": "verified"
     }
   ],
   "schools": [

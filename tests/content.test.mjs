@@ -17,7 +17,7 @@ test("editorial corpus integrated; stable unique source identities", () => {
     new Set(content.sources.map((s) => s.id)).size,
     content.sources.length,
   );
-  assert.equal(content.history.length, 21);
+  assert.equal(content.history.length, 20);
   assert.equal(content.schools.length, 2);
   assert.equal(
     content.places.filter((p) => p.id.startsWith("tree-")).length,

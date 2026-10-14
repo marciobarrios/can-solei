@@ -312,35 +312,6 @@ export default async function Page({
             </a>
           </div>
         </section>
-        <section id="futur" className="section future-section">
-          <div className="section-heading">
-            <h2>{es ? "La historia continúa" : "La història continua"}</h2>
-            <p>
-              {es
-                ? "Qué se ha anunciado, qué está en trámite y qué falta por confirmar."
-                : "Què s’ha anunciat, què està en tràmit i què falta per confirmar."}
-            </p>
-          </div>
-          <div className="future-items">
-            {corpus.future.map((m, i) => (
-              <article key={i}>
-                <span className="status-label">
-                  {m.status === "verified"
-                    ? es
-                      ? "Documentado"
-                      : "Documentat"
-                    : es
-                      ? "En trámite / por confirmar"
-                      : "En tràmit / per confirmar"}
-                </span>
-                <h3>{m.title[lang]}</h3>
-                <p>{m.text[lang]}</p>
-                <span className="fine-print">{m.year}</span>
-                <Sources ids={m.sources} />
-              </article>
-            ))}
-          </div>
-        </section>
         <section id="agenda" className="section agenda-section">
           <AgendaPanel agenda={agenda} lang={lang} referenceNow={buildTime} />
         </section>
