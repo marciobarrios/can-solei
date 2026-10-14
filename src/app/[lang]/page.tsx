@@ -242,7 +242,10 @@ export default async function Page({
                 />
                 <ol>
                   {s.milestones.map((m, i) => (
-                    <li key={i}>
+                    <li
+                      key={i}
+                      className="grid-cols-[minmax(min-content,4.6875rem)_minmax(0,1fr)]!"
+                    >
                       <span>{m.year}</span>
                       <div>
                         <h4>{m.title[lang]}</h4>
