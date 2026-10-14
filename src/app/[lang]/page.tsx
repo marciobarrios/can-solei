@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import {
-  ArrowDown,
   ArrowUpRight,
   Leaf,
   MapPin,
@@ -11,7 +10,7 @@ import { Header } from "@/components/header";
 import { GardenArt } from "@/components/garden-art";
 import { ParkMap } from "@/components/park-map";
 import { Gallery } from "@/components/gallery";
-import { AgendaPanel, NextEvent } from "@/components/agenda";
+import { AgendaPanel, HeroBadge } from "@/components/agenda";
 import type { Corpus, Agenda, Lang } from "@/lib/types";
 import rawCorpus from "../../../content/corpus.json";
 import rawAgenda from "../../../content/agenda.json";
@@ -95,7 +94,6 @@ export default async function Page({
                   : "Dues finques. Un patrimoni compartit."}
               </span>
             </div>
-            <NextEvent agenda={agenda} lang={lang} referenceNow={buildTime} />
           </div>
           <figure className="hero-art">
             <GardenArt />
@@ -104,14 +102,7 @@ export default async function Page({
                 ? "Una mirada ilustrada al parque. Interpretación, no fotografía histórica."
                 : "Una mirada il·lustrada al parc. Interpretació, no fotografia històrica."}
             </figcaption>
-            <a href="#recorregut" className="art-badge">
-              <ArrowDown size={22} />
-              <span>
-                {es
-                  ? "Pasea por sus historias"
-                  : "Passeja per les seves històries"}
-              </span>
-            </a>
+            <HeroBadge agenda={agenda} lang={lang} referenceNow={buildTime} />
           </figure>
         </section>
         <div className="intro-strip">

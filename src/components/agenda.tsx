@@ -1,6 +1,6 @@
 "use client";
 import { useState, useSyncExternalStore } from "react";
-import { CalendarDays, ExternalLink } from "lucide-react";
+import { ArrowDown, CalendarDays, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Agenda, Lang } from "@/lib/types";
 const subscribe = (notify: () => void) => {
@@ -8,7 +8,7 @@ const subscribe = (notify: () => void) => {
   return () => clearInterval(timer);
 };
 const getNow = () => Math.floor(Date.now() / 60000) * 60000;
-export function NextEvent({
+export function HeroBadge({
   agenda,
   lang,
   referenceNow,
@@ -23,7 +23,14 @@ export function NextEvent({
     .filter((event) => event.status === "scheduled" && Date.parse(event.start) >= now)
     .sort((a, b) => Date.parse(a.start) - Date.parse(b.start))[0];
 
-  if (!event) return null;
+  if (!event) {
+    return (
+      <a href="#recorregut" className="art-badge">
+        <ArrowDown size={22} aria-hidden="true" />
+        <span>{es ? "Pasea por sus historias" : "Passeja per les seves històries"}</span>
+      </a>
+    );
+  }
 
   const date = new Intl.DateTimeFormat(lang, {
     day: "numeric",
@@ -39,32 +46,20 @@ export function NextEvent({
       }).format(new Date(event.start));
 
   return (
-    <aside
-      aria-label={es ? "Próximo evento" : "Propera activitat"}
-      className="mt-4 flex min-w-0 items-center gap-2 text-xs"
+    <a
+      href="#agenda"
+      className="art-badge max-w-[calc(100%-24px)]"
+      aria-label={`${es ? "Ver agenda: próximo evento" : "Veure agenda: propera activitat"}, ${event.title[lang]}, ${date}, ${time}`}
     >
-      <CalendarDays size={14} className="shrink-0 text-[#50675e]" aria-hidden="true" />
-      <time dateTime={event.start} className="shrink-0 whitespace-nowrap text-[#50675e]">
-        {date} · {time}
-      </time>
-      <a
-        href={event.url}
-        target="_blank"
-        rel="noreferrer"
-        title={event.title[lang]}
-        className="flex min-h-11 min-w-0 items-center underline decoration-[#9bb0a1] underline-offset-4 hover:decoration-current"
-      >
-        <span className="truncate">{event.title[lang]}</span>
-      </a>
-      <span aria-hidden="true" className="text-[#9bb0a1]">·</span>
-      <a
-        href="#agenda"
-        aria-label={es ? "Ver toda la agenda" : "Veure tota l’agenda"}
-        className="inline-flex min-h-11 shrink-0 items-center text-[#50675e]! hover:text-[#16332c]! hover:underline hover:underline-offset-4"
-      >
-        Agenda
-      </a>
-    </aside>
+      <CalendarDays size={22} className="shrink-0" aria-hidden="true" />
+      <span className="min-w-0 max-w-[240px]!">
+        <span className="block max-w-none! text-[11px]">
+          {es ? "Próximo evento" : "Propera activitat"} · <time dateTime={event.start}>{date} · {time}</time>
+        </span>
+        <span className="mt-1 block max-w-none! text-sm font-semibold">{event.title[lang]}</span>
+        <span className="mt-1 block text-[11px] opacity-75">{es ? "Ver agenda" : "Veure agenda"} ↓</span>
+      </span>
+    </a>
   );
 }
 
