@@ -55,7 +55,6 @@ export function HeroBadge({
       className="art-badge max-w-[calc(100%-24px)]"
       aria-label={`${es ? "Ver agenda: próxima actividad" : "Veure agenda: propera activitat"}, ${event.title[lang]}, ${date}, ${time}`}
     >
-      <CalendarDays size={32} className="shrink-0" aria-hidden="true" />
       <span className="min-w-0 max-w-[240px]!">
         <span className="block max-w-none! text-[10px] font-semibold tracking-[0.1em] opacity-70 uppercase">
           {es ? "Próxima actividad" : "Propera activitat"}
@@ -63,10 +62,13 @@ export function HeroBadge({
         <span className="mt-1.5 block max-w-none! text-base font-semibold text-pretty">
           {event.title[lang]}
         </span>
-        <time dateTime={event.start} className="mt-1 block">
-          <span className="block max-w-none! text-[14px] font-normal">{date}</span>{" "}
-          <span className="block max-w-none! text-[12px] opacity-70">{time}</span>
-        </time>
+        <span className="mt-2 flex max-w-none! items-center gap-3">
+          <CalendarDays size={32} className="shrink-0" aria-hidden="true" />
+          <time dateTime={event.start} className="min-w-0">
+            <span className="block max-w-none! text-[14px] font-normal">{date}</span>{" "}
+            <span className="block max-w-none! text-[12px] opacity-70">{time}</span>
+          </time>
+        </span>
       </span>
     </a>
   );
