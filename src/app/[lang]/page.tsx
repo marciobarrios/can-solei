@@ -181,34 +181,6 @@ export default async function Page({
               : "Aquest esquema no certifica itineraris accessibles ni accés a l’interior dels edificis. Consulta la informació oficial abans de la visita."}
           </p>
         </section>
-        <section id="historia" className="section history-section">
-          <div className="section-heading">
-            <h2>
-              {es ? "El tiempo entre los árboles" : "El temps entre els arbres"}
-            </h2>
-            <p>
-              {es
-                ? "De fincas privadas a espacio compartido. Sigue las fechas documentadas de su transformación."
-                : "De finques privades a espai compartit. Segueix les dates documentades de la seva transformació."}
-            </p>
-          </div>
-          <ol className="timeline">
-            {corpus.history.map((m, i) => (
-              <li key={i}>
-                <div className="timeline-year">
-                  {es && m.year === "Inicis del s. XX"
-                    ? "Principios del s. XX"
-                    : m.year}
-                </div>
-                <div>
-                  <h3>{m.title[lang]}</h3>
-                  <p>{m.text[lang]}</p>
-                  <Sources ids={m.sources} />
-                </div>
-              </li>
-            ))}
-          </ol>
-        </section>
         <section id="curiositats" className="section">
           <div className="section-heading">
             <h2>{es ? "¿Sabías que…?" : "Sabies que…?"}</h2>
@@ -250,6 +222,34 @@ export default async function Page({
               );
             })}
           </div>
+        </section>
+        <section id="historia" className="section history-section">
+          <div className="section-heading">
+            <h2>
+              {es ? "El tiempo entre los árboles" : "El temps entre els arbres"}
+            </h2>
+            <p>
+              {es
+                ? "De fincas privadas a espacio compartido. Sigue las fechas documentadas de su transformación."
+                : "De finques privades a espai compartit. Segueix les dates documentades de la seva transformació."}
+            </p>
+          </div>
+          <ol className="timeline">
+            {corpus.history.map((m, i) => (
+              <li key={i}>
+                <div className="timeline-year">
+                  {es && m.year === "Inicis del s. XX"
+                    ? "Principios del s. XX"
+                    : m.year}
+                </div>
+                <div>
+                  <h3>{m.title[lang]}</h3>
+                  <p>{m.text[lang]}</p>
+                  <Sources ids={m.sources} />
+                </div>
+              </li>
+            ))}
+          </ol>
         </section>
         <section id="escoles" className="section schools-section">
           <div className="section-heading">

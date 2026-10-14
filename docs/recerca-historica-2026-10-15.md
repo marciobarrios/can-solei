@@ -71,7 +71,7 @@ El mismo estudio menciona la pintura **Jardins de Ca l'Arnús**, de **Bernat Bin
 
 ## Incorporación a la web — 15/10/2026
 
-El bloque «Sabies que… / ¿Sabías que…?» aparece después de Historia: esculturas musicales, fotografía estereoscópica y ladrillos belgas, con fuentes y enlaces que seleccionan el lugar relacionado en el mapa. La galería incorpora la fotografía de Salvany en Históricas y los planos de 1859 en Mapas como referencias externas explícitas. Se enlaza la ficha de la Biblioteca y el estudio del Museu; no se redistribuyen sus imágenes ni se sustituye la reproducción ausente por una ilustración. Los demás candidatos siguen en investigación.
+El bloque «Sabies que… / ¿Sabías que…?» aparece inmediatamente después del mapa y antes de Historia: esculturas musicales, fotografía estereoscópica y ladrillos belgas, con fuentes y enlaces que seleccionan el lugar relacionado en el mapa. La galería incorpora la fotografía de Salvany en Históricas y los planos de 1859 en Mapas como referencias externas explícitas. Se enlaza la ficha de la Biblioteca y el estudio del Museu; no se redistribuyen sus imágenes ni se sustituye la reproducción ausente por una ilustración. Los demás candidatos siguen en investigación.
 
 ## Actualización: imágenes incorporadas
 

@@ -63,7 +63,7 @@ Verificación de la rama de PR sobre `origin/main` (`5bc827a`): lint correcto, 2
 
 ## Curiosidades y referencias visibles — 15/10/2026
 
-Tres tarjetas bilingües después de Historia, con fuentes y navegación al lugar del mapa. Los enlaces restablecen filtros y búsqueda, seleccionan el lugar y llevan el foco a su ficha, también al repetir el mismo enlace o cargarlo directamente. Dos referencias externas en la galería: Salvany 1912 (Históricas) y planos de 1859 (Mapas). Se mantienen once imágenes locales y sus licencias; hay trece entradas de archivo en total.
+Tres tarjetas bilingües inmediatamente después del mapa y antes de Historia, con fuentes y navegación al lugar del mapa. Los enlaces restablecen filtros y búsqueda, seleccionan el lugar y llevan el foco a su ficha, también al repetir el mismo enlace o cargarlo directamente. Dos referencias externas en la galería: Salvany 1912 (Históricas) y planos de 1859 (Mapas). Se mantienen once imágenes locales y sus licencias; hay trece entradas de archivo en total.
 
 Lint, build Webpack/TypeScript, 22 pruebas de contenido y 22 pruebas de navegador correctos. Revisión visual en castellano a 1200 px y catalán a 390 px, incluidas las tarjetas y la referencia de archivo. Capturas locales: `research/review/curiosities-desktop.png`, `research/review/curiosities-mobile.png`, `research/review/archive-reference-mobile.png`.
 
