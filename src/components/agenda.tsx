@@ -64,8 +64,8 @@ export function HeroBadge({
           {event.title[lang]}
         </span>
         <time dateTime={event.start} className="mt-1 block">
-          <span className="block max-w-none! text-[16px] font-normal">{date}</span>{" "}
-          <span className="block max-w-none! text-[11px] text-[#50675e]">{time}</span>
+          <span className="block max-w-none! text-[14px] font-normal">{date}</span>{" "}
+          <span className="block max-w-none! text-[12px] opacity-70">{time}</span>
         </time>
       </span>
     </a>
