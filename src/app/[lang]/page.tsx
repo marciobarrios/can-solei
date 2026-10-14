@@ -67,7 +67,6 @@ export default async function Page({
     <>
       <Header lang={lang} />
       <main id="main">
-        <NextEvent agenda={agenda} lang={lang} referenceNow={buildTime} />
         <section className="hero">
           <div className="hero-copy">
             <div className="location">
@@ -84,6 +83,7 @@ export default async function Page({
                 ? "Hay lugares que se descubren caminando. Entre jardines, agua y memoria, Can Solei i Ca l’Arnús te espera."
                 : "Hi ha llocs que es descobreixen caminant. Entre jardins, aigua i memòria, Can Solei i Ca l’Arnús t’espera."}
             </p>
+            <NextEvent agenda={agenda} lang={lang} referenceNow={buildTime} />
             <a className="primary-link" href="#mapa">
               {es ? "Encuentra tu próximo rincón" : "Troba el teu proper racó"}
               <ArrowUpRight size={20} />
