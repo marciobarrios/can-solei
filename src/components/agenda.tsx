@@ -46,7 +46,7 @@ export function HeroBadge({
   const time = event.allDay
     ? es ? "Todo el día" : "Tot el dia"
     : event.end
-      ? `de ${formatTime(event.start)} a ${formatTime(event.end)}`
+      ? `${formatTime(event.start)} – ${formatTime(event.end)}`
       : `${es ? "a las" : "a les"} ${formatTime(event.start)}`;
 
   return (
@@ -64,8 +64,8 @@ export function HeroBadge({
           {event.title[lang]}
         </span>
         <time dateTime={event.start} className="mt-1 block">
-          <span className="block max-w-none! text-base font-semibold">{date}</span>{" "}
-          <span className="block max-w-none! text-sm">{time}</span>
+          <span className="block max-w-none! text-[16px] font-normal">{date}</span>{" "}
+          <span className="block max-w-none! text-[11px] text-[#50675e]">{time}</span>
         </time>
       </span>
     </a>
