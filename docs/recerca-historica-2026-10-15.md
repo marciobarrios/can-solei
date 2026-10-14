@@ -72,3 +72,7 @@ El mismo estudio menciona la pintura **Jardins de Ca l'Arnús**, de **Bernat Bin
 ## Incorporación a la web — 15/10/2026
 
 El bloque «Sabies que… / ¿Sabías que…?» aparece después de Historia: esculturas musicales, fotografía estereoscópica y ladrillos belgas, con fuentes y enlaces que seleccionan el lugar relacionado en el mapa. La galería incorpora la fotografía de Salvany en Históricas y los planos de 1859 en Mapas como referencias externas explícitas. Se enlaza la ficha de la Biblioteca y el estudio del Museu; no se redistribuyen sus imágenes ni se sustituye la reproducción ausente por una ilustración. Los demás candidatos siguen en investigación.
+
+## Actualización: imágenes incorporadas
+
+El usuario solicita mostrar las reproducciones en vez de las referencias externas. Se publica la pareja Salvany de 1912 a 1574 × 720 y se sustituyen los planos enlazados por dos entradas: planta baja (817 × 616) y primer piso (818 × 575), extraídas de la página 99 del PDF del Museu. Esta decisión sustituye la recomendación previa de mantenerlas solo como enlaces. No se ha obtenido un maestro de mayor resolución. Véase `docs/media-rights.md` para la procedencia y la valoración de dominio público de los dibujos.

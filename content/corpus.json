@@ -2250,14 +2250,14 @@
       "height": 1136
     },
     {
-      "id": "salvany-1912-reference",
+      "id": "salvany-1912",
       "title": {
         "ca": "El castell en estèreo, 1912",
         "es": "El castillo en estéreo, 1912"
       },
       "description": {
-        "ca": "Dues vistes del castell del llac en una placa de vidre de Josep Salvany. Consulta la fotografia a la Biblioteca de Catalunya.",
-        "es": "Dos vistas del castillo del lago en una placa de vidrio de Josep Salvany. Consulta la fotografía en la Biblioteca de Catalunya."
+        "ca": "Fotografia estereoscòpica del castell del llac, presa per Josep Salvany el 1912. Placa de vidre de 6 × 13 cm. Es conserven les dues vistes originals.",
+        "es": "Fotografía estereoscópica del castillo del lago, tomada por Josep Salvany en 1912. Placa de vidrio de 6 × 13 cm. Se conservan las dos vistas originales."
       },
       "url": "https://mdc.csuc.cat/digital/collection/bcsalvany/id/978/rec/2",
       "kind": "photo",
@@ -2268,26 +2268,56 @@
         "es": "Dominio público"
       },
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "source": "M20"
+      "source": "M20",
+      "image": "/media/salvany-1912.webp",
+      "width": 1574,
+      "height": 720
     },
     {
-      "id": "arnus-1859-plans-reference",
+      "id": "arnus-1859-ground",
       "title": {
-        "ca": "Els plànols de la Torre Arnús, 1859",
-        "es": "Los planos de la Torre Arnús, 1859"
+        "ca": "Torre Arnús, 1859 · Planta baixa",
+        "es": "Torre Arnús, 1859 · Planta baja"
       },
       "description": {
-        "ca": "Planta baixa i primer pis de Josep Oriol Mestres, reproduïts a l’estudi del Museu de Badalona (pàgina impresa 99, figures 29 i 30).",
-        "es": "Planta baja y primer piso de Josep Oriol Mestres, reproducidos en el estudio del Museu de Badalona (página impresa 99, figuras 29 y 30)."
+        "ca": "Planta baixa de Josep Oriol Mestres, 1859. Reproducció del dibuix conservat a l’AHCB, publicada a Carrer dels Arbres, 6 (2021), pàgina 99.",
+        "es": "Planta baja de Josep Oriol Mestres, 1859. Reproducción del dibujo conservado en el AHCB, publicada en Carrer dels Arbres, 6 (2021), página 99."
       },
-      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-4-06.pdf",
+      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-4-06.pdf#page=99",
       "kind": "document",
       "credit": "Josep Oriol Mestres · Arxiu Històric de la Ciutat de Barcelona · 06001",
       "license": {
-        "ca": "Consulta a la publicació del Museu",
-        "es": "Consulta en la publicación del Museu"
+        "ca": "Domini públic · dibuix original",
+        "es": "Dominio público · dibujo original"
       },
-      "source": "H04"
+      "source": "H04",
+      "licenseUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17910#a7-4",
+      "image": "/media/arnus-1859-ground.webp",
+      "width": 817,
+      "height": 616
+    },
+    {
+      "id": "arnus-1859-first",
+      "title": {
+        "ca": "Torre Arnús, 1859 · Primer pis",
+        "es": "Torre Arnús, 1859 · Primer piso"
+      },
+      "description": {
+        "ca": "Primer pis de Josep Oriol Mestres, 1859. Reproducció del dibuix conservat a l’AHCB, publicada a Carrer dels Arbres, 6 (2021), pàgina 99.",
+        "es": "Primer piso de Josep Oriol Mestres, 1859. Reproducción del dibujo conservado en el AHCB, publicada en Carrer dels Arbres, 6 (2021), página 99."
+      },
+      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-4-06.pdf#page=99",
+      "kind": "document",
+      "credit": "Josep Oriol Mestres · Arxiu Històric de la Ciutat de Barcelona · 06001",
+      "license": {
+        "ca": "Domini públic · dibuix original",
+        "es": "Dominio público · dibujo original"
+      },
+      "source": "H04",
+      "licenseUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17910#a7-4",
+      "image": "/media/arnus-1859-first.webp",
+      "width": 818,
+      "height": 575
     }
   ],
   "intro": {

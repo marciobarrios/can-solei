@@ -66,3 +66,9 @@ Verificación de la rama de PR sobre `origin/main` (`5bc827a`): lint correcto, 2
 Tres tarjetas bilingües después de Historia, con fuentes y navegación al lugar del mapa. Los enlaces restablecen filtros y búsqueda, seleccionan el lugar y llevan el foco a su ficha, también al repetir el mismo enlace o cargarlo directamente. Dos referencias externas en la galería: Salvany 1912 (Históricas) y planos de 1859 (Mapas). Se mantienen once imágenes locales y sus licencias; hay trece entradas de archivo en total.
 
 Lint, build Webpack/TypeScript, 22 pruebas de contenido y 22 pruebas de navegador correctos. Revisión visual en castellano a 1200 px y catalán a 390 px, incluidas las tarjetas y la referencia de archivo. Capturas locales: `research/review/curiosities-desktop.png`, `research/review/curiosities-mobile.png`, `research/review/archive-reference-mobile.png`.
+
+## Foto de 1912 y planos de 1859 como imágenes — 15/10/2026
+
+Se reemplazan las dos referencias por tres reproducciones reales: foto estereoscópica completa y dos plantas separadas. Total: catorce imágenes, nueve en Históricas y cinco en Mapas. Las excepciones de resolución se limitan a estos tres IDs con sus dimensiones exactas; no hay interpolación ni modificación generativa.
+
+22 pruebas de contenido, 22 pruebas de navegador, lint y build Webpack/TypeScript correctos. Se comprueba apertura de las tres imágenes, crédito, enlace original y anchura del visor no superior al original en móvil y escritorio. Revisión visual de la foto en ES/móvil y planta baja en CA/escritorio. Capturas: `research/review/stereo-1912-mobile.png` y `research/review/plan-1859-desktop.png`.

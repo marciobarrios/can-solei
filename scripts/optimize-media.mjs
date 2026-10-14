@@ -8,6 +8,9 @@ const gallery = JSON.parse(
 const corpus = JSON.parse(await readFile("content/corpus.json", "utf8"));
 await mkdir("public/media", { recursive: true });
 const manifest = [];
+const resolutionExceptions = JSON.parse(
+  await readFile("content/media-resolution-exceptions.json", "utf8"),
+);
 for (const item of gallery) {
   if (!corpus.media.some((m) => m.id === item.id)) continue;
   if (item.rights_status !== "reuse-with-credit")
@@ -19,9 +22,15 @@ for (const item of gallery) {
   if (createHash("sha256").update(bytes).digest("hex") !== item.sha256)
     throw new Error(`Hash mismatch: ${item.id}`);
   const original = await sharp(bytes).metadata();
+  const exception = resolutionExceptions[item.id];
+  const approvedNativeSize =
+    exception &&
+    exception.width === original.width &&
+    exception.height === original.height;
   if (
-    Math.max(original.width, original.height) < 1200 ||
-    Math.min(original.width, original.height) < 800
+    !approvedNativeSize &&
+    (Math.max(original.width, original.height) < 1200 ||
+      Math.min(original.width, original.height) < 800)
   )
     throw new Error(`Source below minimum resolution: ${item.id}`);
   const output = `public/media/${item.id}.webp`;
@@ -48,6 +57,7 @@ for (const item of gallery) {
       ? { usageRestriction: item.usageRestriction }
       : {}),
     licenseUrl: item.license_url,
+    ...(exception ? { resolutionException: exception.reason } : {}),
     width: meta.width,
     height: meta.height,
     originalSha256: item.sha256,
