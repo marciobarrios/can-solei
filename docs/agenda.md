@@ -27,3 +27,11 @@ Fuentes oficiales consultadas el 12/10/2026:
 - https://nextjs.org/docs/app/guides/static-exports
 - https://vercel.com/docs/cron-jobs
 - https://vercel.com/docs/cron-jobs/manage-cron-jobs
+
+## Revisión editorial del 14/10/2026
+
+Los ocho eventos publicados coinciden en título, fecha, parque y horario (12–13 h) con el contenido oficial de AMB disponible en el lector/índice web. No se ha encontrado evidencia para modificar sus fechas o retirar actividades. La sesión del 11/10 está en el archivo; las siete siguientes corresponden al 18 y 25/10 y al 1, 8, 15, 22 y 29/11.
+
+Se corrigieron siete enlaces que apuntaban a la agenda general bajo la etiqueta «Ficha oficial». Ahora cada actividad enlaza a su convocatoria específica, recogida en `content/agenda.json`, con el identificador de recinto 2470367. La agenda general mezcla parques y repite títulos en distintas localidades, por lo que no basta con buscar por nombre.
+
+La comprobación usa contenido indexado (fichas próximas rastreadas dos días antes; listado y ficha del 11/10, seis días antes). Los seis intentos de apertura directa de fichas próximas devolvieron errores de caché del lector; no se certifican cambios o cancelaciones posteriores al rastreo. Se conserva `checkedAt` anterior para no presentar esta revisión del índice como una sincronización nueva con el origen. La ingesta automática sigue desactivada. Esta revisión no verifica que la selección cubra todos los actos del parque.
