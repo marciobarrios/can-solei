@@ -12,28 +12,28 @@
       "id": "H02",
       "title": "El parc de Can Solei-Ca l’Arnús",
       "publisher": "Carme Hilario Chancho / Museu de Badalona",
-      "url": "https://www.museudebadalona.cat/wp-content/uploads/Carrer-dels-arbres-3-12.pdf",
+      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-3-12.pdf",
       "date": "número 12; fecha pendiente"
     },
     {
       "id": "H03",
       "title": "La torre del rellotge de Ca l’Arnús: una estació meteorològica singular",
       "publisher": "Montserrat Guardiet y Gregori Muñoz Ramos / Museu de Badalona",
-      "url": "https://www.museudebadalona.cat/wp-content/uploads/Carrer-dels-arbres-3-19-compressed.pdf",
+      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-3-19-compressed.pdf",
       "date": "número 19; fecha pendiente"
     },
     {
       "id": "H04",
       "title": "El llegat artístic d’Evarist Arnús a Badalona: la torre Arnús obra de Josep Oriol Mestres i Esplugas",
       "publisher": "Anna Hernández Tudela / Museu de Badalona",
-      "url": "https://www.museudebadalona.cat/wp-content/uploads/Revista-Carrer-dels-Arbres-num-6-any-2021.pdf",
+      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-4-06.pdf",
       "date": "2021"
     },
     {
       "id": "H05",
-      "title": "Evarist Arnús and Badalona (1820-1890)",
+      "title": "Evarist Arnús i Badalona (1820-1890)",
       "publisher": "Museu de Badalona",
-      "url": "https://www.museudebadalona.cat/en/act/evarist-arnus-i-badalona-1820-1890/",
+      "url": "https://museudebadalona.cat/act/evarist-arnus-i-badalona-1820-1890/",
       "date": "2020"
     },
     {
@@ -173,7 +173,7 @@
       "id": "H25",
       "title": "Inventario Obres i Urbanisme",
       "publisher": "AHBDN / Museu de Badalona",
-      "url": "https://www.museudebadalona.cat/wp-content/uploads/6.-Obres-i-urbanisme.pdf",
+      "url": "https://museudebadalona.cat/pdf/ahbdn/6.-Obres-i-urbanisme.pdf",
       "date": "2024-02-08"
     },
     {
@@ -208,14 +208,14 @@
       "id": "H30",
       "title": "Carrer dels Arbres 7, historia Can Solei",
       "publisher": "Museu de Badalona",
-      "url": "https://www.museudebadalona.cat/wp-content/uploads/Carrer-dels-Arbres-7_2022-4a-epoca-b.pdf",
+      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-4-07.pdf",
       "date": "2022"
     },
     {
       "id": "H31",
       "title": "El monòlit de Can Solei: símbol d’una conquesta veïnal",
       "publisher": "Joan Mayné Amat / Museu",
-      "url": "https://www.museudebadalona.cat/wp-content/uploads/Carrer-dels-arbres-3-22-compressed.pdf",
+      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-3-22-compressed.pdf",
       "date": "2012"
     },
     {
@@ -259,13 +259,6 @@
       "publisher": "Pedro Jesús Fernández / La Plana de Canyadó",
       "url": "https://planadecanyado.wordpress.com/2017/11/17/el-mas-de-can-solei-ca-larnus/",
       "date": "2017-11-17"
-    },
-    {
-      "id": "H38",
-      "title": "Agenda octubre-gener: incorporaciones Arxiu d’Imatges",
-      "publisher": "Museu de Badalona",
-      "url": "https://www.museudebadalona.cat/wp-content/uploads/agenda-octubre-gener.pdf",
-      "date": "fecha de edición pendiente"
     },
     {
       "id": "H39",
@@ -341,7 +334,7 @@
       "id": "S07",
       "title": "Feliç 80 aniversari, escola Lola Anglada!!",
       "publisher": "AMPA Lola Anglada",
-      "url": "https://ampalolaanglada.wordpress.com/2010/11/",
+      "url": "https://ampalolaanglada.wordpress.com/2010/11/11/felic-80-aniversari-escola-lola-anglada/",
       "date": "2010-11-11"
     },
     {
@@ -362,7 +355,7 @@
       "id": "S10",
       "title": "Inventari 8. Ensenyament",
       "publisher": "Arxiu Històric / Museu Badalona",
-      "url": "https://www.museudebadalona.cat/wp-content/uploads/8.-Ensenyament.pdf",
+      "url": "https://museudebadalona.cat/pdf/ahbdn/8.-Ensenyament.pdf",
       "date": "2024-02-08"
     },
     {
@@ -383,7 +376,7 @@
       "id": "S13",
       "title": "Inici de les obres...",
       "publisher": "AMPA Lola Anglada",
-      "url": "https://ampalolaanglada.wordpress.com/page/42/",
+      "url": "https://ampalolaanglada.wordpress.com/2012/07/04/lassociacio-de-mares-i-pares-de-lescola-lola-anglada-celebra-que-linici-de-les-obres-ja-sigui-una-realitat/",
       "date": "2012-07-04"
     },
     {
@@ -443,18 +436,11 @@
       "date": "2017-2018"
     },
     {
-      "id": "S22",
-      "title": "Guia educativa 2025/26",
-      "publisher": "Ajuntament Badalona",
-      "url": "https://www.badalona.cat/ca/serveis-ajuntament/educacio-i-formacio/escolaritzacio/oficina-municipal-descolaritzacio-ome/guia-educativa-25_26.pdf",
-      "date": "2025-2026"
-    },
-    {
       "id": "S23",
-      "title": "Guia educativa archivo 2026-2027",
+      "title": "Guia educativa 2026-2027",
       "publisher": "Ajuntament Badalona",
-      "url": "https://www.badalona.cat/ca/serveis-ajuntament/educacio-i-formacio/escolaritzacio/preinscripcio-escolar-curs-2025-26/preinscripcio-escolar_guiaeducativa_2026-2027.pdf",
-      "date": "2026-2027 archivo; interior 2025/26"
+      "url": "https://www.badalona.cat/ca/serveis-ajuntament/educacio-i-formacio/escolaritzacio/preinscripcio-escolar-curs-2025-26/guia-educativa-2026-2027-1.pdf",
+      "date": "2026-2027"
     },
     {
       "id": "S24",
@@ -518,13 +504,6 @@
       "publisher": "Parlament BOPC157",
       "url": "https://www.parlament.cat/document/bopc/49644.pdf",
       "date": "1997-03-18"
-    },
-    {
-      "id": "S33",
-      "title": "Escola Lola Anglada portada p2",
-      "publisher": "Escola Lola Anglada",
-      "url": "https://agora.xtec.cat/ceip-lola-anglada-badalona/page/2/",
-      "date": "2025"
     },
     {
       "id": "M01",
@@ -674,7 +653,7 @@
         "ca": "Estació meteorològica instal·lada al costat del Teatre Líric de Barcelona el 1883 i traslladada aquí el 1900. No s’ha de confondre amb la torre del dipòsit d’aigua.",
         "es": "Estación meteorológica instalada junto al Teatre Líric de Barcelona en 1883 y trasladada aquí en 1900. No debe confundirse con la torre del depósito de agua."
       },
-      "sources": ["H05"],
+      "sources": ["H03", "H04"],
       "x": 52.5,
       "y": 48.42
     },
@@ -1427,7 +1406,7 @@
         "ca": "Estació meteorològica instal·lada al costat del Teatre Líric, a Barcelona.",
         "es": "Estación meteorológica instalada junto al Teatre Líric, en Barcelona."
       },
-      "sources": ["H05"],
+      "sources": ["H03"],
       "status": "verified"
     },
     {
@@ -1440,7 +1419,7 @@
         "ca": "Visita de la reina regent Maria Cristina.",
         "es": "Visita de la reina regente María Cristina."
       },
-      "sources": ["H05"],
+      "sources": ["H04"],
       "status": "verified"
     },
     {
@@ -1453,7 +1432,7 @@
         "ca": "Trasllat de la torre meteorològica a Ca l’Arnús.",
         "es": "Traslado de la torre meteorológica a Ca l’Arnús."
       },
-      "sources": ["H05"],
+      "sources": ["H04"],
       "status": "verified"
     },
     {
@@ -2204,7 +2183,7 @@
         "ca": "Ortofoto vigent, consultada el 12/10/2026. Data de vol no verificada.",
         "es": "Ortofoto vigente, consultada el 12/10/2026. Fecha de vuelo no verificada."
       },
-      "url": "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&SRS=EPSG%3A4326&BBOX=2.2495%2C41.4538%2C2.257%2C41.4594&WIDTH=1200&HEIGHT=1200&LAYERS=ortofoto_color_vigent&STYLES=&FORMAT=image%2Fjpeg",
       "kind": "document",
       "image": "/media/icgc-ortofoto_color_vigent.webp",
       "credit": "Institut Cartogràfic i Geològic de Catalunya (ICGC); historic US-flight source may have separate owners",
@@ -2227,7 +2206,7 @@
         "ca": "Ortofoto de 1993 del parc i entorn.",
         "es": "Ortofoto de 1993 del parque y su entorno."
       },
-      "url": "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&SRS=EPSG%3A4326&BBOX=2.2495%2C41.4538%2C2.257%2C41.4594&WIDTH=1200&HEIGHT=1200&LAYERS=ortofoto_color_1993&STYLES=&FORMAT=image%2Fjpeg",
       "kind": "document",
       "image": "/media/icgc-ortofoto_color_1993.webp",
       "credit": "Institut Cartogràfic i Geològic de Catalunya (ICGC); historic US-flight source may have separate owners",
@@ -2250,7 +2229,7 @@
         "ca": "Plànol de l’itinerari botànic publicat el 2014.",
         "es": "Plano del itinerario botánico publicado en 2014."
       },
-      "url": "https://www.amb.cat/web/territori/actualitat/publicacions/detall/-/publicacio/itinerari-botanic-al-parc-de-can-solei-i-de-ca-l-arnus/701052/11656#page=6",
+      "url": "https://docs.amb.cat/alfresco/api/-default-/public/alfresco/versions/1/nodes/986401a5-a7c9-4e25-93bc-61c410a35b7c/content/ITINERARI_cansoleicalarnus.pdf?attachment=false&mimeType=application/pdf&sizeInBytes=1953857#page=6",
       "kind": "document",
       "image": "/media/amb-botanical-map.webp",
       "credit": "Trimatge / AMB",
