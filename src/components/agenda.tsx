@@ -53,7 +53,7 @@ export function HeroBadge({
     >
       <CalendarDays size={22} className="shrink-0" aria-hidden="true" />
       <span className="min-w-0 max-w-[240px]!">
-        <span className="block max-w-none! text-[10px] font-semibold tracking-[0.1em] text-[#526059] uppercase">
+        <span className="block max-w-none! text-[10px] font-semibold tracking-[0.1em] opacity-70 uppercase">
           {es ? "Próxima actividad" : "Propera activitat"}
         </span>
         <span className="mt-1.5 block max-w-none! text-base font-semibold text-pretty">
