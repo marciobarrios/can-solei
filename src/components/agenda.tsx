@@ -57,6 +57,12 @@ export function NextEvent({
         {event.title[lang]}
         <ExternalLink size={14} className="shrink-0" aria-hidden="true" />
       </a>
+      <a
+        href="#agenda"
+        className="flex min-h-11 w-fit items-center text-xs text-[#50675e] underline underline-offset-4 hover:text-[#16332c]"
+      >
+        {es ? "Ver toda la agenda" : "Veure tota l’agenda"}
+      </a>
     </aside>
   );
 }
