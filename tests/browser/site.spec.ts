@@ -242,7 +242,7 @@ test("historical reproductions open real images at native size with credits", as
   await page.goto("/es/");
   const gallery = page.locator("#arxiu");
   for (const [filter, title, id, width] of [
-    ["Históricas", "El castillo en estéreo, 1912", "salvany-1912", 1574],
+    ["Históricas", "Dos miradas al castillo, 1912", "salvany-1912", 1574],
     ["Mapas", "Torre Arnús, 1859 · Planta baja", "arnus-1859-ground", 817],
     ["Mapas", "Torre Arnús, 1859 · Primer piso", "arnus-1859-first", 818],
   ] as const) {
