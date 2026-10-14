@@ -6,7 +6,7 @@ El navegador comprueba equivalencia de idiomas, imágenes cargadas, ausencia de 
 
 Axe 4.12.1: 0 violaciones y 0 comprobaciones incompletas tanto en `/ca/` como en `/es/` (48 reglas aprobadas por página). No equivale a una certificación universal WCAG ni cubre cada combinación de estado y tecnología asistiva. Capturas revisadas y resultados privados en `research/evidence/`.
 
-Corpus integrado: 97 referencias, 21 hitos del parque, cronologías separadas de los dos colegios, 36 lugares incluyendo 25 árboles de la guía botánica, seis asuntos futuros con estado explícito, veinte imágenes reutilizables y una referencia externa de vídeo. Ocho sesiones oficiales en el snapshot, siete futuras a fecha de investigación; ninguna fixture se publica.
+Corpus integrado: 89 referencias, 21 hitos del parque, cronologías separadas de los dos colegios, 36 lugares incluyendo 25 árboles de la guía botánica, seis asuntos futuros con estado explícito, once imágenes reutilizables: ocho fotografías históricas y tres recursos cartográficos. Ocho sesiones oficiales en el snapshot, siete futuras a fecha de investigación; ninguna fixture se publica.
 
 La transferencia Library conservó identidad y versión. ZIP de 55.673.244 bytes, SHA-256 `b928119927222281540191038ba297bb18afacca89ad9997749c05056199bf39`; 97 archivos de su manifiesto verificados. Originales, catálogos, licencias y evidencias permanecen en `research/`, ignorado por Git.
 
@@ -32,3 +32,7 @@ Las 12 pruebas Playwright pasan tras el cambio, incluyendo carga y resolución d
 Tras confirmar el usuario el carácter cultural y no comercial de la web, se verificaron las ocho licencias individuales en Flickr y se incorporaron ocho originales de 1600 píxeles en el lado largo, sin recorte, ampliación ni eliminación de marcas de agua. Créditos de autor y archivo, fechas aproximadas y CC BY-NC-SA 2.0 visibles en catalán y castellano. Se añadió el filtro Históricas y se sustituyó la referencia genérica al álbum. Total: 17 fotografías, tres imágenes cartográficas y un vídeo enlazado.
 
 Lint, 22 pruebas Node, compilación Webpack y 12 pruebas Playwright correctos. Las pruebas de navegador cubren además las ocho fotos del filtro histórico, la apertura de la fotografía del lago de 1936 y su aviso de uso no comercial.
+
+## Selección editorial del 14/10/2026
+
+Retirados el vídeo y las nueve fotografías actuales. La galería conserva las ocho fotografías históricas y los tres mapas y ortofotos, con filtros Todo / Históricas / Mapas y sus equivalentes en catalán. Los derivados retirados se guardan en research, fuera de la exportación pública.

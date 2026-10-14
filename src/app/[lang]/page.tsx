@@ -312,8 +312,8 @@ export default async function Page({
             <h2>{es ? "Otras miradas al parque" : "Altres mirades al parc"}</h2>
             <p>
               {es
-                ? "Fotografías, documentos y relatos audiovisuales. Un archivo para seguir descubriendo."
-                : "Fotografies, documents i relats audiovisuals. Un arxiu per continuar descobrint."}
+                ? "Fotografías históricas y mapas. Un archivo para seguir descubriendo."
+                : "Fotografies històriques i mapes. Un arxiu per continuar descobrint."}
             </p>
           </div>
           <Gallery corpus={{ media: corpus.media }} lang={lang} />

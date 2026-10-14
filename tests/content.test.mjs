@@ -73,7 +73,7 @@ test("no unverified GPS for buildings and no research paths in public content", 
 });
 test("published media have audited license, matching bytes, dimensions and credits", async () => {
   const used = content.media.filter((m) => m.image);
-  assert.ok(used.length >= 12);
+  assert.equal(used.length, 11);
   for (const m of used) {
     const l = licenses.find((l) => l.path === m.image);
     assert.ok(l?.author);
