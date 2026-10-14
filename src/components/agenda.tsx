@@ -63,7 +63,7 @@ export function HeroBadge({
           {event.title[lang]}
         </span>
         <span className="mt-2 flex max-w-none! items-center gap-3">
-          <CalendarDays size={22} className="shrink-0" aria-hidden="true" />
+          <CalendarDays size={26} strokeWidth={1.5} className="shrink-0" aria-hidden="true" />
           <time dateTime={event.start} className="min-w-0">
             <span className="block max-w-none! text-[14px] font-normal">{date}</span>{" "}
             <span className="block max-w-none! text-[12px] opacity-70">{time}</span>
