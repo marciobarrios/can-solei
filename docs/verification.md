@@ -52,3 +52,11 @@ Validación sobre la rama corregida:
 - Lint, TypeScript, 22 pruebas de contenido/agenda y exportación estática con Webpack correctos; 12 pruebas Playwright correctas en escritorio y móvil.
 - Chromium: los 86 enlaces del catálogo y los tres destinos de los diálogos cartográficos coinciden con los datos corregidos tanto en CA como en ES. Capturas de galería revisadas en escritorio y móvil; no hay cambios de diseño.
 - Las comprobaciones de red son una observación puntual, no una garantía de disponibilidad futura de terceros. No se añaden peticiones de terceros a la CI.
+
+## Ortofoto y nueva investigación — 15/10/2026
+
+Sustituida la ortofoto color de 1993 (resolución nativa 2,5 m) por la capa ICGC en blanco y negro de 1994 (50 cm). Fecha de vuelo verificada por GetFeatureInfo en el centro del parque: 01/06/1994. Imagen inspeccionada, inventarios y textos CA/ES actualizados; se conserva el material anterior fuera de `public`.
+
+Validación: 22 pruebas de contenido/agenda correctas (`node --test tests/*.test.mjs`); exportación estática y TypeScript correctos (`node node_modules/next/dist/bin/next build --webpack`). Revisión manual en el build local, filtro Mapes y modal de la ortofoto: título, fecha, imagen, crédito y enlace visibles. Captura local en `research/review/ortofoto-1994-desktop.png`. El navegador registra un 404 preexistente de `favicon.ico`. Cambios locales, sin despliegue. Investigación adicional y límites de reutilización en `docs/recerca-historica-2026-10-15.md`; sus candidatos no se han añadido a la galería.
+
+Verificación de la rama de PR sobre `origin/main` (`5bc827a`): lint correcto, 22 pruebas de contenido/agenda y 18 pruebas de navegador (escritorio y móvil) correctas; build Webpack y TypeScript correctos. Las pruebas usan un puerto independiente para comprobar la exportación de este worktree. Se conserva el enlace directo al GetMap oficial incorporado en main, actualizado a la capa de 1994.

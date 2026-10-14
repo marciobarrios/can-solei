@@ -2197,27 +2197,27 @@
       "height": 1200
     },
     {
-      "id": "icgc-ortofoto_color_1993",
+      "id": "icgc-ortofoto_50cm_blanc_i_negre_1994",
       "title": {
-        "ca": "Ortofoto de 1993 del parc i entorn",
-        "es": "Ortofoto de 1993 del parque y su entorno"
+        "ca": "Ortofoto de 1994 del parc i entorn",
+        "es": "Ortofoto de 1994 del parque y su entorno"
       },
       "description": {
-        "ca": "Ortofoto de 1993 del parc i entorn.",
-        "es": "Ortofoto de 1993 del parque y su entorno."
+        "ca": "Vista aèria en blanc i negre del vol de l’1 de juny de 1994, amb una resolució de 50 cm per píxel. Permet observar els camins, els edificis i les parcel·les de les finques abans de la unió dels dos parcs.",
+        "es": "Vista aérea en blanco y negro del vuelo del 1 de junio de 1994, con una resolución de 50 cm por píxel. Permite observar los caminos, los edificios y las parcelas de las fincas antes de la unión de los dos parques."
       },
-      "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&SRS=EPSG%3A4326&BBOX=2.2495%2C41.4538%2C2.257%2C41.4594&WIDTH=1200&HEIGHT=1200&LAYERS=ortofoto_color_1993&STYLES=&FORMAT=image%2Fjpeg",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&SRS=EPSG:4326&BBOX=2.2495,41.4538,2.257,41.4594&WIDTH=1250&HEIGHT=1250&LAYERS=ortofoto_50cm_blanc_i_negre_1994&STYLES=&FORMAT=image/png",
       "kind": "document",
-      "image": "/media/icgc-ortofoto_color_1993.webp",
-      "credit": "Institut Cartogràfic i Geològic de Catalunya (ICGC); historic US-flight source may have separate owners",
+      "image": "/media/icgc-ortofoto_50cm_blanc_i_negre_1994.webp",
+      "credit": "Institut Cartogràfic i Geològic de Catalunya (ICGC)",
       "license": {
         "ca": "CC BY 4.0 · vegeu condicions",
         "es": "CC BY 4.0 · consulta condiciones"
       },
       "licenseUrl": "https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio",
       "source": "M04",
-      "width": 1200,
-      "height": 1200
+      "width": 1250,
+      "height": 1250
     },
     {
       "id": "amb-botanical-map",
