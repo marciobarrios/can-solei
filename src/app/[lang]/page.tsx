@@ -204,7 +204,7 @@ export default async function Page({
                   >
                     0{index + 1}
                   </span>
-                  <h3 className="mb-4 text-2xl leading-tight">
+                  <h3 className="mb-4! text-2xl leading-tight">
                     {item.title[lang]}
                   </h3>
                   <p className="mb-5 leading-relaxed">{item.text[lang]}</p>
