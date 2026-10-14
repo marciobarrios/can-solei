@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+import resolutionExceptions from "../../content/media-resolution-exceptions.json" with { type: "json" };
 test("equivalent languages, headings, images and no console errors", async ({
   page,
 }) => {
@@ -22,14 +23,26 @@ test("equivalent languages, headings, images and no console errors", async ({
     await img.scrollIntoViewIfNeeded();
     await expect
       .poll(() =>
-        img.evaluate((node) => {
+        img.evaluate((node, exceptions) => {
           const image = node as HTMLImageElement;
+          const id = image
+            .getAttribute("src")
+            ?.split("/")
+            .pop()
+            ?.replace(".webp", "");
+          const exception = exceptions[id as keyof typeof exceptions];
+          if (exception)
+            return (
+              image.complete &&
+              image.naturalWidth === exception.width &&
+              image.naturalHeight === exception.height
+            );
           return (
             image.complete &&
             Math.max(image.naturalWidth, image.naturalHeight) >= 1200 &&
             Math.min(image.naturalWidth, image.naturalHeight) >= 800
           );
-        }),
+        }, resolutionExceptions),
       )
       .toBe(true);
   }
@@ -122,7 +135,7 @@ test("historical gallery and maps support filtering and accessible lightbox", as
   await gallery
     .getByRole("button", { name: "Históricas", exact: true })
     .click();
-  await expect(gallery.locator(".media")).toHaveCount(8);
+  await expect(gallery.locator(".media")).toHaveCount(9);
   await gallery
     .getByRole("button", {
       name: "Abrir El lago, septiembre de 1936",
@@ -136,9 +149,9 @@ test("historical gallery and maps support filtering and accessible lightbox", as
   await expect(dialog).toContainText("uso no comercial");
   await page.keyboard.press("Escape");
   await gallery.getByRole("button", { name: "Mapas", exact: true }).click();
-  await expect(gallery.locator(".media")).toHaveCount(3);
+  await expect(gallery.locator(".media")).toHaveCount(5);
   await gallery.getByRole("button", { name: "Todo", exact: true }).click();
-  await expect(gallery.locator(".media")).toHaveCount(11);
+  await expect(gallery.locator(".media")).toHaveCount(14);
   await expect(
     gallery.getByRole("button", { name: "Vídeos", exact: true }),
   ).toHaveCount(0);
@@ -193,4 +206,60 @@ test("skip link and reduced motion", async ({ page }) => {
       .locator("html")
       .evaluate((e) => getComputedStyle(e).scrollBehavior),
   ).toBe("auto");
+});
+
+test("curiosities select map places through filters, repeated links and direct URLs", async ({
+  page,
+}) => {
+  await page.goto("/es/");
+  const stories = page.locator("#curiositats");
+  await expect(stories.locator("article")).toHaveCount(3);
+  const map = page.locator("#mapa");
+  await map.getByRole("button", { name: "Escuelas", exact: true }).click();
+  await map.getByRole("textbox").fill("Lola");
+  const castle = stories
+    .getByRole("link", { name: "Ver Castillo del Lago en el mapa" })
+    .first();
+  await castle.click();
+  await expect(map.locator(".place-detail h3")).toHaveText("Castillo del Lago");
+  await expect(map.getByRole("textbox")).toHaveValue("");
+  await expect(map.locator(".place-detail")).toBeFocused();
+  await map.getByRole("button", { name: "Escuelas", exact: true }).click();
+  await castle.click();
+  await expect(map.locator(".place-detail h3")).toHaveText("Castillo del Lago");
+  await page.goto("/ca/#mapa-torre-rellotge");
+  await expect(map.locator(".place-detail h3")).toHaveText(
+    "Torre del Rellotge",
+  );
+  await expect(
+    stories.getByRole("heading", { name: "Sabies que…?" }),
+  ).toBeVisible();
+});
+
+test("historical reproductions open real images at native size with credits", async ({
+  page,
+}) => {
+  await page.goto("/es/");
+  const gallery = page.locator("#arxiu");
+  for (const [filter, title, id, width] of [
+    ["Históricas", "Dos miradas al castillo, 1912", "salvany-1912", 1574],
+    ["Mapas", "Torre Arnús, 1859 · Planta baja", "arnus-1859-ground", 817],
+    ["Mapas", "Torre Arnús, 1859 · Primer piso", "arnus-1859-first", 818],
+  ] as const) {
+    await gallery.getByRole("button", { name: filter, exact: true }).click();
+    await gallery
+      .getByRole("button", { name: `Abrir ${title}`, exact: true })
+      .click();
+    const dialog = page.getByRole("dialog");
+    const img = dialog.locator("img");
+    await expect(img).toHaveAttribute("src", `/media/${id}.webp`);
+    await expect(dialog).toContainText("Dominio público");
+    await expect(
+      dialog.getByRole("link", { name: "Consultar original" }),
+    ).toHaveAttribute("href", /^https:/);
+    expect(
+      await img.evaluate((el) => el.getBoundingClientRect().width),
+    ).toBeLessThanOrEqual(width);
+    await page.keyboard.press("Escape");
+  }
 });

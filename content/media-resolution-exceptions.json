@@ -1,0 +1,17 @@
+{
+  "salvany-1912": {
+    "width": 1574,
+    "height": 720,
+    "reason": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement."
+  },
+  "arnus-1859-ground": {
+    "width": 817,
+    "height": 616,
+    "reason": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement."
+  },
+  "arnus-1859-first": {
+    "width": 818,
+    "height": 575,
+    "reason": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement."
+  }
+}

@@ -181,6 +181,48 @@ export default async function Page({
               : "Aquest esquema no certifica itineraris accessibles ni accés a l’interior dels edificis. Consulta la informació oficial abans de la visita."}
           </p>
         </section>
+        <section id="curiositats" className="section">
+          <div className="section-heading">
+            <h2>{es ? "¿Sabías que…?" : "Sabies que…?"}</h2>
+            <p>
+              {es
+                ? "Pequeñas historias para mirar el parque con otros ojos."
+                : "Petites històries per mirar el parc amb uns altres ulls."}
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-3">
+            {corpus.curiosities.map((item, index) => {
+              const place = corpus.places.find((p) => p.id === item.placeId)!;
+              return (
+                <article
+                  key={item.id}
+                  className="flex flex-col rounded-2xl border border-[#163e35]/15 bg-[#f4f1e7] p-6 sm:p-8"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="mb-5 text-sm tabular-nums text-[#496057]"
+                  >
+                    0{index + 1}
+                  </span>
+                  <h3 className="mb-4! text-2xl leading-tight">
+                    {item.title[lang]}
+                  </h3>
+                  <p className="mb-5 leading-relaxed">{item.text[lang]}</p>
+                  <Sources ids={item.sources} />
+                  <a
+                    className="mt-auto flex min-h-11 items-center gap-2 pt-6 text-sm underline underline-offset-4"
+                    href={`#mapa-${item.placeId}`}
+                  >
+                    <MapPin size={16} aria-hidden="true" className="shrink-0" />
+                    {es
+                      ? `Ver ${place.name.es} en el mapa`
+                      : `Veure ${place.name.ca} al mapa`}
+                  </a>
+                </article>
+              );
+            })}
+          </div>
+        </section>
         <section id="historia" className="section history-section">
           <div className="section-heading">
             <h2>

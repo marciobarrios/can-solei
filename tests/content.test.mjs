@@ -8,6 +8,9 @@ const agenda = JSON.parse(readFileSync("content/agenda.json", "utf8"));
 const licenses = JSON.parse(
   readFileSync("content/media-licenses.json", "utf8"),
 );
+const resolutionExceptions = JSON.parse(
+  readFileSync("content/media-resolution-exceptions.json", "utf8"),
+);
 test("editorial corpus integrated; stable unique source identities", () => {
   assert.ok(content.sources.length >= 75);
   assert.equal(
@@ -41,6 +44,7 @@ test("all claims and media resolve source references", () => {
   for (const item of [
     ...content.places,
     ...content.history,
+    ...content.curiosities,
     ...content.future,
     ...content.schools.flatMap((s) => s.milestones),
   ]) {
@@ -73,14 +77,19 @@ test("no unverified GPS for buildings and no research paths in public content", 
 });
 test("published media have audited license, matching bytes, dimensions and credits", async () => {
   const used = content.media.filter((m) => m.image);
-  assert.equal(used.length, 11);
+  assert.equal(used.length, 14);
   for (const m of used) {
     const l = licenses.find((l) => l.path === m.image);
     assert.ok(l?.author);
     assert.ok(
-      ["CC BY 4.0", "CC BY-SA 4.0", "CC BY-NC-SA 2.0"].includes(l.license),
+      [
+        "CC BY 4.0",
+        "CC BY-SA 4.0",
+        "CC BY-NC-SA 2.0",
+        "Public domain",
+      ].includes(l.license),
     );
-    if (m.period === "historical") {
+    if (m.id.startsWith("museu-")) {
       assert.equal(l.license, "CC BY-NC-SA 2.0");
       assert.ok(l.usageRestriction.includes("Noncommercial"));
       assert.ok(m.license.es.includes("uso no comercial"));
@@ -94,8 +103,17 @@ test("published media have audited license, matching bytes, dimensions and credi
     assert.equal(actual.height, m.height);
     assert.equal(actual.width, l.width);
     assert.equal(actual.height, l.height);
-    assert.ok(Math.max(actual.width, actual.height) >= 1200, m.id);
-    assert.ok(Math.min(actual.width, actual.height) >= 800, m.id);
+    const exception = resolutionExceptions[m.id];
+    if (exception) {
+      assert.equal(actual.width, exception.width);
+      assert.equal(actual.height, exception.height);
+      assert.equal(l.originalWidth, actual.width);
+      assert.equal(l.originalHeight, actual.height);
+      assert.equal(l.resolutionException, exception.reason);
+    } else {
+      assert.ok(Math.max(actual.width, actual.height) >= 1200, m.id);
+      assert.ok(Math.min(actual.width, actual.height) >= 800, m.id);
+    }
     assert.ok(
       Math.max(l.originalWidth, l.originalHeight) >=
         Math.max(l.width, l.height),
