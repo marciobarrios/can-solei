@@ -57,59 +57,87 @@ export function Gallery({
           .filter(
             (m) => filter === "all" || m.kind === filter || m.period === filter,
           )
-          .map((item, index) => (
-            <article className={`media media-${item.kind}`} key={item.id}>
-              <button
-                className="media-preview"
-                onClick={(event) => {
-                  opener.current = event.currentTarget;
-                  setSelected(item);
-                }}
-                aria-label={`${es ? "Abrir" : "Obrir"} ${item.title[lang]}`}
+          .map((item, index) =>
+            !item.image ? (
+              <article
+                className="media flex flex-col rounded-2xl border border-[#163e35]/15 bg-[#f4f1e7] p-6 sm:p-8"
+                key={item.id}
               >
-                {item.image ? (
-                  <Image
-                    src={item.image}
-                    alt={item.title[lang]}
-                    loading="lazy"
-                    width={item.width ?? 800}
-                    height={item.height ?? 600}
-                  />
-                ) : (
-                  <>
-                    <GardenArt variant={index % 2 ? "trees" : "lake"} />
-                    <span className="media-symbol">
-                      {item.kind === "video" ? (
-                        <Play size={32} />
-                      ) : item.kind === "document" ? (
-                        <BookOpen size={32} />
-                      ) : (
-                        <ImageIcon size={32} />
-                      )}
-                    </span>
-                    <span className="reference-label">
-                      {es ? "Referencia externa" : "Referència externa"}
-                    </span>
-                  </>
-                )}
-                <span className="expand">
-                  <Maximize2 size={16} />
+                <span className="mb-6 flex items-center gap-2 text-sm text-[#496057]">
+                  <BookOpen size={20} aria-hidden="true" />
+                  {es
+                    ? "Referencia de archivo · enlace externo"
+                    : "Referència d’arxiu · enllaç extern"}
                 </span>
-              </button>
-              <h3>{item.title[lang]}</h3>
-              <p>{item.description[lang]}</p>
-              <p className="credit">
-                {item.credit} ·{" "}
-                {item.licenseUrl ? (
-                  <a href={item.licenseUrl} target="_blank" rel="noreferrer">
-                    {item.license[lang]}
-                  </a>
-                ) : (
-                  item.license[lang]
-                )}
-              </p>
-            </article>
-          ))}
+                <h3>{item.title[lang]}</h3>
+                <p>{item.description[lang]}</p>
+                <p className="credit">
+                  {item.credit} · {item.license[lang]}
+                </p>
+                <a
+                  className="mt-auto flex min-h-11 items-center gap-2 pt-6 underline underline-offset-4"
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {es ? "Consultar en el archivo" : "Consultar a l’arxiu"}
+                  <ExternalLink size={16} aria-hidden="true" />
+                </a>
+              </article>
+            ) : (
+              <article className={`media media-${item.kind}`} key={item.id}>
+                <button
+                  className="media-preview"
+                  onClick={(event) => {
+                    opener.current = event.currentTarget;
+                    setSelected(item);
+                  }}
+                  aria-label={`${es ? "Abrir" : "Obrir"} ${item.title[lang]}`}
+                >
+                  {item.image ? (
+                    <Image
+                      src={item.image}
+                      alt={item.title[lang]}
+                      loading="lazy"
+                      width={item.width ?? 800}
+                      height={item.height ?? 600}
+                    />
+                  ) : (
+                    <>
+                      <GardenArt variant={index % 2 ? "trees" : "lake"} />
+                      <span className="media-symbol">
+                        {item.kind === "video" ? (
+                          <Play size={32} />
+                        ) : item.kind === "document" ? (
+                          <BookOpen size={32} />
+                        ) : (
+                          <ImageIcon size={32} />
+                        )}
+                      </span>
+                      <span className="reference-label">
+                        {es ? "Referencia externa" : "Referència externa"}
+                      </span>
+                    </>
+                  )}
+                  <span className="expand">
+                    <Maximize2 size={16} />
+                  </span>
+                </button>
+                <h3>{item.title[lang]}</h3>
+                <p>{item.description[lang]}</p>
+                <p className="credit">
+                  {item.credit} ·{" "}
+                  {item.licenseUrl ? (
+                    <a href={item.licenseUrl} target="_blank" rel="noreferrer">
+                      {item.license[lang]}
+                    </a>
+                  ) : (
+                    item.license[lang]
+                  )}
+                </p>
+              </article>
+            ),
+          )}
       </div>
       <Dialog
         open={!!selected}

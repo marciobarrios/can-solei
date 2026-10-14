@@ -41,6 +41,7 @@ test("all claims and media resolve source references", () => {
   for (const item of [
     ...content.places,
     ...content.history,
+    ...content.curiosities,
     ...content.future,
     ...content.schools.flatMap((s) => s.milestones),
   ]) {

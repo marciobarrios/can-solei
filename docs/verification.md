@@ -60,3 +60,9 @@ Sustituida la ortofoto color de 1993 (resolución nativa 2,5 m) por la capa ICGC
 Validación: 22 pruebas de contenido/agenda correctas (`node --test tests/*.test.mjs`); exportación estática y TypeScript correctos (`node node_modules/next/dist/bin/next build --webpack`). Revisión manual en el build local, filtro Mapes y modal de la ortofoto: título, fecha, imagen, crédito y enlace visibles. Captura local en `research/review/ortofoto-1994-desktop.png`. El navegador registra un 404 preexistente de `favicon.ico`. Cambios locales, sin despliegue. Investigación adicional y límites de reutilización en `docs/recerca-historica-2026-10-15.md`; sus candidatos no se han añadido a la galería.
 
 Verificación de la rama de PR sobre `origin/main` (`5bc827a`): lint correcto, 22 pruebas de contenido/agenda y 18 pruebas de navegador (escritorio y móvil) correctas; build Webpack y TypeScript correctos. Las pruebas usan un puerto independiente para comprobar la exportación de este worktree. Se conserva el enlace directo al GetMap oficial incorporado en main, actualizado a la capa de 1994.
+
+## Curiosidades y referencias visibles — 15/10/2026
+
+Tres tarjetas bilingües después de Historia, con fuentes y navegación al lugar del mapa. Los enlaces restablecen filtros y búsqueda, seleccionan el lugar y llevan el foco a su ficha, también al repetir el mismo enlace o cargarlo directamente. Dos referencias externas en la galería: Salvany 1912 (Históricas) y planos de 1859 (Mapas). Se mantienen once imágenes locales y sus licencias; hay trece entradas de archivo en total.
+
+Lint, build Webpack/TypeScript, 22 pruebas de contenido y 22 pruebas de navegador correctos. Revisión visual en castellano a 1200 px y catalán a 390 px, incluidas las tarjetas y la referencia de archivo. Capturas locales: `research/review/curiosities-desktop.png`, `research/review/curiosities-mobile.png`, `research/review/archive-reference-mobile.png`.

@@ -122,7 +122,7 @@ test("historical gallery and maps support filtering and accessible lightbox", as
   await gallery
     .getByRole("button", { name: "Históricas", exact: true })
     .click();
-  await expect(gallery.locator(".media")).toHaveCount(8);
+  await expect(gallery.locator(".media")).toHaveCount(9);
   await gallery
     .getByRole("button", {
       name: "Abrir El lago, septiembre de 1936",
@@ -136,9 +136,9 @@ test("historical gallery and maps support filtering and accessible lightbox", as
   await expect(dialog).toContainText("uso no comercial");
   await page.keyboard.press("Escape");
   await gallery.getByRole("button", { name: "Mapas", exact: true }).click();
-  await expect(gallery.locator(".media")).toHaveCount(3);
+  await expect(gallery.locator(".media")).toHaveCount(4);
   await gallery.getByRole("button", { name: "Todo", exact: true }).click();
-  await expect(gallery.locator(".media")).toHaveCount(11);
+  await expect(gallery.locator(".media")).toHaveCount(13);
   await expect(
     gallery.getByRole("button", { name: "Vídeos", exact: true }),
   ).toHaveCount(0);
@@ -193,4 +193,67 @@ test("skip link and reduced motion", async ({ page }) => {
       .locator("html")
       .evaluate((e) => getComputedStyle(e).scrollBehavior),
   ).toBe("auto");
+});
+
+test("curiosities select map places through filters, repeated links and direct URLs", async ({
+  page,
+}) => {
+  await page.goto("/es/");
+  const stories = page.locator("#curiositats");
+  await expect(stories.locator("article")).toHaveCount(3);
+  const map = page.locator("#mapa");
+  await map.getByRole("button", { name: "Escuelas", exact: true }).click();
+  await map.getByRole("textbox").fill("Lola");
+  const castle = stories
+    .getByRole("link", { name: "Ver Castillo del Lago en el mapa" })
+    .first();
+  await castle.click();
+  await expect(map.locator(".place-detail h3")).toHaveText("Castillo del Lago");
+  await expect(map.getByRole("textbox")).toHaveValue("");
+  await expect(map.locator(".place-detail")).toBeFocused();
+  await map.getByRole("button", { name: "Escuelas", exact: true }).click();
+  await castle.click();
+  await expect(map.locator(".place-detail h3")).toHaveText("Castillo del Lago");
+  await page.goto("/ca/#mapa-torre-rellotge");
+  await expect(map.locator(".place-detail h3")).toHaveText(
+    "Torre del Rellotge",
+  );
+  await expect(
+    stories.getByRole("heading", { name: "Sabies que…?" }),
+  ).toBeVisible();
+});
+
+test("historical references link to archives without invented images or lightboxes", async ({
+  page,
+}) => {
+  await page.goto("/es/");
+  const gallery = page.locator("#arxiu");
+  await gallery
+    .getByRole("button", { name: "Históricas", exact: true })
+    .click();
+  const stereo = gallery
+    .locator("article")
+    .filter({
+      has: page.getByRole("heading", { name: "El castillo en estéreo, 1912" }),
+    });
+  await expect(stereo).toContainText("Referencia de archivo");
+  await expect(stereo.locator('img, button, svg[role="img"]')).toHaveCount(0);
+  await expect(stereo.getByRole("link")).toHaveAttribute(
+    "href",
+    "https://mdc.csuc.cat/digital/collection/bcsalvany/id/978/rec/2",
+  );
+  await gallery.getByRole("button", { name: "Mapas", exact: true }).click();
+  await expect(stereo).toHaveCount(0);
+  const plans = gallery
+    .locator("article")
+    .filter({
+      has: page.getByRole("heading", {
+        name: "Los planos de la Torre Arnús, 1859",
+      }),
+    });
+  await expect(plans).toContainText("página impresa 99");
+  await expect(plans.getByRole("link")).toHaveAttribute(
+    "href",
+    /Carrer-dels-arbres-4-06.pdf/,
+  );
 });

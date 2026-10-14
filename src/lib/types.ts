@@ -47,6 +47,13 @@ export type Corpus = {
   sources: Source[];
   places: Place[];
   history: Milestone[];
+  curiosities: {
+    id: string;
+    title: Copy;
+    text: Copy;
+    sources: string[];
+    placeId: string;
+  }[];
   schools: { id: string; name: string; intro: Copy; milestones: Milestone[] }[];
   future: Milestone[];
   media: Media[];

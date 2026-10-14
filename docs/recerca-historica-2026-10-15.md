@@ -68,3 +68,7 @@ El mismo estudio menciona la pintura **Jardins de Ca l'Arnús**, de **Bernat Bin
 2. Incorporar la curiosidad de las esculturas musicales con atribución al estudio del Museu y sin afirmar su localización actual.
 3. Localizar las reproducciones originales de los planos de 1859, AHCB 06001, y la pintura MB.18461; son mejores candidatos para enriquecer la historia del parque que un mapa genérico de ciudad.
 4. Reservar el plano ca. 1930 y la ficha soviética para contexto cartográfico, con los límites visuales y de derechos anteriores.
+
+## Incorporación a la web — 15/10/2026
+
+El bloque «Sabies que… / ¿Sabías que…?» aparece después de Historia: esculturas musicales, fotografía estereoscópica y ladrillos belgas, con fuentes y enlaces que seleccionan el lugar relacionado en el mapa. La galería incorpora la fotografía de Salvany en Históricas y los planos de 1859 en Mapas como referencias externas explícitas. Se enlaza la ficha de la Biblioteca y el estudio del Museu; no se redistribuyen sus imágenes ni se sustituye la reproducción ausente por una ilustración. Los demás candidatos siguen en investigación.

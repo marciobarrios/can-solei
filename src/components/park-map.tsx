@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { MapPin, ExternalLink, Search, ZoomIn, ZoomOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,6 +16,39 @@ export function ParkMap({
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState(corpus.places[0]?.id ?? "");
   const [zoom, setZoom] = useState(false);
+  useEffect(() => {
+    let frame = 0;
+    const selectLinkedPlace = () => {
+      const id = window.location.hash.slice(6);
+      if (
+        !window.location.hash.startsWith("#mapa-") ||
+        !corpus.places.some((p) => p.id === id)
+      )
+        return;
+      setFilter("all");
+      setQuery("");
+      setSelected(id);
+      frame = requestAnimationFrame(() => {
+        const detail = document.getElementById("map-place-detail");
+        detail?.focus({ preventScroll: true });
+        detail?.scrollIntoView({ block: "center" });
+      });
+    };
+    const repeatLink = (event: MouseEvent) => {
+      if (!(event.target instanceof Element)) return;
+      const anchor =
+        event.target.closest<HTMLAnchorElement>('a[href^="#mapa-"]');
+      if (anchor && anchor.hash === window.location.hash) selectLinkedPlace();
+    };
+    frame = requestAnimationFrame(selectLinkedPlace);
+    window.addEventListener("hashchange", selectLinkedPlace);
+    document.addEventListener("click", repeatLink);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("hashchange", selectLinkedPlace);
+      document.removeEventListener("click", repeatLink);
+    };
+  }, [corpus.places]);
   const labels = {
     all: es ? "Todos" : "Tots",
     heritage: es ? "Patrimonio" : "Patrimoni",
@@ -140,7 +173,12 @@ export function ParkMap({
                 : "No hi ha coincidències. Prova un altre nom o filtre."}
             </p>
           ) : (
-            <article className="place-detail" aria-live="polite">
+            <article
+              id="map-place-detail"
+              tabIndex={-1}
+              className="place-detail scroll-mt-28"
+              aria-live="polite"
+            >
               <h3>{active.name[lang]}</h3>
               <p>{active.detail[lang]}</p>
               <div className="source-links">

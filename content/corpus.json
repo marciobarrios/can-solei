@@ -594,6 +594,13 @@
       "title": "L’entrada de Canyadó als anys cinquanta",
       "url": "https://www.flickr.com/photos/museudebadalona/50537553932/",
       "publisher": "Museu de Badalona · Arxiu d’Imatges"
+    },
+    {
+      "id": "M20",
+      "title": "A la torre Arnús de Badalona · Josep Salvany, 1912 · SaP_088_03",
+      "publisher": "Biblioteca de Catalunya · Memòria Digital de Catalunya",
+      "url": "https://mdc.csuc.cat/digital/collection/bcsalvany/id/978/rec/2",
+      "date": "1912"
     }
   ],
   "places": [
@@ -2241,6 +2248,46 @@
       "source": "M01",
       "width": 1600,
       "height": 1136
+    },
+    {
+      "id": "salvany-1912-reference",
+      "title": {
+        "ca": "El castell en estèreo, 1912",
+        "es": "El castillo en estéreo, 1912"
+      },
+      "description": {
+        "ca": "Dues vistes del castell del llac en una placa de vidre de Josep Salvany. Consulta la fotografia a la Biblioteca de Catalunya.",
+        "es": "Dos vistas del castillo del lago en una placa de vidrio de Josep Salvany. Consulta la fotografía en la Biblioteca de Catalunya."
+      },
+      "url": "https://mdc.csuc.cat/digital/collection/bcsalvany/id/978/rec/2",
+      "kind": "photo",
+      "period": "historical",
+      "credit": "Josep Salvany i Blanch · Biblioteca de Catalunya · SaP_088_03",
+      "license": {
+        "ca": "Domini públic",
+        "es": "Dominio público"
+      },
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "M20"
+    },
+    {
+      "id": "arnus-1859-plans-reference",
+      "title": {
+        "ca": "Els plànols de la Torre Arnús, 1859",
+        "es": "Los planos de la Torre Arnús, 1859"
+      },
+      "description": {
+        "ca": "Planta baixa i primer pis de Josep Oriol Mestres, reproduïts a l’estudi del Museu de Badalona (pàgina impresa 99, figures 29 i 30).",
+        "es": "Planta baja y primer piso de Josep Oriol Mestres, reproducidos en el estudio del Museu de Badalona (página impresa 99, figuras 29 y 30)."
+      },
+      "url": "https://museudebadalona.cat/pdf/carrerdelsarbres/Carrer-dels-arbres-4-06.pdf",
+      "kind": "document",
+      "credit": "Josep Oriol Mestres · Arxiu Històric de la Ciutat de Barcelona · 06001",
+      "license": {
+        "ca": "Consulta a la publicació del Museu",
+        "es": "Consulta en la publicación del Museu"
+      },
+      "source": "H04"
     }
   ],
   "intro": {
@@ -2260,5 +2307,46 @@
       "ca": "Evarist Arnús va comprar part de la finca el 1859. La casa principal, el llac amb el seu castell i la torre meteorològica donen caràcter al jardí. La seva incorporació pública va arribar per fases.",
       "es": "Evarist Arnús compró parte de la finca en 1859. La casa principal, el lago con su castillo y la torre meteorológica dan carácter al jardín. Su incorporación pública llegó por fases."
     }
-  }
+  },
+  "curiosities": [
+    {
+      "id": "escultures-musicals",
+      "title": {
+        "ca": "Mozart i Beethoven al jardí",
+        "es": "Mozart y Beethoven en el jardín"
+      },
+      "text": {
+        "ca": "Segons l’estudi del Museu de Badalona, les escultures de Mozart i Beethoven procedents del Teatre Líric van estar a la finca fins aproximadament a principis dels anys cinquanta. La torre del rellotge també prové d’aquell teatre.",
+        "es": "Según el estudio del Museu de Badalona, las esculturas de Mozart y Beethoven procedentes del Teatre Líric estuvieron en la finca hasta aproximadamente principios de los años cincuenta. La torre del reloj también procede de aquel teatro."
+      },
+      "sources": ["H03"],
+      "placeId": "torre-rellotge"
+    },
+    {
+      "id": "fotografia-estereo",
+      "title": {
+        "ca": "Dues mirades al mateix castell",
+        "es": "Dos miradas al mismo castillo"
+      },
+      "text": {
+        "ca": "El 1912, Josep Salvany va fotografiar el castell del llac en una placa de vidre estereoscòpica de 6 × 13 cm. Les dues vistes del mateix racó estaven pensades per percebre’n la profunditat amb un visor. La Biblioteca de Catalunya conserva aquesta imatge.",
+        "es": "En 1912, Josep Salvany fotografió el castillo del lago en una placa de vidrio estereoscópica de 6 × 13 cm. Las dos vistas del mismo rincón estaban pensadas para percibir su profundidad con un visor. La Biblioteca de Catalunya conserva esta imagen."
+      },
+      "sources": ["M20"],
+      "placeId": "castell-llac"
+    },
+    {
+      "id": "maons-belgues",
+      "title": {
+        "ca": "Un castell amb maons belgues",
+        "es": "Un castillo con ladrillos belgas"
+      },
+      "text": {
+        "ca": "Segons l’AMB, els maons del castell del llac es van portar de Bèlgica. Els merlets, el pont llevadís i l’embarcador completaven aquest escenari del jardí romàntic.",
+        "es": "Según la AMB, los ladrillos del castillo del lago se trajeron de Bélgica. Las almenas, el puente levadizo y el embarcadero completaban este escenario del jardín romántico."
+      },
+      "sources": ["H07"],
+      "placeId": "castell-llac"
+    }
+  ]
 }
