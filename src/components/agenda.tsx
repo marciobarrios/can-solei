@@ -34,16 +34,20 @@ export function HeroBadge({
 
   const date = new Intl.DateTimeFormat(lang, {
     day: "numeric",
-    month: "short",
+    month: "long",
     timeZone: "Europe/Madrid",
   }).format(new Date(event.start));
+  const formatTime = (value: string) =>
+    new Intl.DateTimeFormat(lang, {
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZone: "Europe/Madrid",
+    }).format(new Date(value));
   const time = event.allDay
     ? es ? "Todo el día" : "Tot el dia"
-    : new Intl.DateTimeFormat(lang, {
-        hour: "2-digit",
-        minute: "2-digit",
-        timeZone: "Europe/Madrid",
-      }).format(new Date(event.start));
+    : event.end
+      ? `de ${formatTime(event.start)} a ${formatTime(event.end)}`
+      : `${es ? "a las" : "a les"} ${formatTime(event.start)}`;
 
   return (
     <a
@@ -51,7 +55,7 @@ export function HeroBadge({
       className="art-badge max-w-[calc(100%-24px)]"
       aria-label={`${es ? "Ver agenda: próxima actividad" : "Veure agenda: propera activitat"}, ${event.title[lang]}, ${date}, ${time}`}
     >
-      <CalendarDays size={22} className="shrink-0" aria-hidden="true" />
+      <CalendarDays size={32} className="shrink-0" aria-hidden="true" />
       <span className="min-w-0 max-w-[240px]!">
         <span className="block max-w-none! text-[10px] font-semibold tracking-[0.1em] opacity-70 uppercase">
           {es ? "Próxima actividad" : "Propera activitat"}
@@ -59,8 +63,9 @@ export function HeroBadge({
         <span className="mt-1.5 block max-w-none! text-base font-semibold text-pretty">
           {event.title[lang]}
         </span>
-        <time dateTime={event.start} className="mt-1 block text-sm">
-          {date} · {time}
+        <time dateTime={event.start} className="mt-1 block">
+          <span className="block max-w-none! text-base font-semibold">{date}</span>{" "}
+          <span className="block max-w-none! text-sm">{time}</span>
         </time>
       </span>
     </a>
