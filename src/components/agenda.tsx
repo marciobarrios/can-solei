@@ -8,6 +8,66 @@ const subscribe = (notify: () => void) => {
   return () => clearInterval(timer);
 };
 const getNow = () => Math.floor(Date.now() / 60000) * 60000;
+export function NextEvent({
+  agenda,
+  lang,
+  referenceNow,
+}: {
+  agenda: Agenda;
+  lang: Lang;
+  referenceNow: number;
+}) {
+  const es = lang === "es";
+  const now = useSyncExternalStore(subscribe, getNow, () => referenceNow);
+  const event = agenda.events
+    .filter((event) => event.status === "scheduled" && Date.parse(event.start) >= now)
+    .sort((a, b) => Date.parse(a.start) - Date.parse(b.start))[0];
+
+  if (!event) return null;
+
+  const date = new Intl.DateTimeFormat(lang, {
+    day: "numeric",
+    month: "long",
+    timeZone: "Europe/Madrid",
+  }).format(new Date(event.start));
+  const time = event.allDay
+    ? es ? "Todo el día" : "Tot el dia"
+    : new Intl.DateTimeFormat(lang, {
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZone: "Europe/Madrid",
+      }).format(new Date(event.start));
+
+  return (
+    <aside
+      aria-label={es ? "Próximo evento" : "Propera activitat"}
+      className="mx-auto flex max-w-[1440px] flex-wrap items-center gap-x-6 gap-y-2 border-y border-[#cbd7cb] bg-[#e8efdf] px-[6%] py-4 text-[#16332c] min-[721px]:px-[5%]"
+    >
+      <div className="flex items-center gap-3 text-xs font-semibold">
+        <CalendarDays size={22} aria-hidden="true" />
+        <span>{es ? "Próximo evento" : "Propera activitat"}</span>
+      </div>
+      <div className="min-w-0 flex-1 basis-full min-[721px]:basis-auto">
+        <a
+          href={event.url}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex min-h-11 items-center gap-2 text-lg font-semibold underline decoration-[#9bb0a1] underline-offset-4 hover:decoration-current"
+        >
+          {event.title[lang]}
+          <ExternalLink size={16} className="shrink-0" aria-hidden="true" />
+        </a>
+        <time dateTime={event.start} className="block text-sm">
+          {date} · {time}
+        </time>
+      </div>
+      <a href="#agenda" className="inline-flex min-h-11 items-center gap-2 text-xs underline underline-offset-4">
+        {es ? "Ver toda la agenda" : "Veure tota l’agenda"}
+      </a>
+    </aside>
+  );
+}
+
 export function AgendaPanel({
   agenda,
   lang,

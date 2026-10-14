@@ -11,7 +11,7 @@ import { Header } from "@/components/header";
 import { GardenArt } from "@/components/garden-art";
 import { ParkMap } from "@/components/park-map";
 import { Gallery } from "@/components/gallery";
-import { AgendaPanel } from "@/components/agenda";
+import { AgendaPanel, NextEvent } from "@/components/agenda";
 import type { Corpus, Agenda, Lang } from "@/lib/types";
 import rawCorpus from "../../../content/corpus.json";
 import rawAgenda from "../../../content/agenda.json";
@@ -67,6 +67,7 @@ export default async function Page({
     <>
       <Header lang={lang} />
       <main id="main">
+        <NextEvent agenda={agenda} lang={lang} referenceNow={buildTime} />
         <section className="hero">
           <div className="hero-copy">
             <div className="location">
