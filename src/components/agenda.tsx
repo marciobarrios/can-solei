@@ -27,7 +27,7 @@ export function NextEvent({
 
   const date = new Intl.DateTimeFormat(lang, {
     day: "numeric",
-    month: "long",
+    month: "short",
     timeZone: "Europe/Madrid",
   }).format(new Date(event.start));
   const time = event.allDay
@@ -41,27 +41,28 @@ export function NextEvent({
   return (
     <aside
       aria-label={es ? "Próximo evento" : "Propera activitat"}
-      className="mt-6 max-w-[430px] border-l border-[#9bb0a1] pl-4"
+      className="mt-4 flex min-w-0 items-center gap-2 text-xs"
     >
-      <div className="flex flex-wrap items-center gap-x-2 text-xs text-[#50675e]">
-        <span>{es ? "Próximo evento" : "Propera activitat"}</span>
-        <span aria-hidden="true">·</span>
-        <time dateTime={event.start}>{date} · {time}</time>
-      </div>
+      <CalendarDays size={14} className="shrink-0 text-[#50675e]" aria-hidden="true" />
+      <time dateTime={event.start} className="shrink-0 whitespace-nowrap text-[#50675e]">
+        {date} · {time}
+      </time>
       <a
         href={event.url}
         target="_blank"
         rel="noreferrer"
-        className="inline-flex min-h-11 items-center gap-2 text-sm underline decoration-[#9bb0a1] underline-offset-4 hover:decoration-current"
+        title={event.title[lang]}
+        className="flex min-h-11 min-w-0 items-center underline decoration-[#9bb0a1] underline-offset-4 hover:decoration-current"
       >
-        {event.title[lang]}
-        <ExternalLink size={14} className="shrink-0" aria-hidden="true" />
+        <span className="truncate">{event.title[lang]}</span>
       </a>
+      <span aria-hidden="true" className="text-[#9bb0a1]">·</span>
       <a
         href="#agenda"
-        className="flex min-h-11 w-fit items-center text-xs text-[#50675e] underline underline-offset-4 hover:text-[#16332c]"
+        aria-label={es ? "Ver toda la agenda" : "Veure tota l’agenda"}
+        className="inline-flex min-h-11 shrink-0 items-center text-[#50675e]! hover:text-[#16332c]! hover:underline hover:underline-offset-4"
       >
-        {es ? "Ver toda la agenda" : "Veure tota l’agenda"}
+        Agenda
       </a>
     </aside>
   );
