@@ -43,6 +43,7 @@ export function Header({ lang }: { lang: Lang }) {
           >
             <Link
               href="/ca/"
+              scroll={false}
               hrefLang="ca"
               aria-current={!es ? "page" : undefined}
               lang="ca"
@@ -51,6 +52,7 @@ export function Header({ lang }: { lang: Lang }) {
             </Link>
             <Link
               href="/es/"
+              scroll={false}
               hrefLang="es"
               aria-current={es ? "page" : undefined}
               lang="es"
