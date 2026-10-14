@@ -49,15 +49,19 @@ export function HeroBadge({
     <a
       href="#agenda"
       className="art-badge max-w-[calc(100%-24px)]"
-      aria-label={`${es ? "Ver agenda: próximo evento" : "Veure agenda: propera activitat"}, ${event.title[lang]}, ${date}, ${time}`}
+      aria-label={`${es ? "Ver agenda: próxima actividad" : "Veure agenda: propera activitat"}, ${event.title[lang]}, ${date}, ${time}`}
     >
-      <CalendarDays size={22} className="shrink-0" aria-hidden="true" />
+      <ArrowDown size={22} className="shrink-0" aria-hidden="true" />
       <span className="min-w-0 max-w-[240px]!">
-        <span className="block max-w-none! text-[11px]">
-          {es ? "Próximo evento" : "Propera activitat"} · <time dateTime={event.start}>{date} · {time}</time>
+        <span className="block max-w-none! text-[10px] font-bold tracking-[0.1em] uppercase">
+          {es ? "Próxima actividad" : "Propera activitat"}
         </span>
-        <span className="mt-1 block max-w-none! text-sm font-semibold">{event.title[lang]}</span>
-        <span className="mt-1 block text-[11px] opacity-75">{es ? "Ver agenda" : "Veure agenda"} ↓</span>
+        <span className="mt-1.5 block max-w-none! text-base font-semibold text-pretty">
+          {event.title[lang]}
+        </span>
+        <time dateTime={event.start} className="mt-1 block text-xs">
+          {date} · {time}
+        </time>
       </span>
     </a>
   );
