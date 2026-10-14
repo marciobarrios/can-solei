@@ -1,6 +1,6 @@
 "use client";
 import { useState, useSyncExternalStore } from "react";
-import { CalendarDays, ExternalLink } from "lucide-react";
+import { ArrowDown, CalendarDays, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Agenda, Lang } from "@/lib/types";
 const subscribe = (notify: () => void) => {
@@ -8,6 +8,65 @@ const subscribe = (notify: () => void) => {
   return () => clearInterval(timer);
 };
 const getNow = () => Math.floor(Date.now() / 60000) * 60000;
+export function HeroBadge({
+  agenda,
+  lang,
+  referenceNow,
+}: {
+  agenda: Agenda;
+  lang: Lang;
+  referenceNow: number;
+}) {
+  const es = lang === "es";
+  const now = useSyncExternalStore(subscribe, getNow, () => referenceNow);
+  const event = agenda.events
+    .filter((event) => event.status === "scheduled" && Date.parse(event.start) >= now)
+    .sort((a, b) => Date.parse(a.start) - Date.parse(b.start))[0];
+
+  if (!event) {
+    return (
+      <a href="#recorregut" className="art-badge">
+        <ArrowDown size={22} aria-hidden="true" />
+        <span>{es ? "Pasea por sus historias" : "Passeja per les seves històries"}</span>
+      </a>
+    );
+  }
+
+  const date = new Intl.DateTimeFormat(lang, {
+    day: "numeric",
+    month: "short",
+    timeZone: "Europe/Madrid",
+  }).format(new Date(event.start));
+  const time = event.allDay
+    ? es ? "Todo el día" : "Tot el dia"
+    : new Intl.DateTimeFormat(lang, {
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZone: "Europe/Madrid",
+      }).format(new Date(event.start));
+
+  return (
+    <a
+      href="#agenda"
+      className="art-badge max-w-[calc(100%-24px)]"
+      aria-label={`${es ? "Ver agenda: próxima actividad" : "Veure agenda: propera activitat"}, ${event.title[lang]}, ${date}, ${time}`}
+    >
+      <CalendarDays size={22} className="shrink-0" aria-hidden="true" />
+      <span className="min-w-0 max-w-[240px]!">
+        <span className="block max-w-none! text-[10px] font-semibold tracking-[0.1em] opacity-70 uppercase">
+          {es ? "Próxima actividad" : "Propera activitat"}
+        </span>
+        <span className="mt-1.5 block max-w-none! text-base font-semibold text-pretty">
+          {event.title[lang]}
+        </span>
+        <time dateTime={event.start} className="mt-1 block text-sm">
+          {date} · {time}
+        </time>
+      </span>
+    </a>
+  );
+}
+
 export function AgendaPanel({
   agenda,
   lang,

@@ -102,30 +102,35 @@ export function GardenArt({
       <g stroke="#7CA18A" strokeWidth="2">
         <path d="M14 610L9 347M13 541L73 511M13 461L53 386M677 611L700 379M686 508L642 468M680 560L609 572" />
       </g>
-      <g fill="#E4B8CE">
-        <ellipse
-          cx="223"
-          cy="482"
-          rx="18"
-          ry="28"
-          transform="rotate(-33 223 482)"
-        />
-        <ellipse
-          cx="244"
-          cy="476"
-          rx="15"
-          ry="30"
-          transform="rotate(10 244 476)"
-        />
-        <ellipse
-          cx="265"
-          cy="484"
-          rx="17"
-          ry="28"
-          transform="rotate(36 265 484)"
-        />
+      <g
+        transform={variant === "hero" ? "translate(0 -100)" : undefined}
+        className={variant === "hero" ? "max-[720px]:-translate-y-[180px]" : undefined}
+      >
+        <g fill="#E4B8CE">
+          <ellipse
+            cx="223"
+            cy="482"
+            rx="18"
+            ry="28"
+            transform="rotate(-33 223 482)"
+          />
+          <ellipse
+            cx="244"
+            cy="476"
+            rx="15"
+            ry="30"
+            transform="rotate(10 244 476)"
+          />
+          <ellipse
+            cx="265"
+            cy="484"
+            rx="17"
+            ry="28"
+            transform="rotate(36 265 484)"
+          />
+        </g>
+        <path d="M245 507L252 570" stroke="#356653" strokeWidth="4" />
       </g>
-      <path d="M245 507L252 570" stroke="#356653" strokeWidth="4" />
       <path d="M0 0H720V660H0Z" fill={`url(#${patternId})`} />
     </svg>
   );
