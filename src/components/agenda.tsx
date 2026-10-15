@@ -178,6 +178,22 @@ export function AgendaPanel({
               <div>
                 <h3>{e.title[lang]}</h3>
                 <p>{e.location}</p>
+                {e.program ? (
+                  <div className="mt-3 max-w-prose">
+                    <a
+                      href={e.program.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold underline decoration-current/40 underline-offset-4 hover:decoration-current"
+                    >
+                      {e.program.name[lang]}
+                      <ExternalLink size={12} aria-hidden="true" />
+                    </a>
+                    <p className="text-sm! leading-relaxed">
+                      {e.program.description[lang]}
+                    </p>
+                  </div>
+                ) : null}
                 {e.status !== "scheduled" && (
                   <strong className="event-status">
                     {e.status === "cancelled"
