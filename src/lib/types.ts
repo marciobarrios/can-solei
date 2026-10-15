@@ -35,6 +35,7 @@ export type Media = {
   kind: "photo" | "video" | "document";
   period?: "historical";
   image?: string;
+  preview?: { src: string; avif: string; webp: string };
   credit: string;
   license: Copy;
   source: string;

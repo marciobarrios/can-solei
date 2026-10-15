@@ -1,5 +1,4 @@
 import { test, expect } from "@playwright/test";
-import resolutionExceptions from "../../content/media-resolution-exceptions.json" with { type: "json" };
 test("equivalent languages, headings, images and no console errors", async ({
   page,
 }) => {
@@ -23,26 +22,14 @@ test("equivalent languages, headings, images and no console errors", async ({
     await img.scrollIntoViewIfNeeded();
     await expect
       .poll(() =>
-        img.evaluate((node, exceptions) => {
+        img.evaluate((node) => {
           const image = node as HTMLImageElement;
-          const id = image
-            .getAttribute("src")
-            ?.split("/")
-            .pop()
-            ?.replace(".webp", "");
-          const exception = exceptions[id as keyof typeof exceptions];
-          if (exception)
-            return (
-              image.complete &&
-              image.naturalWidth === exception.width &&
-              image.naturalHeight === exception.height
-            );
           return (
             image.complete &&
-            Math.max(image.naturalWidth, image.naturalHeight) >= 1200 &&
-            Math.min(image.naturalWidth, image.naturalHeight) >= 800
+            image.naturalWidth > 0 &&
+            image.currentSrc.includes("/media/previews/")
           );
-        }, resolutionExceptions),
+        }),
       )
       .toBe(true);
   }

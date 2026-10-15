@@ -21,6 +21,9 @@ import {
 import { Button } from "@/components/ui/button";
 import { GardenArt } from "./garden-art";
 import type { Corpus, Lang, Media } from "@/lib/types";
+// Match .section padding (6% / 5%), its 1280px cap and the two-column 24px gap.
+const previewSizes =
+  "(max-width: 720px) 88vw, (max-width: 767px) 90vw, calc((min(100vw, 1280px) - 10vw - 24px) / 2)";
 export function Gallery({
   corpus,
   lang,
@@ -109,13 +112,26 @@ export function Gallery({
                 aria-label={`${es ? "Abrir" : "Obrir"} ${item.title[lang]}`}
               >
                 {item.image ? (
-                  <Image
-                    src={item.image}
-                    alt={item.title[lang]}
-                    loading="lazy"
-                    width={item.width ?? 800}
-                    height={item.height ?? 600}
-                  />
+                  <picture>
+                    {item.preview && (
+                      <source
+                        type="image/avif"
+                        srcSet={item.preview.avif}
+                        sizes={previewSizes}
+                      />
+                    )}
+                    {/* Prebuilt local variants: next/image's unoptimized mode does not accept srcSet. */}
+                    <img
+                      src={item.preview?.src ?? item.image}
+                      srcSet={item.preview?.webp}
+                      sizes={item.preview ? previewSizes : undefined}
+                      alt={item.title[lang]}
+                      loading="lazy"
+                      decoding="async"
+                      width={item.width ?? 800}
+                      height={item.height ?? 600}
+                    />
+                  </picture>
                 ) : (
                   <>
                     <GardenArt variant={index % 2 ? "trees" : "lake"} />
