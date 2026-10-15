@@ -14,7 +14,55 @@
     "originalHeight": 1200,
     "sha256": "fc9030343a5b8f12c4030519cbc4265e268d5c2b6969ea0b2f878b1b8cbe0a4e",
     "bytes": 631172,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "fc9030343a5b8f12c4030519cbc4265e268d5c2b6969ea0b2f878b1b8cbe0a4e",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/icgc-ortofoto_color_vigent-480.avif",
+          "width": 480,
+          "height": 480,
+          "bytes": 61335,
+          "sha256": "cc93f841d85073dd88b9e23332be5fa7c82756c23e0ff43a5fc0eb24d6a67c6a"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_color_vigent-800.avif",
+          "width": 800,
+          "height": 800,
+          "bytes": 153304,
+          "sha256": "f4d9065ddbe43fc7e889f68d69d73e37d7935e3b1ca620e59cff01191f48b990"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_color_vigent-1200.avif",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 361982,
+          "sha256": "4c466d4275729d8ee50388470227cfa961be25a8d157ae310e89b73710909ebc"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_color_vigent-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 87416,
+          "sha256": "0d027a23bf04165bdc256a54fc6bd604c83602e50a742ee6ef8e9b90d6416288"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_color_vigent-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 221562,
+          "sha256": "f92878e7df74af2aa8e1e4b11393a3bd78d5b5a8e9672e9dbc6c2123ae402bda"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_color_vigent-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 540120,
+          "sha256": "7def66f9140f4e6c5ced57ff5c132ae3ccb3102ce1c5dcc78453c2e2d5545638"
+        }
+      ]
+    }
   },
   {
     "id": "icgc-ortofoto_50cm_blanc_i_negre_1994",
@@ -31,7 +79,55 @@
     "originalHeight": 1250,
     "sha256": "5e67efb92b780dbecc7302d7f13e696cbecc61b3f401e6eaec278727a297429d",
     "bytes": 458400,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "5e67efb92b780dbecc7302d7f13e696cbecc61b3f401e6eaec278727a297429d",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/icgc-ortofoto_50cm_blanc_i_negre_1994-480.avif",
+          "width": 480,
+          "height": 480,
+          "bytes": 44581,
+          "sha256": "bad06ad9a1899af671a5ecbf9c60d4990bd7d1e47428df81eea6909bc51cb5e2"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_50cm_blanc_i_negre_1994-800.avif",
+          "width": 800,
+          "height": 800,
+          "bytes": 111304,
+          "sha256": "2c4411e453ebe27179d3a8152debbba5c376766ff4419d5aa8a280ad4ceb6d6d"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_50cm_blanc_i_negre_1994-1200.avif",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 202074,
+          "sha256": "dfd4fd0de51572be9f0c159b0ec2b551e6232ba21a07528124b99a03274d9f8a"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_50cm_blanc_i_negre_1994-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 67814,
+          "sha256": "616b96465e4859ff166a2c66f095266195e7de10d140577faf6ecef6d74ad2aa"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_50cm_blanc_i_negre_1994-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 168114,
+          "sha256": "8d0aefaa53760211fee7b3bbc630e161655ec5a6c82f360ef8ca30672ec62032"
+        },
+        {
+          "path": "/media/previews/icgc-ortofoto_50cm_blanc_i_negre_1994-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 299202,
+          "sha256": "55ddf352921a3fe3882597b1b79c326111260711a3577b230d9adf3e13c5d35d"
+        }
+      ]
+    }
   },
   {
     "id": "amb-botanical-map",
@@ -48,7 +144,55 @@
     "originalHeight": 1136,
     "sha256": "2ea8824b327d252436400de33aefd70feed5963fffbb955f9423b0cd5cd96dd6",
     "bytes": 176082,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "2ea8824b327d252436400de33aefd70feed5963fffbb955f9423b0cd5cd96dd6",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/amb-botanical-map-480.avif",
+          "width": 480,
+          "height": 341,
+          "bytes": 20773,
+          "sha256": "92292a59e8bb617c030196bdbb183dae8504ced628a5c3bc77054348347d1013"
+        },
+        {
+          "path": "/media/previews/amb-botanical-map-800.avif",
+          "width": 800,
+          "height": 568,
+          "bytes": 44733,
+          "sha256": "6324744d15007edb3345c94bb597a1fad7268b5868c2ac967ba9d8cd26d98252"
+        },
+        {
+          "path": "/media/previews/amb-botanical-map-1200.avif",
+          "width": 1200,
+          "height": 852,
+          "bytes": 72426,
+          "sha256": "6b61199559981521254e61e2023e5fddac11f910f5b69402129c13969f9ccf7f"
+        },
+        {
+          "path": "/media/previews/amb-botanical-map-480.webp",
+          "width": 480,
+          "height": 341,
+          "bytes": 25750,
+          "sha256": "17258a7c36bbb589831e20cb557029803c75c10e439258719886d6f0be1c55fd"
+        },
+        {
+          "path": "/media/previews/amb-botanical-map-800.webp",
+          "width": 800,
+          "height": 568,
+          "bytes": 57970,
+          "sha256": "52149cf1a8a51fc6a0b94b787104199c3188851e56355a57f8c4850e0af5b0d9"
+        },
+        {
+          "path": "/media/previews/amb-botanical-map-1200.webp",
+          "width": 1200,
+          "height": 852,
+          "bytes": 90866,
+          "sha256": "4d5734e01e4aa16ef76067f9581d35d5f45b7ed2d29eee4c0e8db3e90c127998"
+        }
+      ]
+    }
   },
   {
     "id": "museu-50537405721",
@@ -66,7 +210,55 @@
     "originalHeight": 1093,
     "sha256": "aa560021c8fb92200fac3f95f2bb077e7333115d820e2d943ef2d6cd035b7720",
     "bytes": 400410,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "aa560021c8fb92200fac3f95f2bb077e7333115d820e2d943ef2d6cd035b7720",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/museu-50537405721-480.avif",
+          "width": 480,
+          "height": 328,
+          "bytes": 29117,
+          "sha256": "b4484ad54b2c71ab9cfe661db2777542989759d319229ae174d93b3b864239a9"
+        },
+        {
+          "path": "/media/previews/museu-50537405721-800.avif",
+          "width": 800,
+          "height": 546,
+          "bytes": 72226,
+          "sha256": "f9ff4e9195e09bbd41a5dc16075b25977418427177a4c25404a93b1b44117256"
+        },
+        {
+          "path": "/media/previews/museu-50537405721-1200.avif",
+          "width": 1200,
+          "height": 820,
+          "bytes": 128292,
+          "sha256": "15aa19cd8444e68091c6699d20d1cfcef90c510463d52aa99065c0ff21504c92"
+        },
+        {
+          "path": "/media/previews/museu-50537405721-480.webp",
+          "width": 480,
+          "height": 328,
+          "bytes": 41460,
+          "sha256": "84e4650319c7b85af194fb2e5c4360e95545a1b29d57f123c7d6cfaf65eeba9f"
+        },
+        {
+          "path": "/media/previews/museu-50537405721-800.webp",
+          "width": 800,
+          "height": 546,
+          "bytes": 102020,
+          "sha256": "9c758f2b41d822766a21bdfdc221866dad11f3c813984105a2c5a6b2e2284a83"
+        },
+        {
+          "path": "/media/previews/museu-50537405721-1200.webp",
+          "width": 1200,
+          "height": 820,
+          "bytes": 178106,
+          "sha256": "d7b6f97367ebd399f02041524bbccab13352e5edb106be41751a7dd6f08bbbcb"
+        }
+      ]
+    }
   },
   {
     "id": "museu-50537406271",
@@ -84,7 +276,55 @@
     "originalHeight": 1600,
     "sha256": "76e15a5a344b42c2b8b8126b8c2663c91761b5bd99e8201e2a5cbe14fa3d3a9a",
     "bytes": 364182,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "76e15a5a344b42c2b8b8126b8c2663c91761b5bd99e8201e2a5cbe14fa3d3a9a",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/museu-50537406271-480.avif",
+          "width": 480,
+          "height": 724,
+          "bytes": 52398,
+          "sha256": "80860fccc090272d4145a044e562d97178fb11a5d2d306390abd9a0c17c6b8d3"
+        },
+        {
+          "path": "/media/previews/museu-50537406271-800.avif",
+          "width": 800,
+          "height": 1206,
+          "bytes": 114697,
+          "sha256": "f2b58dba25650b8bca132cbc026f0b434ae421b12503bbc76562e2201b12a25e"
+        },
+        {
+          "path": "/media/previews/museu-50537406271-1061.avif",
+          "width": 1061,
+          "height": 1600,
+          "bytes": 201044,
+          "sha256": "c7eef952c506a36be3524b58a46647fe16fc2f7a9c9da5d4bb21a32b3b601f85"
+        },
+        {
+          "path": "/media/previews/museu-50537406271-480.webp",
+          "width": 480,
+          "height": 724,
+          "bytes": 68908,
+          "sha256": "cbf713aee1c7598ba8b1d8fdfaab7badee42863acdcc2733c7acdcf65a4464b7"
+        },
+        {
+          "path": "/media/previews/museu-50537406271-800.webp",
+          "width": 800,
+          "height": 1206,
+          "bytes": 158130,
+          "sha256": "a80fdad979e0997cc41a6f22e4ea6cb7fd1f578f85ad8eaae16826bd05e8bbbc"
+        },
+        {
+          "path": "/media/previews/museu-50537406271-1061.webp",
+          "width": 1061,
+          "height": 1600,
+          "bytes": 301128,
+          "sha256": "dbd77e73bb7c25577535f67f8b8bf67d96c4b42bc9be8495736fef59fb0811dd"
+        }
+      ]
+    }
   },
   {
     "id": "museu-50536680768",
@@ -102,7 +342,55 @@
     "originalHeight": 1039,
     "sha256": "581cff71a0761decca8292146b46434cca8dd9f9bdc8c0ba2c96a04770d3b746",
     "bytes": 360250,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "581cff71a0761decca8292146b46434cca8dd9f9bdc8c0ba2c96a04770d3b746",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/museu-50536680768-480.avif",
+          "width": 480,
+          "height": 312,
+          "bytes": 19493,
+          "sha256": "86bfc5417bd85c0f6a13fbd87c6c8bbb63d7ff5b239258898b2c3ba8ac95288c"
+        },
+        {
+          "path": "/media/previews/museu-50536680768-800.avif",
+          "width": 800,
+          "height": 520,
+          "bytes": 44613,
+          "sha256": "96741b298ff4222ec1b687fd8d9e345bcb24b969a4f23709ef2552eb233f5f5e"
+        },
+        {
+          "path": "/media/previews/museu-50536680768-1200.avif",
+          "width": 1200,
+          "height": 779,
+          "bytes": 81957,
+          "sha256": "4d6893f5aa42dd753273bf1908111f564a36478b603794d2bdabb8b4075441de"
+        },
+        {
+          "path": "/media/previews/museu-50536680768-480.webp",
+          "width": 480,
+          "height": 312,
+          "bytes": 24594,
+          "sha256": "3f4811f03a672071039f5aca20ce208c1a99cfbf57e8ee3a2c717cc6b850ea11"
+        },
+        {
+          "path": "/media/previews/museu-50536680768-800.webp",
+          "width": 800,
+          "height": 520,
+          "bytes": 54952,
+          "sha256": "eaac6450775c5a9af3778daf54a96c4e7835a97d017d6549814b461a173d2e1e"
+        },
+        {
+          "path": "/media/previews/museu-50536680768-1200.webp",
+          "width": 1200,
+          "height": 779,
+          "bytes": 105132,
+          "sha256": "68b79c74ad17cfb3788a069f93a4deb4be17b89d23b28d1ed154e63b204cbe0d"
+        }
+      ]
+    }
   },
   {
     "id": "museu-50537405861",
@@ -120,7 +408,55 @@
     "originalHeight": 1028,
     "sha256": "692408d8b424526344fa2e2a2b0820c6c4ebb361169e80342116b2768ad3b7f4",
     "bytes": 328700,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "692408d8b424526344fa2e2a2b0820c6c4ebb361169e80342116b2768ad3b7f4",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/museu-50537405861-480.avif",
+          "width": 480,
+          "height": 308,
+          "bytes": 22185,
+          "sha256": "3e3c95cf004c436f4ccb32389791b79a1fa98072bb4d9529b5a99ba9d3c32a1b"
+        },
+        {
+          "path": "/media/previews/museu-50537405861-800.avif",
+          "width": 800,
+          "height": 514,
+          "bytes": 52664,
+          "sha256": "55d0456d7069f5f0c4d05ad892dd0f3cdf25141194c15b9ec2c4b1d96e114d09"
+        },
+        {
+          "path": "/media/previews/museu-50537405861-1200.avif",
+          "width": 1200,
+          "height": 771,
+          "bytes": 92139,
+          "sha256": "3f38bcaa44f4d3b07dbf1c22d1af10924aedf377edd40e3e36abe212df738270"
+        },
+        {
+          "path": "/media/previews/museu-50537405861-480.webp",
+          "width": 480,
+          "height": 308,
+          "bytes": 30260,
+          "sha256": "ed3efabdd795f3a93f4d27f2863f814bbe33b3203e1765d3426ef14a77ce8c9a"
+        },
+        {
+          "path": "/media/previews/museu-50537405861-800.webp",
+          "width": 800,
+          "height": 514,
+          "bytes": 74918,
+          "sha256": "f8a18501c113bfba429cc65d3f4d2c8bdbcdbf8e7437bffb9966d570b0f9de5f"
+        },
+        {
+          "path": "/media/previews/museu-50537405861-1200.webp",
+          "width": 1200,
+          "height": 771,
+          "bytes": 127308,
+          "sha256": "0159cec460b83ea84a8c739fbedc27150c3d244461f649570f0cee10008740c9"
+        }
+      ]
+    }
   },
   {
     "id": "museu-50537405611",
@@ -138,7 +474,55 @@
     "originalHeight": 1028,
     "sha256": "bf3d5364669038fccf7fc7da4535618b0b9ee4e6c583da7fef0544214b1ed6c7",
     "bytes": 320186,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "bf3d5364669038fccf7fc7da4535618b0b9ee4e6c583da7fef0544214b1ed6c7",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/museu-50537405611-480.avif",
+          "width": 480,
+          "height": 308,
+          "bytes": 21733,
+          "sha256": "7da56c35c4cbe360be6cc28fb33224489ba857abac203bbf0c01445059c80ec9"
+        },
+        {
+          "path": "/media/previews/museu-50537405611-800.avif",
+          "width": 800,
+          "height": 514,
+          "bytes": 53504,
+          "sha256": "c593869e976eb034b508d8bb9c2ecc1729b860a67f37db1698d149edb6a267a3"
+        },
+        {
+          "path": "/media/previews/museu-50537405611-1200.avif",
+          "width": 1200,
+          "height": 771,
+          "bytes": 95338,
+          "sha256": "75fd1d791bf03a683c0d5dc524bc42def270e78f8e3adb18ab96c9ae1abd9a25"
+        },
+        {
+          "path": "/media/previews/museu-50537405611-480.webp",
+          "width": 480,
+          "height": 308,
+          "bytes": 27238,
+          "sha256": "b5302de37cc95f15cc7d16c3df185cf035712294f058184f485277272cae0422"
+        },
+        {
+          "path": "/media/previews/museu-50537405611-800.webp",
+          "width": 800,
+          "height": 514,
+          "bytes": 69930,
+          "sha256": "2162be2c92103c419077642f427bdfc55bc39fd4dcb6071e3a558653ad847ddb"
+        },
+        {
+          "path": "/media/previews/museu-50537405611-1200.webp",
+          "width": 1200,
+          "height": 771,
+          "bytes": 119354,
+          "sha256": "b060207549e04c61ec098916460ed439d5022b02fef95bfcdf8ec1777cdebeca"
+        }
+      ]
+    }
   },
   {
     "id": "museu-50537406166",
@@ -156,7 +540,55 @@
     "originalHeight": 1600,
     "sha256": "217ef80a8919662b97cb3ac9c36cd4e9762f7ecdc57858ef53938577bdcb3bf9",
     "bytes": 220754,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "217ef80a8919662b97cb3ac9c36cd4e9762f7ecdc57858ef53938577bdcb3bf9",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/museu-50537406166-480.avif",
+          "width": 480,
+          "height": 734,
+          "bytes": 36858,
+          "sha256": "f2e49e3c19f5b5ea9b5f3e3ba6d182a4d89d5150c642cb79f2d672f873d9be67"
+        },
+        {
+          "path": "/media/previews/museu-50537406166-800.avif",
+          "width": 800,
+          "height": 1223,
+          "bytes": 73289,
+          "sha256": "5ff2cadca8163ce75c4d94408bf4733f2b9574bc54c4078e4424f3d6c34df35e"
+        },
+        {
+          "path": "/media/previews/museu-50537406166-1047.avif",
+          "width": 1047,
+          "height": 1600,
+          "bytes": 123891,
+          "sha256": "17873e9fa8bf4ff018ab58d80672efd4c1209b15f42858de3490d83a312059db"
+        },
+        {
+          "path": "/media/previews/museu-50537406166-480.webp",
+          "width": 480,
+          "height": 734,
+          "bytes": 48572,
+          "sha256": "d5cd526fd014bc5065d417df8eb806e0a80d5630141a212bd1dfc54405b32f08"
+        },
+        {
+          "path": "/media/previews/museu-50537406166-800.webp",
+          "width": 800,
+          "height": 1223,
+          "bytes": 95968,
+          "sha256": "236e67587c6e396fe9470e131f00a18ecb62eb2d154c067ed2325aba140d7402"
+        },
+        {
+          "path": "/media/previews/museu-50537406166-1047.webp",
+          "width": 1047,
+          "height": 1600,
+          "bytes": 178032,
+          "sha256": "00fea794f274fd5c10a6e29e917c8549cbf52a50849b10db0c0ae9f3a657b254"
+        }
+      ]
+    }
   },
   {
     "id": "museu-50537406161",
@@ -174,7 +606,55 @@
     "originalHeight": 1600,
     "sha256": "75362d654914b6207c446f4174e85a30b7d533017e89eb84c700748e39af0d0a",
     "bytes": 337042,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "75362d654914b6207c446f4174e85a30b7d533017e89eb84c700748e39af0d0a",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/museu-50537406161-480.avif",
+          "width": 480,
+          "height": 718,
+          "bytes": 50772,
+          "sha256": "69110d8514c12febaa89c35dce5ad384bbd5ac4cdf353fd81e2652dbf9536b09"
+        },
+        {
+          "path": "/media/previews/museu-50537406161-800.avif",
+          "width": 800,
+          "height": 1196,
+          "bytes": 102145,
+          "sha256": "733e013921214e707a4268327ef6a845386ee98295a1938872f62668c36f9b21"
+        },
+        {
+          "path": "/media/previews/museu-50537406161-1070.avif",
+          "width": 1070,
+          "height": 1600,
+          "bytes": 176956,
+          "sha256": "4a771b84a16bcfc1810159ca167e9da239461af016c802550624a56f9e762046"
+        },
+        {
+          "path": "/media/previews/museu-50537406161-480.webp",
+          "width": 480,
+          "height": 718,
+          "bytes": 76104,
+          "sha256": "341d51e188b0379df36b11ce0ac9f3f8ff7d45bd790c32ff61353eef276d9a1c"
+        },
+        {
+          "path": "/media/previews/museu-50537406161-800.webp",
+          "width": 800,
+          "height": 1196,
+          "bytes": 146390,
+          "sha256": "a0929db2b79cde0889958b4d4ae44d9a4b88e34272d692a9c716fa199c1868f8"
+        },
+        {
+          "path": "/media/previews/museu-50537406161-1070.webp",
+          "width": 1070,
+          "height": 1600,
+          "bytes": 275794,
+          "sha256": "7d774111bb9695cdca00918ab47c8bf3da5d54897bd2cfaf880d4ec7d821a28e"
+        }
+      ]
+    }
   },
   {
     "id": "museu-50537553932",
@@ -192,7 +672,55 @@
     "originalHeight": 1014,
     "sha256": "0697f62e0b1fd912163b4e11f9972e4505b3fbb653c7d7c63b307c28be16ae9b",
     "bytes": 283160,
-    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification"
+    "changes": "WebP conversion; reduced to fit 1800px; EXIF orientation applied; metadata removed; no enlargement or generative modification",
+    "previews": {
+      "sourceSha256": "0697f62e0b1fd912163b4e11f9972e4505b3fbb653c7d7c63b307c28be16ae9b",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/museu-50537553932-480.avif",
+          "width": 480,
+          "height": 304,
+          "bytes": 24160,
+          "sha256": "cc97986f6da66ca73cd4d7c4d444e973c9af22b1270d38076095faedd40b022e"
+        },
+        {
+          "path": "/media/previews/museu-50537553932-800.avif",
+          "width": 800,
+          "height": 507,
+          "bytes": 57313,
+          "sha256": "11ce1cf9d38e5e14c62dbee45f8cdc288672fe4068ef304f6a7e11e940b66c2b"
+        },
+        {
+          "path": "/media/previews/museu-50537553932-1200.avif",
+          "width": 1200,
+          "height": 760,
+          "bytes": 94086,
+          "sha256": "7be2c562a1de5113db8245437a19e0e4d8e45f5f9797498ada79d95b72c0d411"
+        },
+        {
+          "path": "/media/previews/museu-50537553932-480.webp",
+          "width": 480,
+          "height": 304,
+          "bytes": 33832,
+          "sha256": "a5ff9d9c311d874b2806961c3154a8f54c28631fd3fc76136935657a5c0b93c0"
+        },
+        {
+          "path": "/media/previews/museu-50537553932-800.webp",
+          "width": 800,
+          "height": 507,
+          "bytes": 79792,
+          "sha256": "449d9d6e1dff87a7c50b3901c5f6950a0fda5bf6e8b4098068cab7757e566a2a"
+        },
+        {
+          "path": "/media/previews/museu-50537553932-1200.webp",
+          "width": 1200,
+          "height": 760,
+          "bytes": 131538,
+          "sha256": "d624309eba16cd167e1197445bb5a00db14664edc15784bf24719b4c74922dad"
+        }
+      ]
+    }
   },
   {
     "id": "salvany-1912",
@@ -210,7 +738,55 @@
     "sha256": "1a298325182ebbb571a23968088e6a04d7513735810c239b1e47dfd1f61f3c40",
     "bytes": 281896,
     "changes": "WebP conversion at native size; no cropping, enlargement or generative modification",
-    "resolutionException": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement."
+    "resolutionException": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement.",
+    "previews": {
+      "sourceSha256": "1a298325182ebbb571a23968088e6a04d7513735810c239b1e47dfd1f61f3c40",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/salvany-1912-480.avif",
+          "width": 480,
+          "height": 220,
+          "bytes": 18374,
+          "sha256": "6960e0c3bf5d0a5eb19af3a8c57c83afcc45b9491916bf44f6a9f027e9b84e8e"
+        },
+        {
+          "path": "/media/previews/salvany-1912-800.avif",
+          "width": 800,
+          "height": 366,
+          "bytes": 47230,
+          "sha256": "026f88fffa7514b655048f5366d2e4e141f55793db2a55a896e1cbdd621cd463"
+        },
+        {
+          "path": "/media/previews/salvany-1912-1200.avif",
+          "width": 1200,
+          "height": 549,
+          "bytes": 90855,
+          "sha256": "2d86c8ebda6e715d39328afd5167be64d545ea4dcc2a838afe83cce48c272d49"
+        },
+        {
+          "path": "/media/previews/salvany-1912-480.webp",
+          "width": 480,
+          "height": 220,
+          "bytes": 23550,
+          "sha256": "19b9fd08fd5d51f8e06d089beb326c7612bc6a75829f177b1519468f54f93377"
+        },
+        {
+          "path": "/media/previews/salvany-1912-800.webp",
+          "width": 800,
+          "height": 366,
+          "bytes": 61806,
+          "sha256": "9811f41544b96293253e9aecbf370e380ea1d47543009f0ce7aec19c7b3e1609"
+        },
+        {
+          "path": "/media/previews/salvany-1912-1200.webp",
+          "width": 1200,
+          "height": 549,
+          "bytes": 122944,
+          "sha256": "8b9b9f6a3a61487ac9dbd8d240d6989e0d9314822b238921d1bf803d09a326f4"
+        }
+      ]
+    }
   },
   {
     "id": "arnus-1859-ground",
@@ -228,7 +804,55 @@
     "sha256": "58553caf6f42bbc51d1b0e2721b5c8ca2009bb6c96aadb3f265a6195e3960c36",
     "bytes": 44450,
     "changes": "WebP conversion at native size; no cropping, enlargement or generative modification",
-    "resolutionException": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement."
+    "resolutionException": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement.",
+    "previews": {
+      "sourceSha256": "58553caf6f42bbc51d1b0e2721b5c8ca2009bb6c96aadb3f265a6195e3960c36",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/arnus-1859-ground-480.avif",
+          "width": 480,
+          "height": 362,
+          "bytes": 12777,
+          "sha256": "f9b738e726910c9e10762365fa45053c3ab33d73b9fbd9116eac2c9da70b956d"
+        },
+        {
+          "path": "/media/previews/arnus-1859-ground-800.avif",
+          "width": 800,
+          "height": 603,
+          "bytes": 26102,
+          "sha256": "9ad467d0f2f9aed27c275c439c34d2254035484587316b493ce70ebfb43f6751"
+        },
+        {
+          "path": "/media/previews/arnus-1859-ground-817.avif",
+          "width": 817,
+          "height": 616,
+          "bytes": 31012,
+          "sha256": "002b0cd4a9b4a313ce263ab9fc94da0b5faea2917b167b489dda5a48a98c96f9"
+        },
+        {
+          "path": "/media/previews/arnus-1859-ground-480.webp",
+          "width": 480,
+          "height": 362,
+          "bytes": 12052,
+          "sha256": "581ddb1e3310e20b885f9289c798b8448826661d63906f3feffe0ece2e39d4c4"
+        },
+        {
+          "path": "/media/previews/arnus-1859-ground-800.webp",
+          "width": 800,
+          "height": 603,
+          "bytes": 24768,
+          "sha256": "e7be65c57ac545131d6dce0540f01de1f9d35d50655589de3313df7f10e2076e"
+        },
+        {
+          "path": "/media/previews/arnus-1859-ground-817.webp",
+          "width": 817,
+          "height": 616,
+          "bytes": 33802,
+          "sha256": "6655389e9128e11d56a5874f5b7a290e6b3d9effd0bd16bb2e9883d4d358c34f"
+        }
+      ]
+    }
   },
   {
     "id": "arnus-1859-first",
@@ -246,6 +870,54 @@
     "sha256": "b75563f3de7f257e79dc1aa87c36d68437b32250fd976496476af370f83d8b4c",
     "bytes": 36202,
     "changes": "WebP conversion at native size; no cropping, enlargement or generative modification",
-    "resolutionException": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement."
+    "resolutionException": "Explicit user request on 2026-10-15 to display the available historical reproductions; preserve native dimensions, no enlargement.",
+    "previews": {
+      "sourceSha256": "b75563f3de7f257e79dc1aa87c36d68437b32250fd976496476af370f83d8b4c",
+      "changes": "Resized from published WebP without cropping or enlargement; AVIF quality 60 / WebP quality 80; metadata removed",
+      "files": [
+        {
+          "path": "/media/previews/arnus-1859-first-480.avif",
+          "width": 480,
+          "height": 337,
+          "bytes": 11052,
+          "sha256": "c5d2d2310f5fb528356fcefe1e728236da1dbcd35dde552c6f6f84539ab41a82"
+        },
+        {
+          "path": "/media/previews/arnus-1859-first-800.avif",
+          "width": 800,
+          "height": 562,
+          "bytes": 20810,
+          "sha256": "ab723b6785d7ef51872e7700048deb23b0ba056fa5b525b97033019d2310161b"
+        },
+        {
+          "path": "/media/previews/arnus-1859-first-818.avif",
+          "width": 818,
+          "height": 575,
+          "bytes": 24879,
+          "sha256": "d626e259f42c367c35de3c2ce1357e721ea9d2a12370a555a9ce26800850a831"
+        },
+        {
+          "path": "/media/previews/arnus-1859-first-480.webp",
+          "width": 480,
+          "height": 337,
+          "bytes": 9826,
+          "sha256": "dfbf782eff76e5f294cac1040f3730705a105f85c9992c884312e4e766d896d3"
+        },
+        {
+          "path": "/media/previews/arnus-1859-first-800.webp",
+          "width": 800,
+          "height": 562,
+          "bytes": 19104,
+          "sha256": "ec9a68218cf5687c5319a38a619deedb3933b1b3e096ff60becff27d80448676"
+        },
+        {
+          "path": "/media/previews/arnus-1859-first-818.webp",
+          "width": 818,
+          "height": 575,
+          "bytes": 25752,
+          "sha256": "c6e37943ca2915647e8d4273ae0dbda2b6123270aaac97af521c64592944946e"
+        }
+      ]
+    }
   }
 ]

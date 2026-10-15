@@ -13,7 +13,8 @@
     "test": "node --test tests/*.test.mjs",
     "agenda:update": "node scripts/update-agenda.mjs",
     "preview": "python3 -m http.server 3018 --bind 127.0.0.1 --directory out",
-    "images:build": "node scripts/optimize-media.mjs",
+    "images:build": "node scripts/optimize-media.mjs && pnpm images:previews",
+    "images:previews": "node scripts/build-media-previews.mjs",
     "test:browser": "playwright test"
   },
   "dependencies": {

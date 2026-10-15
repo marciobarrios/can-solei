@@ -119,9 +119,50 @@ test("published media have audited license, matching bytes, dimensions and credi
         Math.max(l.width, l.height),
     );
   }
-  assert.equal(readdirSync("public/media").length, used.length);
+  assert.equal(
+    readdirSync("public/media").filter((file) => file.endsWith(".webp")).length,
+    used.length,
+  );
   assert.ok(!existsSync("public/research"));
 });
+test("static previews match their audited parents and responsive candidates", async () => {
+  const files = [];
+  for (const media of content.media.filter((item) => item.image)) {
+    const license = licenses.find((item) => item.path === media.image);
+    assert.equal(license.previews.sourceSha256, license.sha256);
+    assert.ok(media.preview.src.endsWith(".webp"));
+    for (const format of ["avif", "webp"]) {
+      const candidates = license.previews.files.filter((file) =>
+        file.path.endsWith(`.${format}`),
+      );
+      assert.equal(
+        media.preview[format],
+        candidates.map((file) => `${file.path} ${file.width}w`).join(", "),
+      );
+      for (const file of candidates) {
+        const bytes = readFileSync(`public${file.path}`);
+        const meta = await sharp(bytes).metadata();
+        assert.equal(hash(bytes), file.sha256);
+        assert.equal(bytes.length, file.bytes);
+        assert.equal(meta.width, file.width);
+        assert.equal(meta.height, file.height);
+        assert.ok(file.width <= license.width);
+        assert.ok(
+          Math.abs(
+            file.height - (file.width * license.height) / license.width,
+          ) <= 1,
+        );
+        assert.ok(file.bytes < license.bytes);
+        files.push(file.path.split("/").pop());
+      }
+    }
+    assert.ok(
+      license.previews.files.some((file) => file.path === media.preview.src),
+    );
+  }
+  assert.deepEqual(readdirSync("public/media/previews").sort(), files.sort());
+});
+const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 test("eight real editorial sessions, seven future on research date; simulation absent", () => {
   assert.equal(agenda.events.length, 8);
   assert.equal(

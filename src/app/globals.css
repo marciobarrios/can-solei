@@ -880,13 +880,13 @@ section[id] {
   filter: saturate(0.3);
   opacity: 0.3;
 }
-.media-preview > img {
+.media-preview > picture > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 250ms;
 }
-.media-preview:hover > img {
+.media-preview:hover > picture > img {
   transform: scale(1.035);
 }
 .media-symbol {
