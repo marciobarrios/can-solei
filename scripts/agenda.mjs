@@ -85,9 +85,14 @@ export function deduplicate(events) {
           ((event.updated ?? "") === (previous.updated ?? "") &&
             (previous.status !== "cancelled" || event.status === "cancelled"))))
     ) {
+      // Machine feeds omit editorial details; keep them for matched events.
+      const program = event.program ?? previous.program;
+      const description = event.description ?? previous.description;
       // Preserve curated translation when a machine source supplies only the original name.
       rows[at] = {
         ...event,
+        ...(program ? { program } : {}),
+        ...(description ? { description } : {}),
         title:
           event.title.es === event.title.ca &&
           previous.title.ca === event.title.ca

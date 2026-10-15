@@ -144,3 +144,78 @@ test("unrelated venues and missing locations cannot replace the park snapshot", 
     );
   }
 });
+
+for (const format of ["ical", "jsonld"]) {
+  for (const newer of [false, true]) {
+    test(`${format} refresh preserves editorial details on ${newer ? "cancellation with changed date" : "equal-version canonical match"}`, async () => {
+      const curated = {
+        ...normalize(event, source),
+        program: {
+          name: { ca: "Programa de prova", es: "Programa de prueba" },
+          description: {
+            ca: "Joc familiar fictici",
+            es: "Juego familiar ficticio",
+          },
+          url: source,
+        },
+        description: { ca: "Descripció fictícia", es: "Descripción ficticia" },
+      };
+      const incoming = {
+        id: newer ? curated.id : "official-fixture",
+        title: event.title.ca,
+        start: newer ? "2026-10-25T12:00:00" : event.start,
+        status: newer ? "cancelled" : "scheduled",
+      };
+      const body =
+        format === "ical"
+          ? `BEGIN:VCALENDAR\nBEGIN:VEVENT\nUID:${incoming.id}\nSUMMARY:${incoming.title}\nLOCATION:Parc de Can Solei\nDTSTART;TZID=Europe/Madrid:${newer ? "20261025" : "20261018"}T120000\nSEQUENCE:${newer ? 1 : 0}\nSTATUS:${newer ? "CANCELLED" : "CONFIRMED"}\nEND:VEVENT\nBEGIN:VEVENT\nUID:unrelated-fixture\nSUMMARY:Activitat nova fictícia\nLOCATION:Parc de Can Solei\nDTSTART:20261101T120000Z\nEND:VEVENT\nEND:VCALENDAR`
+          : `<script type="application/ld+json">${JSON.stringify([
+              {
+                "@type": "Event",
+                "@id": incoming.id,
+                name: incoming.title,
+                startDate: incoming.start,
+                eventStatus: newer ? "EventCancelled" : "EventScheduled",
+                location: { name: "Parc de Can Solei" },
+              },
+              {
+                "@type": "Event",
+                "@id": "unrelated-fixture",
+                name: "Activitat nova fictícia",
+                startDate: "2026-11-01T12:00:00Z",
+                location: { name: "Parc de Can Solei" },
+              },
+            ])}</script>`;
+      const result = await refresh(
+        { events: [curated] },
+        [{ url: source, format }],
+        async () => new Response(body),
+      );
+      assert.equal(result.events.length, 2);
+      const updated = result.events.find((row) => row.id === incoming.id);
+      assert.deepEqual(updated.program, curated.program);
+      assert.deepEqual(updated.description, curated.description);
+      assert.deepEqual(updated.title, curated.title);
+      assert.equal(updated.status, incoming.status);
+      assert.equal(updated.start, instant(incoming.start).value);
+      const added = result.events.find((row) => row.id === "unrelated-fixture");
+      assert.equal(Object.hasOwn(added, "program"), false);
+      assert.equal(Object.hasOwn(added, "description"), false);
+    });
+  }
+}
+
+test("replacement editorial details take precedence over retained details", () => {
+  const previous = {
+    ...normalize(event, source),
+    program: { name: { ca: "Anterior", es: "Anterior" } },
+    description: { ca: "Anterior", es: "Anterior" },
+  };
+  const replacement = {
+    ...previous,
+    sequence: 1,
+    program: { name: { ca: "Nou", es: "Nuevo" } },
+    description: { ca: "Nova", es: "Nueva" },
+  };
+  assert.deepEqual(deduplicate([previous, replacement]), [replacement]);
+});
