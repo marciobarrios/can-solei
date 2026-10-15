@@ -327,11 +327,8 @@ export default async function Page({
           <Gallery corpus={{ media: corpus.media }} lang={lang} />
         </section>
         <section id="fonts" className="section sources-section">
-          <div className="section-heading">
-            <h2>
-              {es ? "Cada historia, su fuente" : "Cada història, la seva font"}
-            </h2>
-            <p>
+          <div className="section-heading grid-cols-1!">
+            <p className="max-w-none!">
               {es ? "Revisión editorial" : "Revisió editorial"}:{" "}
               {corpus.reviewedAt}.{" "}
               {es
@@ -361,7 +358,7 @@ export default async function Page({
               ))}
             </ul>
           </details>
-          <p className="fine-print">
+          <p className="fine-print max-w-none!">
             {es
               ? "Ilustraciones: creación original para esta guía. Plano: Trimatge / AMB, 2014, CC BY 4.0, con marcadores añadidos. Las fotografías tienen crédito y licencia individual; los materiales sin permiso confirmado se enlazan en su web original."
               : "Il·lustracions: creació original per a aquesta guia. Plànol: Trimatge / AMB, 2014, CC BY 4.0, amb marcadors afegits. Les fotografies tenen crèdit i llicència individual; els materials sense permís confirmat s’enllacen al web original."}
