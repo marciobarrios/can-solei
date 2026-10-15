@@ -19,7 +19,22 @@
       "location": "Parc de Can Solei i de Ca l'Arnús",
       "category": "nature",
       "updated": null,
-      "sequence": 0
+      "sequence": 0,
+      "program": {
+        "name": {
+          "ca": "Jugatecambiental",
+          "es": "Jugateca Ambiental"
+        },
+        "description": {
+          "ca": "Un espai de joc i descoberta en família, amb tallers creatius i activitats guiades per naturalistes per conèixer la natura del parc.",
+          "es": "Un espacio de juego y descubrimiento en familia, con talleres creativos y actividades guiadas por naturalistas para conocer la naturaleza del parque."
+        },
+        "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/parc-de-can-solei-i-de-ca-l-arnus/2470367/11656"
+      },
+      "description": {
+        "ca": "Una passejada per conèixer les plantes del parc acompanyats per un expert.",
+        "es": "Un paseo para conocer las plantas del parque acompañados por un experto."
+      }
     },
     {
       "id": "amb:seed:04584c3c20f9a3ea",
@@ -37,7 +52,22 @@
       "location": "Parc de Can Solei i de Ca l'Arnús",
       "category": "nature",
       "updated": null,
-      "sequence": 0
+      "sequence": 0,
+      "program": {
+        "name": {
+          "ca": "Jugatecambiental",
+          "es": "Jugateca Ambiental"
+        },
+        "description": {
+          "ca": "Un espai de joc i descoberta en família, amb tallers creatius i activitats guiades per naturalistes per conèixer la natura del parc.",
+          "es": "Un espacio de juego y descubrimiento en familia, con talleres creativos y actividades guiadas por naturalistas para conocer la naturaleza del parque."
+        },
+        "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/parc-de-can-solei-i-de-ca-l-arnus/2470367/11656"
+      },
+      "description": {
+        "ca": "Parlarem dels horts urbans i les verdures de temporada.",
+        "es": "Hablaremos de los huertos urbanos y las verduras de temporada."
+      }
     },
     {
       "id": "amb:seed:0fe0aa0c1fd51240",
@@ -55,7 +85,22 @@
       "location": "Parc de Can Solei i de Ca l'Arnús",
       "category": "nature",
       "updated": null,
-      "sequence": 0
+      "sequence": 0,
+      "program": {
+        "name": {
+          "ca": "Jugatecambiental",
+          "es": "Jugateca Ambiental"
+        },
+        "description": {
+          "ca": "Un espai de joc i descoberta en família, amb tallers creatius i activitats guiades per naturalistes per conèixer la natura del parc.",
+          "es": "Un espacio de juego y descubrimiento en familia, con talleres creativos y actividades guiadas por naturalistas para conocer la naturaleza del parque."
+        },
+        "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/parc-de-can-solei-i-de-ca-l-arnus/2470367/11656"
+      },
+      "description": {
+        "ca": "Què en saps, de la meteorologia i el canvi climàtic?",
+        "es": "¿Qué sabes de la meteorología y el cambio climático?"
+      }
     },
     {
       "id": "amb:seed:cb19208a2cee3c7e",
@@ -73,7 +118,22 @@
       "location": "Parc de Can Solei i de Ca l'Arnús",
       "category": "nature",
       "updated": null,
-      "sequence": 0
+      "sequence": 0,
+      "program": {
+        "name": {
+          "ca": "Jugatecambiental",
+          "es": "Jugateca Ambiental"
+        },
+        "description": {
+          "ca": "Un espai de joc i descoberta en família, amb tallers creatius i activitats guiades per naturalistes per conèixer la natura del parc.",
+          "es": "Un espacio de juego y descubrimiento en familia, con talleres creativos y actividades guiadas por naturalistas para conocer la naturaleza del parque."
+        },
+        "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/parc-de-can-solei-i-de-ca-l-arnus/2470367/11656"
+      },
+      "description": {
+        "ca": "Taller de creació de reflectors a partir de material de rebuig (CD).",
+        "es": "Taller de creación de reflectores a partir de material de desecho (CD)."
+      }
     },
     {
       "id": "amb:seed:2fcb9c45f104a59c",
@@ -91,7 +151,22 @@
       "location": "Parc de Can Solei i de Ca l'Arnús",
       "category": "nature",
       "updated": null,
-      "sequence": 0
+      "sequence": 0,
+      "program": {
+        "name": {
+          "ca": "Jugatecambiental",
+          "es": "Jugateca Ambiental"
+        },
+        "description": {
+          "ca": "Un espai de joc i descoberta en família, amb tallers creatius i activitats guiades per naturalistes per conèixer la natura del parc.",
+          "es": "Un espacio de juego y descubrimiento en familia, con talleres creativos y actividades guiadas por naturalistas para conocer la naturaleza del parque."
+        },
+        "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/parc-de-can-solei-i-de-ca-l-arnus/2470367/11656"
+      },
+      "description": {
+        "ca": "Fomentem una dieta basada en productes naturals.",
+        "es": "Fomentamos una dieta basada en productos naturales."
+      }
     },
     {
       "id": "amb:seed:ea506385aa258764",
@@ -109,7 +184,22 @@
       "location": "Parc de Can Solei i de Ca l'Arnús",
       "category": "nature",
       "updated": null,
-      "sequence": 0
+      "sequence": 0,
+      "program": {
+        "name": {
+          "ca": "Jugatecambiental",
+          "es": "Jugateca Ambiental"
+        },
+        "description": {
+          "ca": "Un espai de joc i descoberta en família, amb tallers creatius i activitats guiades per naturalistes per conèixer la natura del parc.",
+          "es": "Un espacio de juego y descubrimiento en familia, con talleres creativos y actividades guiadas por naturalistas para conocer la naturaleza del parque."
+        },
+        "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/parc-de-can-solei-i-de-ca-l-arnus/2470367/11656"
+      },
+      "description": {
+        "ca": "Fem figures d’insectes amb materials del parc.",
+        "es": "Hacemos figuras de insectos con materiales del parque."
+      }
     },
     {
       "id": "amb:seed:bd692097f79fa6bf",
@@ -127,7 +217,22 @@
       "location": "Parc de Can Solei i de Ca l'Arnús",
       "category": "nature",
       "updated": null,
-      "sequence": 0
+      "sequence": 0,
+      "program": {
+        "name": {
+          "ca": "Jugatecambiental",
+          "es": "Jugateca Ambiental"
+        },
+        "description": {
+          "ca": "Un espai de joc i descoberta en família, amb tallers creatius i activitats guiades per naturalistes per conèixer la natura del parc.",
+          "es": "Un espacio de juego y descubrimiento en familia, con talleres creativos y actividades guiadas por naturalistas para conocer la naturaleza del parque."
+        },
+        "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/parc-de-can-solei-i-de-ca-l-arnus/2470367/11656"
+      },
+      "description": {
+        "ca": "Descobriu jugant quins animals viuen als parcs i per què són importants.",
+        "es": "Descubrid jugando qué animales viven en los parques y por qué son importantes."
+      }
     },
     {
       "id": "amb:seed:35d728ac0cb8d4e3",
@@ -145,7 +250,22 @@
       "location": "Parc de Can Solei i de Ca l'Arnús",
       "category": "nature",
       "updated": null,
-      "sequence": 0
+      "sequence": 0,
+      "program": {
+        "name": {
+          "ca": "Jugatecambiental",
+          "es": "Jugateca Ambiental"
+        },
+        "description": {
+          "ca": "Un espai de joc i descoberta en família, amb tallers creatius i activitats guiades per naturalistes per conèixer la natura del parc.",
+          "es": "Un espacio de juego y descubrimiento en familia, con talleres creativos y actividades guiadas por naturalistas para conocer la naturaleza del parque."
+        },
+        "url": "https://www.amb.cat/es/web/territori/espai-public/parcs/punts-interes/detall/-/puntinteres/parc-de-can-solei-i-de-ca-l-arnus/2470367/11656"
+      },
+      "description": {
+        "ca": "Com podem contribuir a mantenir uns parcs plens de vida? Juguem a descobrir-ho!",
+        "es": "¿Cómo podemos contribuir a mantener unos parques llenos de vida? ¡Juguemos a descubrirlo!"
+      }
     }
   ]
 }
