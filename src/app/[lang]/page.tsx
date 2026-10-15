@@ -327,11 +327,8 @@ export default async function Page({
           <Gallery corpus={{ media: corpus.media }} lang={lang} />
         </section>
         <section id="fonts" className="section sources-section">
-          <div className="section-heading">
-            <p className="text-lg! leading-snug! font-semibold">
-              {es ? "Cada historia, su fuente" : "Cada història, la seva font"}
-            </p>
-            <p>
+          <div className="section-heading grid-cols-1!">
+            <p className="max-w-none!">
               {es ? "Revisión editorial" : "Revisió editorial"}:{" "}
               {corpus.reviewedAt}.{" "}
               {es
