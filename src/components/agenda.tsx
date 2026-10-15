@@ -178,6 +178,11 @@ export function AgendaPanel({
               <div>
                 <h3>{e.title[lang]}</h3>
                 <p>{e.location}</p>
+                {e.description ? (
+                  <p className="mt-3! max-w-prose text-sm! leading-relaxed">
+                    {e.description[lang]}
+                  </p>
+                ) : null}
                 {e.program ? (
                   <div className="mt-3 max-w-prose">
                     <a

@@ -64,6 +64,7 @@ export type Corpus = {
 export type AgendaEvent = {
   id: string;
   title: Copy;
+  description?: Copy;
   program?: {
     name: Copy;
     description: Copy;
