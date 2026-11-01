@@ -77,7 +77,7 @@ test("agenda dynamically separates past, upcoming and cancellations", async ({
   await page.clock.setFixedTime(new Date("2026-10-12T12:00:00Z"));
   await page.goto("/es/");
   const agenda = page.locator("#agenda");
-  await expect(agenda.locator(".event")).toHaveCount(7);
+  await expect(agenda.locator(".event")).toHaveCount(8);
   await agenda.getByRole("button", { name: "Archivo", exact: true }).click();
   await expect(agenda.locator(".event")).toHaveCount(1);
   await expect(agenda).toContainText("Conozcamos las plantas");
