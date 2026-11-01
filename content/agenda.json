@@ -169,6 +169,28 @@
       }
     },
     {
+      "id": "guia-bcn:99400786124",
+      "title": {
+        "ca": "Visita: canvi climàtic i meteorologia al parc de Can Solei i de Ca l’Arnús",
+        "es": "Visita: cambio climático y meteorología en el parque de Can Solei i de Ca l’Arnús"
+      },
+      "start": "2026-11-12T15:30:00+01:00",
+      "end": null,
+      "allDay": false,
+      "timeZone": "Europe/Madrid",
+      "status": "scheduled",
+      "url": "https://guia.barcelona.cat/en/detall/visita-canvi-climatic-i-meteorologia-al-parc-de-can-solei-i-de-ca-l-arnus_99400786124.html",
+      "source": "https://guia.barcelona.cat/en/detall/visita-canvi-climatic-i-meteorologia-al-parc-de-can-solei-i-de-ca-l-arnus_99400786124.html",
+      "location": "Parc de Can Solei i de Ca l'Arnús",
+      "category": "nature",
+      "updated": null,
+      "sequence": 0,
+      "description": {
+        "ca": "Visita de l’AMB al parc i a l’aula ambiental per explorar el canvi climàtic i descobrir la Torre del Rellotge. Gratuïta, amb inscripció prèvia i places limitades a través del Centre Cívic Vil·la Urània (vil-laurania.inscripcionscc.com; tel. 937 061 295). Confirma el punt de trobada en inscriure’t: la fitxa també indica el centre cívic de Barcelona com a lloc de l’activitat. No s’hi publica l’hora de finalització.",
+        "es": "Visita de la AMB al parque y al aula ambiental para explorar el cambio climático y descubrir la Torre del Reloj. Gratuita, con inscripción previa y plazas limitadas a través del Centre Cívic Vil·la Urània (vil-laurania.inscripcionscc.com; tel. 937 061 295). Confirma el punto de encuentro al inscribirte: la ficha también indica el centro cívico de Barcelona como lugar de la actividad. No se publica la hora de finalización."
+      }
+    },
+    {
       "id": "amb:seed:ea506385aa258764",
       "title": {
         "ca": "Inventem insectes amb elements naturals",
