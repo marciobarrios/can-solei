@@ -77,13 +77,22 @@ test("agenda dynamically separates past, upcoming and cancellations", async ({
   await page.clock.setFixedTime(new Date("2026-10-12T12:00:00Z"));
   await page.goto("/es/");
   const agenda = page.locator("#agenda");
-  await expect(agenda.locator(".event")).toHaveCount(7);
+  await expect(agenda.locator(".event")).toHaveCount(8);
   await agenda.getByRole("button", { name: "Archivo", exact: true }).click();
   await expect(agenda.locator(".event")).toHaveCount(1);
   await expect(agenda).toContainText("Conozcamos las plantas");
   await agenda.getByRole("button", { name: "Canceladas", exact: true }).click();
   await expect(agenda.locator(".event")).toHaveCount(0);
   await expect(agenda).toContainText("No hay actividades");
+  await page.clock.setFixedTime(new Date("2026-11-01T14:00:00Z"));
+  for (const lang of ["ca", "es"]) {
+    await page.goto(`/${lang}/`);
+    await expect(agenda.locator(".agenda-status")).toContainText(
+      lang === "es" ? "1 de noviembre" : "1 de novembre",
+    );
+    await expect(agenda.locator(".stale-notice")).toHaveCount(0);
+  }
+  await page.goto("/es/");
   await page.clock.setFixedTime(new Date("2026-12-15T12:00:00Z"));
   await page.reload();
   await expect(agenda.locator(".event")).toHaveCount(0);

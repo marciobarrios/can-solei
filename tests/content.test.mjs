@@ -163,17 +163,18 @@ test("static previews match their audited parents and responsive candidates", as
   assert.deepEqual(readdirSync("public/media/previews").sort(), files.sort());
 });
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
-test("eight real editorial sessions, seven future on research date; simulation absent", () => {
-  assert.equal(agenda.events.length, 8);
+test("original Jugatecambiental sessions retained; simulation absent", () => {
+  const sessions = agenda.events.filter((event) => event.program);
+  assert.equal(sessions.length, 8);
   assert.equal(
-    agenda.events.filter(
+    sessions.filter(
       (e) => Date.parse(e.start) > Date.parse("2026-10-12T12:00:00Z"),
     ).length,
     7,
   );
   assert.equal(agenda.automaticIngestionEnabled, false);
   assert.ok(!JSON.stringify(agenda).includes("fixture"));
-  agenda.events.forEach((e) => {
+  sessions.forEach((e) => {
     assert.ok(e.url.startsWith("https://www.amb.cat/"));
     assert.equal(
       new Intl.DateTimeFormat("es", {
